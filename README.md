@@ -1,6 +1,8 @@
 # securityofinformation
 securityofinformation
 
+Estou estudando na plataforma LETSDEFEND TRILHA DE SOC
+ESSA MATERIA É DE BRUTEFORCE
 
 Ferramentas usadas em ataques de força bruta
 Aircrack-ng : aircrack-ng é um programa de cracking de WEP/WPA 802.11a/b/g que pode recuperar uma chave WEP de 40, 104, 256 ou 512 bits após a coleta de pacotes criptografados suficientes. Também pode atacar redes WPA1/2 com alguns métodos avançados ou simplesmente por força bruta.
@@ -16,3 +18,5 @@ Ncrack : uma ferramenta para quebrar a autenticação de rede. Pode ser usada em
 Hydra : Hydra é um cracker de login paralelizado que suporta diversos protocolos de ataque. É muito rápido e flexível, e novos módulos são fáceis de adicionar.
 
 Referência: kali.org/tools/
+
+<img width="1138" height="565" alt="image" src="https://github.com/user-attachments/assets/9c748ad8-cbd6-437e-a51b-c551dfbe912c" />
