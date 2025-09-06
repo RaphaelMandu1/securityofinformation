@@ -62,7 +62,23 @@ cat auth.log.1 | grep "Falha na senha" | cut -d " " -f12 | sort | uniq -c | sort
 
 <img width="1410" height="231" alt="image" src="https://github.com/user-attachments/assets/9cce3157-3a06-4f53-87f6-f61e01477183" />
 
-<img width="1404" height="226" alt="image" src="https://github.com/user-attachments/assets/fae84499-0b25-4aba-91dd-58fcea340b8b" />
+Usuários que efetuarem login com sucesso também podem ser detectados com o seguinte comando.
+
+cat auth.log.1 | grep "Senha aceita"
+
+<img width="1281" height="312" alt="image" src="https://github.com/user-attachments/assets/00d03f0f-9ca2-40fc-bd37-4d96f6c204c6" />
+
+Como pode ser visto aqui, tentativas de login bem-sucedidas são vistas com dois usuários diferentes de dois endereços IP diferentes.
+
+Ao comparar as tentativas de login anteriores com falha, verifica-se que o usuário "analista" não havia realizado nenhuma tentativa de login malsucedida anteriormente com o endereço IP em que se conectou com sucesso. No entanto, observa-se claramente que muitas tentativas malsucedidas foram feitas com o usuário "letsdefend" no endereço IP 188.58.65.203. Isso nos mostra que o invasor se conectou com sucesso com o usuário "letsdefend" durante o ataque de força bruta.
+
+<img width="1367" height="448" alt="image" src="https://github.com/user-attachments/assets/a9acb607-1736-4ee1-bdd1-c7db26bd1b3e" />
+
+Como visto acima, usuários logados com e sem sucesso podem ser facilmente encontrados com comandos básicos do Linux. Quando esses dois resultados são examinados em detalhes, percebe-se que há uma entrada bem-sucedida após muitas tentativas malsucedidas do usuário letsdefend a partir do endereço IP 188.58.65.203.
+
+
+
+
 
 
 
