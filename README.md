@@ -56,4 +56,14 @@ cat auth.log.1 | grep "Falha na senha" | cut -d " " -f10 | sort | uniq -c | sort
 
 <img width="1384" height="256" alt="image" src="https://github.com/user-attachments/assets/3c457432-80be-4084-b858-6da6a450a2d3" />
 
+**Um comando como o abaixo pode ser usado para localizar os endereços IP que fizeram essas tentativas.**
+
+cat auth.log.1 | grep "Falha na senha" | cut -d " " -f12 | sort | uniq -c | sort
+
+<img width="1410" height="231" alt="image" src="https://github.com/user-attachments/assets/9cce3157-3a06-4f53-87f6-f61e01477183" />
+
+<img width="1404" height="226" alt="image" src="https://github.com/user-attachments/assets/fae84499-0b25-4aba-91dd-58fcea340b8b" />
+
+
+
 
