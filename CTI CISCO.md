@@ -140,4 +140,12 @@ A equipe de liderança executiva contratou recentemente um novo diretor executiv
 
 15)   O servidor Web da intranet permitiu que os usuários alterassem informações pessoais, inclusive informações de contato.
 
+<img width="920" height="431" alt="image" src="https://github.com/user-attachments/assets/4a6abd47-a25f-4da3-8505-f0a111aa352a" />
+<img width="930" height="488" alt="image" src="https://github.com/user-attachments/assets/a3a79b90-18af-456d-870f-b41f6e9f6b83" />
+
+
+
+
+
+
 
