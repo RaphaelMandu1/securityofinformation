@@ -19,4 +19,19 @@ Hydra : Hydra é um cracker de login paralelizado que suporta diversos protocolo
 
 Referência: kali.org/tools/
 
+-------------- Como evitar ataques de força bruta? --------------
+
+Para proteger sua organização de ataques de força bruta, imponha o uso de senhas fortes. 
+
+Você pode encontrar algumas práticas recomendadas para senhas abaixo:
+
+Nunca use informações que podem ser encontradas online (como nomes de familiares).
+Tenha o máximo de caracteres possível.
+Combine letras, números e símbolos.
+Mínimo de 8 caracteres.
+Cada conta de usuário é diferente.
+Evite padrões comuns.
+
+Política de bloqueio - Após um certo número de tentativas de login com falha, você pode bloquear contas e depois desbloqueá-las como administrador.
+
 <img width="1138" height="565" alt="image" src="https://github.com/user-attachments/assets/9c748ad8-cbd6-437e-a51b-c551dfbe912c" />
