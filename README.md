@@ -77,6 +77,79 @@ Ao comparar as tentativas de login anteriores com falha, verifica-se que o usuá
 Como visto acima, usuários logados com e sem sucesso podem ser facilmente encontrados com comandos básicos do Linux. Quando esses dois resultados são examinados em detalhes, percebe-se que há uma entrada bem-sucedida após muitas tentativas malsucedidas do usuário letsdefend a partir do endereço IP 188.58.65.203.
 
 
+**Registros de login do Windows**
+
+
+Considerando a situação geral, uma atividade de login aparece em todos os ataques cibernéticos, bem ou malsucedidos. Um invasor frequentemente deseja efetuar login no servidor para assumir o controle do sistema. Para isso, pode realizar um ataque de força bruta ou efetuar login diretamente com a senha em mãos. Em ambos os casos (login bem-sucedido / tentativa de login malsucedida), o log será criado.
+
+Considere um invasor conectado ao servidor após um ataque de força bruta. Para analisar melhor o que o invasor fez após entrar no sistema, precisamos encontrar a data de login. Para isso, precisamos do "ID do Evento 4624 – Uma conta foi conectada com sucesso".
+
+Cada log de eventos tem seu próprio valor de ID. Filtrar, analisar e pesquisar o título do log é mais difícil, por isso é fácil usar o valor de ID.
+
+Você pode encontrar os detalhes sobre qual valor de ID de evento significa o quê no endereço URL abaixo.
+
+https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/default.aspx
+
+Arquivo de log da lição:
+
+Log_File.zip Pass=321 (https://files-ld.s3.us-east-2.amazonaws.com/Log_File.zip)
+
+Para chegar ao resultado, abrimos o “Visualizador de Eventos” e selecionamos os logs de “Segurança”.
+
+<img width="579" height="511" alt="image" src="https://github.com/user-attachments/assets/3e9c6519-084f-45d8-ba5b-cffb592dac66" />
+
+Em seguida, criamos um filtro para o ID do evento “4624”.
+
+<img width="1341" height="759" alt="image" src="https://github.com/user-attachments/assets/75b35a1f-d892-44e4-b03e-9f6306a18662" />
+
+Agora, vemos que o número de logs diminuiu significativamente e estamos listando apenas os logs de logins bem-sucedidos. Observando os detalhes do log, vemos que o usuário "LetsDefendTest" fez login pela primeira vez em 23/02/2021, às 22h17.
+
+<img width="1129" height="795" alt="image" src="https://github.com/user-attachments/assets/22c238f4-a7f9-4f18-bed8-ef7cded447fe" />
+
+Quando olhamos para o campo “Tipo de Logon”, vemos o valor 10. Isso indica que você está logado com “Serviços de Área de Trabalho Remota” ou “Protocolo de Área de Trabalho Remota”.
+
+Você pode encontrar o significado dos valores do tipo de logon na página da Microsoft.
+
+https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4624
+
+Na próxima seção, detectaremos o ataque de força bruta que o invasor fez antes de efetuar login.
+
+**Detecção de força bruta do Windows RDP**
+
+Nesta seção, capturaremos um invasor que está na fase de movimento lateral. O invasor está tentando saltar para a outra máquina por força bruta via RDP.
+
+Baixar arquivo de log: Log_File.zip Pass=321
+
+Log_File.zip Pass=321 (https://files-ld.s3.us-east-2.amazonaws.com/Log_File.zip)
+
+Quando uma operação de login malsucedida é realizada no RDP, o log "ID do Evento 4625 - Falha ao efetuar login em uma conta" é gerado. Se seguirmos esse log, podemos rastrear o invasor.
+
+<img width="1400" height="785" alt="image" src="https://github.com/user-attachments/assets/1b17f14b-3f78-4da8-a64c-7fdc099b27bc" />
+
+Após a filtragem, vemos 4 logs com 4625 IDs de eventos.
+
+<img width="1124" height="282" alt="image" src="https://github.com/user-attachments/assets/3b876a85-6bb2-4c9d-86f1-b18a0352c54b" />
+
+Ao analisarmos as datas, vemos que os logs são gerados um após o outro. Ao analisarmos os detalhes, vemos que todos os logs são criados para o usuário "LetsDefendTest".
+
+<img width="1270" height="665" alt="image" src="https://github.com/user-attachments/assets/84f6434a-48d6-4044-b7f5-120095f59d48" />
+
+Como resultado, entendemos que o invasor tentou fazer login sem sucesso 4 vezes. Para entender se o ataque foi bem-sucedido ou não, podemos pesquisar os 4624 logs que vimos na seção anterior.
+
+<img width="840" height="801" alt="image" src="https://github.com/user-attachments/assets/2902d3b2-7bc4-4c7a-b269-d1f125b9d0fb" />
+
+<img width="1123" height="639" alt="image" src="https://github.com/user-attachments/assets/b641c9c3-4cea-4567-a4d6-377f2fac9d8b" />
+
+Como pode ser visto nos resultados, o invasor conseguiu se conectar ao sistema com o log 4624 após os logs 4625.
+
+<img width="682" height="434" alt="image" src="https://github.com/user-attachments/assets/be50fa7f-812d-4d12-972d-c75405d0d956" />
+
+
+
+
+
+
+
 
 
 
