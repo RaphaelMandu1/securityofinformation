@@ -233,9 +233,7 @@ As empresas que importam ou exportam produtos de criptografia comercial estão s
 **Leis de notificação de violação de segurança**
 As grandes e pequenas empresas reconhecem o valor da coleta e análise de dados e, como resultado, estão coletando uma quantidade cada vez maior de informações pessoais sobre seus clientes. Os criminosos digitais estão sempre à procura de maneiras de obter acesso e explorar esses dados valiosos para seu próprio benefício pessoal. As empresas que coletam dados confidenciais precisam saber protegê-los.
 
-
-Lei de Privacidade das Comunicações Eletrônicas
-(ECPA) 1986
+Lei de Privacidade das Comunicações Eletrônicas (ECPA) 1986
 A ECPA tem como objetivo garantir a privacidade no local de trabalho e proteger uma série de comunicações eletrônicas, como e-mails e conversas telefônicas, contra interceptação, acesso, uso e divulgação não autorizados.
 
 Fraude de computador e abuso Lei (CFAA) 1986
