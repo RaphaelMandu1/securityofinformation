@@ -164,6 +164,83 @@ Certificação do modelo de maturidade de segurança cibernética (CMMC)
 Essa certificação é voltada para todas as empresas que prestam um serviço ao Departamento de Defesa dos EUA e verifica se essas empresas têm práticas e processos de segurança digital adequados para garantir a higiene cibernética básica.
 O CMMC estabelece cinco níveis de certificação que variam de "práticas básicas de higiene cibernética" a "práticas avançadas que fornecem recursos mais sofisticados para detectar e responder a APTs". É provável que os provedores de serviços atendam aos requisitos adequados do CMMC para serem considerados para uma concessão de contrato do DoD.
 
+**Cibercrime**
+
+O crime digital se divide em três categorias:
+
+O crime por computador é onde um computador é alvo de atividades criminosas. Por exemplo, ataques de malware, invasão ou ataques de negação de serviço.
+O crime assistido por computador ocorre quando um computador é usado para cometer um crime, como roubo ou fraude.
+O crime incidente no computador é quando um computador fornece informações que são incidentes a um crime real. Por exemplo, um computador é usado para armazenar vídeos baixados ilegalmente, e não a ferramenta real usada para cometer o crime.
+Há muitas ferramentas conectadas à Internet - muitas das quais não exigem muita experiência - que estão contribuindo para o crescimento exponencial do crime cibernético. Na verdade, o crime digital está crescendo muito mais rápido do que a capacidade do sistema legal de criar as leis e os regulamentos que o proíbem.
+
+Há várias agências trabalhando para combater o crime digital, incluindo o Federal Bureau of Investigation Internet Crime Compliant Center (IC3), a InfraGard e a Software and Information Industry Association (SIIA) nos EUA.
+
+**Leis Cibernéticas**
+As leis proíbem comportamentos indesejados. Nos EUA, há três fontes principais de leis e regulamentações, todas envolvendo aspectos de segurança de computadores.
+
+**Lei estatutária**
+O Congresso norte-americano estabeleceu agências administrativas federais e uma estrutura regulatória que inclui penalidades civis e criminais para o não cumprimento das regras.
+
+As leis penais aplicam um código moral comumente aceito, apoiado pela autoridade do governo. Por exemplo, a Lei de fraudes e abusos de computador é uma lei que proíbe o acesso a um computador sem autorização ou em excesso de autorização. A violação dessas regras pode resultar em multa ou sentença de prisão
+
+**Direito administrativo**
+Uma estrutura jurídica que rege as atividades de agências administrativas do governo, a lei administrativa garante que os órgãos públicos ajam de acordo com a lei.
+
+Administrativamente, a FCC e a Federal Trade Commission têm se preocupado com problemas como fraude e roubo de propriedade intelectual. 
+
+**Direito comum**
+Finalmente, casos jurídicos comuns passam pelo sistema judiciário com o fornecimento de precedentes e bases constitucionais para as leis.
+
+
+**Um Ato de Gerenciamento Federal da Informação (FISMA)**
+
+Os sistemas federais de TI contêm e usam uma grande quantidade de informações valiosas e, portanto, são considerados alvos de alto valor para os criminosos digitais.
+
+Em 2002, o Congresso dos EUA criou o FISMA para abranger os sistemas de TI das agências federais. Especificamente, o FISMA estipula que as agências federais devem criar um programa de segurança da informação que inclua:
+
+Avaliações de risco
+Inventário anual dos sistemas de TI
+Políticas e procedimentos para reduzir o risco
+Programas de treinamento
+Teste e avaliação de todos os controles dos sistemas de TI
+Procedimento de resposta a incidente
+Continuidade do plano de operações
+
+
+Muitas leis específicas do setor têm um componente de segurança e/ou de privacidade. Depende de nós, especialistas em segurança digital, interpretar esses requisitos legais nas políticas e práticas de segurança das empresas em que trabalhamos.
+
+
+**Leis específicas do setor**
+
+Finanças
+A Lei Gramm-Leach-Bliley é uma legislação que afeta, principalmente, o setor financeiro. No entanto, uma parte dessa legislação também fornece disposições de cancelamento para indivíduos, colocando-os no controle de como as informações que compartilham com uma empresa durante uma transação comercial são usadas. A GLBA restringe o compartilhamento de informações com empresas terceirizadas.
+
+
+Contabilidade corporativa
+Depois de vários escândalos de contabilidade nos EUA, o congresso aprovou a Lei Sarbanes-Oxley (SOX) . A finalidade da SOX foi para reformular os padrões de contabilidade financeira e empresarial e foi direcionada especificamente aos padrões das empresas de capital aberto nos Estados Unidos. Especificamente, ele teve como alvo os padrões e práticas financeiras de empresas de capital aberto no país.
+
+
+Cartão de crédito
+Um Conselho de padrões de segurança composto pelas principais empresas do setor de cartões de crédito projetou uma iniciativa do setor privado para melhorar a confidencialidade das comunicações de rede.
+
+O Padrão de segurança de dados do setor de cartões de pagamento (PCI DSS) é um conjunto de regras contratuais que buscam proteger os dados de pagamento do titular do cartão de pagamento durante uma transação e reduzir a fraude. Em teoria, o PCI DSS é um padrão voluntário. No entanto, na prática, qualquer empresa que armazena, processa ou transmite dados do portador do cartão que não esteja em conformidade com o padrão PCI DSS pode enfrentar taxas de transação significativamente mais altas, multar até US $ 500.000 e, em circunstâncias extremas, perder a capacidade de processar cartões de pagamento.
+
+
+Criptografia
+As empresas que importam ou exportam produtos de criptografia comercial estão sujeitas a regulamentações que são
+
+
+**Leis de notificação de violação de segurança**
+As grandes e pequenas empresas reconhecem o valor da coleta e análise de dados e, como resultado, estão coletando uma quantidade cada vez maior de informações pessoais sobre seus clientes. Os criminosos digitais estão sempre à procura de maneiras de obter acesso e explorar esses dados valiosos para seu próprio benefício pessoal. As empresas que coletam dados confidenciais precisam saber protegê-los.
+
+
+Lei de Privacidade das Comunicações Eletrônicas
+(ECPA) 1986
+A ECPA tem como objetivo garantir a privacidade no local de trabalho e proteger uma série de comunicações eletrônicas, como e-mails e conversas telefônicas, contra interceptação, acesso, uso e divulgação não autorizados.
+
+Fraude de computador e abuso Lei (CFAA) 1986
+Existem várias leis nos EUA que exigem que as empresas notifiquem os indivíduos caso ocorra uma violação de seus dados pessoais.Promulgada em 1986 como uma alteração à Lei de Controle de Crime Integral de 1984, a CFAA proíbe o acesso não autorizado a sistemas de computador. Conscientemente acessar um computador do governo sem permissão ou acessar qualquer computador usado ou que afete o comércio internacional ou externo é um crime. A lei criminaliza o tráfico de senhas ou informações de acesso semelhantes, bem como transmitir conscientemente um programa, código ou comando que resulte em dano.
+
 
 
 
