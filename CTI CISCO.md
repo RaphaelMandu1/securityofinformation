@@ -143,9 +143,29 @@ A equipe de liderança executiva contratou recentemente um novo diretor executiv
 <img width="920" height="431" alt="image" src="https://github.com/user-attachments/assets/4a6abd47-a25f-4da3-8505-f0a111aa352a" />
 <img width="930" height="488" alt="image" src="https://github.com/user-attachments/assets/a3a79b90-18af-456d-870f-b41f6e9f6b83" />
 
+**A matriz de controles de nuvem**
 
+A Cloud Security Alliance (CSA) fornece orientação de segurança para qualquer empresa que usa computação em nuvem ou deseja avaliar o risco de segurança geral de um provedor de nuvem.
 
+A matriz de controles de nuvem (CCM) é uma estrutura de controle de segurança digital que mapeia os controles de segurança específicos da nuvem para atender aos principais padrões, melhores práticas e regulamentações. Ela é composta por 197 objetivos de controle, estruturados em 17 domínios, que abrangem todos os aspectos da tecnologia de nuvem, incluindo governança e gerenciamento de riscos, recursos humanos e segurança móvel. 
 
+O CCM é considerado um padrão de fato para garantia de segurança e conformidade da nuvem.
+
+**Conformidade**
+Os provedores de serviços podem precisar fornecer garantias às empresas clientes de que os controles de segurança que eles implementam foram projetados e operam de forma eficaz.
+
+Selecione as imagens para descobrir mais sobre como um provedor de serviços pode fazer isso.
+
+Declaração sobre Padrões para Compromissos de Atestado (SSAE) 18:
+Controle da Organização de Serviços (SOC) 2
+Auditoria:
+
+Esta é uma auditoria independente dos controles de relatórios de uma empresa relacionados à segurança, disponibilidade, integridade de processamento, confidencialidade e privacidade de um sistema. Um relatório de atestado confirmará se os controles estão em vigor em um momento específico (Tipo I) ou gerenciados por um período de pelo menos seis meses (Tipo II). Esses relatórios garantem a uma empresa cliente a existência de controles em vigor e operacionais para proteger dados confidenciais.
+
+Certificação do modelo de maturidade de segurança cibernética (CMMC)
+
+Essa certificação é voltada para todas as empresas que prestam um serviço ao Departamento de Defesa dos EUA e verifica se essas empresas têm práticas e processos de segurança digital adequados para garantir a higiene cibernética básica.
+O CMMC estabelece cinco níveis de certificação que variam de "práticas básicas de higiene cibernética" a "práticas avançadas que fornecem recursos mais sofisticados para detectar e responder a APTs". É provável que os provedores de serviços atendam aos requisitos adequados do CMMC para serem considerados para uma concessão de contrato do DoD.
 
 
 
