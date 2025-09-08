@@ -239,6 +239,64 @@ A ECPA tem como objetivo garantir a privacidade no local de trabalho e proteger 
 Fraude de computador e abuso Lei (CFAA) 1986
 Existem várias leis nos EUA que exigem que as empresas notifiquem os indivíduos caso ocorra uma violação de seus dados pessoais.Promulgada em 1986 como uma alteração à Lei de Controle de Crime Integral de 1984, a CFAA proíbe o acesso não autorizado a sistemas de computador. Conscientemente acessar um computador do governo sem permissão ou acessar qualquer computador usado ou que afete o comércio internacional ou externo é um crime. A lei criminaliza o tráfico de senhas ou informações de acesso semelhantes, bem como transmitir conscientemente um programa, código ou comando que resulte em dano.
 
+Proteção da privacidade
 
+Não há uma lei de privacidade no nível federal central nos EUA, mas uma série de leis e regulamentos que servem para proteger os dados pessoais de cidadãos dos EUA.
+
+
+Ato de privacidade de 1974
+Essa lei estabelece um código de práticas justas de informação que rege a coleta, a manutenção, o uso e a divulgação de informações pessoalmente identificáveis sobre os indivíduos que são mantidas em sistemas de registros por agências federais.
+
+
+
+**Lei de liberdade de informação (FOIA)**
+A FOIA permite o acesso público aos registros do governo dos EUA.
+A FOIA carrega uma suposição de divulgação, para que o fardo do motivo para a não divulgação da informação seja do governo. 
+Existem nove isenções de divulgação pertencentes à FOIA.
+
+Informações de política externa e de segurança nacional
+Pessoal interno, regras e práticas de uma agência
+Informações especificamente isentadas pelo estatuto
+Informações comerciais confidenciais
+Comunicação entre ou intra-agência sujeita a processo deliberativo, de litígio e outros privilégios
+Informações que, se divulgadas, constituiriam uma invasão claramente injustificada da privacidade pessoal
+Registros de segurança pública que implicam um de um conjunto de preocupações enumeradas
+Informações da agência de instituições financeiras
+Informações geológicas e geofísicas sobre poços
+
+
+Registros de educação de família e Ato de privacidade (FERPA)
+Essa lei federal deu a estudantes acesso a seus registros de educação.
+
+Ela opera com base em opt-in. Isso significa que os pais devem aprovar a divulgação das informações educacionais de um aluno para entidades públicas antes da divulgação. Quando um aluno completa 18 anos, ou entra em uma instituição pós-secundária em qualquer idade, esses direitos na FERPA são transferidos dos pais do aluno para o aluno.
+
+Lei de proteção da privacidade on-line de crianças dos EUA (COPPA)
+Essa lei federal foi criada para proteger a privacidade de crianças menores de 13 anos ao impor certos requisitos aos operadores de site e serviços on-line sob a jurisdição dos EUA.
+
+Por exemplo, o consentimento dos pais precisa ser obtido antes que uma empresa possa coletar e usar informações de crianças menores de 13 anos.
+
+Lei de proteção de crianças na Internet nos EUA (U.S. Children’s Internet Protection Act, CIPA)
+O congresso americano aprovou a CIPA em 2000 para proteger crianças com menos de 17 anos contra exposição a conteúdo ofensivo e a material obsceno na Internet.
+
+Video Privacy Protection Act (VPPA)
+Esse ato foi originalmente promulgado para impedir o compartilhamento de informações de aluguel de fitas de vídeo, DVD e videogame a terceiros.
+
+Isso foi modificado em 2013 para permitir que empresas como a Netflix coletem o consentimento do cliente que lhes permite armazenar seus históricos de aluguel e / ou torná-los públicos por até dois anos. Esta alteração significa que essas empresas podem fornecer recomendações para ou em nome de seus usuários.
+
+Lei de Portabilidade e Responsabilidade dos Seguros de Saúde (HIPAA)
+Os padrões exigem proteções para armazenamento físico, manutenção, transmissão e acesso à informação de saúde dos indivíduos.
+
+Qualquer empresa que use assinaturas eletrônicas deve atender a esses padrões, garantindo a integridade das informações, a autenticação do assinante e o não repudiamento (o que significa que a validade da assinatura não pode ser negada).
+
+Projeto de lei do senado da Califórnia 1386 (SB 1386)
+A Califórnia foi o primeiro estado dos EUA a aprovar uma lei que exige a divulgação de qualquer violação de segurança de dados pessoais. Desde então, muitos outros estados seguiram seus passos.
+
+Este projeto de lei exige que todos os indivíduos afetados sejam notificados e avisados de seus direitos e responsabilidades no caso de perda ou divulgação de suas informações pessoais.
+
+Políticas de privacidade
+Um resultado direto da variedade de estatutos legais relacionados à privacidade e à coleta de dados tem sido a geração de políticas de privacidade que ajudam a garantir a conformidade organizacional com a lei.
+
+Avaliação de impacto da privacidade (PIA)
+Uma avaliação de impacto da privacidade garante que as informações de identificação pessoal (PII) sejam tratadas
 
 
