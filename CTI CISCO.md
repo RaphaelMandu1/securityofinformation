@@ -140,9 +140,6 @@ A equipe de liderança executiva contratou recentemente um novo diretor executiv
 
 15)   O servidor Web da intranet permitiu que os usuários alterassem informações pessoais, inclusive informações de contato.
 
-<img width="920" height="431" alt="image" src="https://github.com/user-attachments/assets/4a6abd47-a25f-4da3-8505-f0a111aa352a" />
-<img width="930" height="488" alt="image" src="https://github.com/user-attachments/assets/a3a79b90-18af-456d-870f-b41f6e9f6b83" />
-
 **A matriz de controles de nuvem**
 
 A Cloud Security Alliance (CSA) fornece orientação de segurança para qualquer empresa que usa computação em nuvem ou deseja avaliar o risco de segurança geral de um provedor de nuvem.
@@ -166,6 +163,7 @@ Certificação do modelo de maturidade de segurança cibernética (CMMC)
 
 Essa certificação é voltada para todas as empresas que prestam um serviço ao Departamento de Defesa dos EUA e verifica se essas empresas têm práticas e processos de segurança digital adequados para garantir a higiene cibernética básica.
 O CMMC estabelece cinco níveis de certificação que variam de "práticas básicas de higiene cibernética" a "práticas avançadas que fornecem recursos mais sofisticados para detectar e responder a APTs". É provável que os provedores de serviços atendam aos requisitos adequados do CMMC para serem considerados para uma concessão de contrato do DoD.
+
 
 
 
