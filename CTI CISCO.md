@@ -315,3 +315,54 @@ Os 12 domínios da segurança digital são: avaliação de riscos, política de 
 Os objetivos de controle definem os requisitos de alto nível para a implementação de um sistema abrangente de gerenciamento de segurança da informação em uma empresa. Os controles mostram como atingir os objetivos de controle de uma empresa. Eles estabelecem diretrizes para implementar, manter e melhorar o gerenciamento da segurança das informações em uma empresa.
 A ISO 27000 é uma estrutura universal aplicável a todos os tipos de organização. Para usar a estrutura de forma eficiente, a empresa deve limitar quais domínios, objetivos de controle e aplicar a seu ambiente e a suas operações. Uma empresa adapta seu uso dos objetivos de controle e dos controles disponíveis para melhor atender as suas prioridades em matéria de confidencialidade, integridade e disponibilidade. Os controles ISO abordam especificamente os objetivos de segurança para dados em processo, inativos (em armazenamento) e em trânsito. O NIST criou a National Cybersecurity Workforce Framework para oferecer suporte a empresas que buscam profissionais de segurança digital. O CIS desenvolveu um conjunto de controles de segurança essenciais (básico, fundamental e organizacional) para ajudar empresas com diferentes níveis de recursos e conhecimentos à disposição a melhorar suas defesas digitais.
 O CSA fornece orientação de segurança para qualquer empresa que usa computação em nuvem ou deseja avaliar o risco de segurança geral de um provedor de nuvem. A matriz de controles em nuvem (CCM) mapeia os controles de segurança específicos da nuvem para atender aos principais padrões, melhores práticas e regulamentações. O CSA CCM é considerado um padrão de fato para garantia de segurança e conformidade da nuvem. Os provedores de serviços devem garantir às empresas clientes que os controles de segurança que implementam são projetados e operam de forma eficaz. Um relatório de atestado (SSAE ou SOC) confirmará que os controles estão em vigor em um momento específico (Tipo I) ou gerenciados por um período de pelo menos seis meses (Tipo II). O CMMC estabelece cinco níveis de certificação que variam de "práticas básicas de higiene cibernética" a "práticas avançadas que fornecem recursos mais sofisticados para detectar e responder a APTS".
+
+
+---- *** ---- *** ---- *** ---- *** ---- *** ---- *** ---- *** ---- *** ----
+
+2.1.1 Scanners de vulnerabilidade
+Um scanner de vulnerabilidades avalia computadores, sistemas de computador, redes ou aplicações, em busca de pontos fracos. Os scanners de vulnerabilidades ajudam a automatizar a auditoria de segurança ao buscar riscos de segurança na rede e produzir uma lista priorizada para abordar as vulnerabilidades.
+
+Um scanner de vulnerabilidades procura os seguintes tipos de vulnerabilidades:
+
+Uso de senhas padrão ou senhas comuns
+Patches não instalados
+Portas abertas
+Erro de configuração de software e de sistemas operacionais
+Endereços IP ativos, incluindo dispositivos inesperados conectados
+
+
+A verificação de vulnerabilidades é essencial para identificar vulnerabilidades, configurações incorretas e a falta de controles de segurança para empresas com redes que incluem segmentos, roteadores, firewalls, servidores e outros dispositivos.
+
+Os scanners de vulnerabilidade mais usados no mercado incluem Nessus, Retina, Core Impact e GFI LanGuard.
+
+As funções incluem:
+
+Executar a auditoria de conformidade.
+Proporcionar patches e atualizações.
+Identificar configurações erradas
+Suportar dispositivos móveis e sem fio.
+Rastrear malware.
+Identificar dados confidenciais.
+
+
+**Tipos de varreduras**
+Ao avaliar um scanner de vulnerabilidades, analise como ele é classificado com relação a precisão, confiabilidade, escalabilidade e geração de relatórios. Você pode escolher um verificador de vulnerabilidades no software ou na nuvem.
+
+**Categorias**
+Os scanners de vulnerabilidade se enquadram em uma das várias categorias:
+
+Os scanners de rede sondam os hosts em busca de portas abertas, enumeram informações sobre usuários e grupos e buscam vulnerabilidades conhecidas na rede.
+Os scanners de aplicativos acessam o código-fonte do aplicativo para testar uma aplicação de dentro para fora (eles não executam a aplicação).
+Os verificadores de aplicativos da Web identificam vulnerabilidades em aplicativos da web.
+
+**Varreduras invasivas e credenciadas**
+
+As verificações invasivas tentam explorar vulnerabilidades e podem até travar o alvo, enquanto uma verificação não invasiva tentará não causar danos ao alvo.
+
+Em uma verificação credenciada, nomes de usuário e senhas fornecem acesso autorizado a um sistema, permitindo que o scanner colete mais informações. As verificações sem credenciais são menos invasivas e oferecem o ponto de vista de quem está de fora.
+
+No entanto, todos os tipos de verificador podem identificar por engano uma vulnerabilidade que não existe. Isso é conhecido como falso positivo, mas não identificar uma vulnerabilidade atual é falso negativo. As verificações credenciadas retornam menos falsos positivos e menos falsos negativos.
+
+Você precisa analisar todos os logs e configurações para cuidar de todas as vulnerabilidades que exigem atenção.
+
+**Utilitários de diagnóstico de linha de comando**
