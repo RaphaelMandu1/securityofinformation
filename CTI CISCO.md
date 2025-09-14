@@ -528,3 +528,36 @@ O teste de caixa preta é o menos demorado e mais barato. Ao realizar o teste de
 O teste de caixa cinza é uma combinação de caixa preta e teste de caixa branca. O especialista terá algum conhecimento limitado sobre o sistema, então é um ambiente parcialmente conhecido, o que dá alguma vantagem a essas tentativas de invasão.
 O teste de white box é o mais demorado e mais caro, porque é realizado por um especialista com conhecimento de como o sistema funciona. É, portanto, um ambiente conhecido quando eles tentam invadi-lo, emulando um ataque mal-intencionado por alguém de dentro ou por alguém que tenha conseguido obter essas informações antecipadamente, na fase de reconhecimento.
 
+
+**Fase de penetração**
+
+Fase 1: Planejamento
+Estabelece as regras de compromisso para a realização do teste.
+
+Fase 2: Descoberta
+Realização de reconhecimento sobre o alvo para obter informações. Isso pode incluir:
+
+Técnicas passivas, que não exigem engajamento ativo com o sistema de destino e são conhecidas como footprinting, por exemplo, você pode consultar o site da empresa ou outras fontes públicas para obter informações.
+Reconhecimento ativo, como varredura de porta, que requer o envolvimento ativo com o alvo.
+
+Fase 3: Ataque
+Nessa fase, você procura obter acesso ou penetrar no sistema usando as informações coletadas na fase anterior. O testador tenta obter privilégios escalados e talvez se aprofundar na rede por meio de movimento lateral. Para se mover lateralmente pela rede, o testador deve girar em vários sistemas. O testador pode tentar instalar ferramentas adicionais ou plantar uma backdoor - esse processo é conhecido como persistência. O testador limpará o sistema, removendo as placas deixadas para trás.
+
+Fase 4: Geração de relatórios
+Nessa fase, o testador entrega à empresa documentação deta
+
+
+**Tipos de exercícios**
+
+Algumas empresas criam equipes concorrentes para realizar exercícios de penetração mais longos do que um teste de penetração.
+
+Por exemplo, nesse cenário, podem haver três ou quatro equipes:
+
+O time RED TEAM membros da BLUE TEAM são os defensores e eles tentam frustrar os esforços da RED TEAM.
+A WHITE TEAM é uma equipe neutra que define os objetivos e as regras e supervisiona o exercício. Os membros da WHITE TEAM são menos técnicos, mas possuem conhecimento sobre governança e conformidade. 
+A WHITE TEAM é o árbitro deste exercício.
+Às vezes, há também uma Pueple team , na qual os membros da RED TEAM e BLUE TEAM trabalham juntos para identificar vulnerabilidades e explorar maneiras de melhorar os controles.,
+
+
+
+
