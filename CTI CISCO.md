@@ -516,3 +516,15 @@ Que tipo de dispositivo está sendo usado?
 Esse evento representa um problema de conformidade em potencial?
 
 
+**Teste de penetração**
+O teste de penetração (pen testing) é um método de testar áreas de fraquezas em sistemas usando várias técnicas maliciosas. Um teste de penetração simula os métodos que um invasor usaria para obter acesso não autorizado a uma rede e comprometer os sistemas, além de permitir que uma empresa entenda como toleraria um ataque real.
+
+É importante observar que o pen testing não é o mesmo que teste de vulnerabilidade, que apenas identifica possíveis problemas. O teste de caneta envolve invadir um site, rede ou servidor com a permissão de uma empresa para tentar obter acesso a recursos usando vários métodos que os hackers black-hat da vida real usariam.
+
+Um dos motivos principais por que uma empresa usa o pen testing é encontrar e corrigir todas as vulnerabilidades, antes dos criminosos virtuais. Testes de penetração são também conhecidos como ataque ético de hacker.
+
+
+O teste de caixa preta é o menos demorado e mais barato. Ao realizar o teste de caixa preta, o especialista não tem conhecimento do funcionamento interno do sistema e tenta atacá-lo do ponto de vista de um usuário regular.
+O teste de caixa cinza é uma combinação de caixa preta e teste de caixa branca. O especialista terá algum conhecimento limitado sobre o sistema, então é um ambiente parcialmente conhecido, o que dá alguma vantagem a essas tentativas de invasão.
+O teste de white box é o mais demorado e mais caro, porque é realizado por um especialista com conhecimento de como o sistema funciona. É, portanto, um ambiente conhecido quando eles tentam invadi-lo, emulando um ataque mal-intencionado por alguém de dentro ou por alguém que tenha conseguido obter essas informações antecipadamente, na fase de reconhecimento.
+
