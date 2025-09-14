@@ -558,6 +558,29 @@ A WHITE TEAM é uma equipe neutra que define os objetivos e as regras e supervis
 A WHITE TEAM é o árbitro deste exercício.
 Às vezes, há também uma Pueple team , na qual os membros da RED TEAM e BLUE TEAM trabalham juntos para identificar vulnerabilidades e explorar maneiras de melhorar os controles.,
 
+<img width="476" height="394" alt="image" src="https://github.com/user-attachments/assets/5fca7357-832b-4ae0-bb8a-e44684ca77dc" />
+
+**Analisador de pacotes**
+
+Os packet analyzers (ou analisadores de pacotes) interceptam e registram o tráfego de rede. Eles executam as funções abaixo - para fins legítimos, como solução de problemas, ou fins ilegítimos, como comprometer dados:
+
+Análise de problemas de rede
+Detecção de tentativas de invasão da rede
+Isolamento do sistema explorado
+Log de tráfego
+Detecção de uso indevido da rede
+
+<img width="426" height="449" alt="image" src="https://github.com/user-attachments/assets/7c001827-2c82-4d28-96df-044cf3b4340c" />
+
+
+**Saída do analisador de protocolo**
+Sniffing é semelhante a espionar alguém.
+
+Eles ocorrem quando os invasores examinam todo o tráfego de rede à medida que passa pela placa de rede, independentemente de se o tráfego é endereçado a eles ou não. Os criminosos conseguem fazer sniffing de rede com um software, hardware ou uma combinação dos dois.
+
+Como mostrado na figura, o sniffing visualiza todo o tráfego de rede ou atinge um protocolo específico, serviço ou até mesmo uma sequência de caracteres, como um login ou senha. Alguns sniffers de rede observam todo o tráfego e modificam o tráfego parcial ou totalmente.
+
+A segurança física é importante para evitar a entrada de sniffers na rede interna mas sniffing não é somente usado com objetivos maliciosos. Os administradores de rede também podem usar sniffers para analisar o tráfego de rede, identificar problemas de largura de banda e solucionar outros problemas de rede.
 
 
 
