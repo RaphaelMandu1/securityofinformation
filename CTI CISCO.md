@@ -598,3 +598,15 @@ As ferramentas de software que podem ser usadas para realizar testes de rede inc
 **Teste de penetração**
 
 O teste de penetração (pen testing) é um método de testar áreas de fraquezas em sistemas usando várias técnicas maliciosas. Um teste de penetração simula os métodos que um invasor usaria para obter acesso não autorizado a uma rede e comprometer os sistemas, além de permitir que uma empresa entenda como toleraria um ataque real. Há quatro fases que compõem um teste de penetração: 1 Planejamento, 2. Descoberta, 3. Ataque, e 4. Relatórios. Algumas empresas criam equipes concorrentes para realizar exercícios de penetração mais longos do que um teste de penetração. Normalmente, há um time vermelho (tentando atacar o sistema) e um time azul (tentando defender o sistema). Os packet analyzers (ou analisadores de pacotes) interceptam e registram o tráfego de rede. Farejar não é usado apenas para fins mal-intencionados. Os administradores de rede também podem usar sniffers para analisar o tráfego de rede, identificar problemas de largura de banda e solucionar outros problemas de rede.
+
+
+**Relatórios de Segurança Cibernética da Cisco**
+Os recursos para ajudar os profissionais de segurança a se manterem atualizados sobre as ameaças mais recentes são o Cisco Annual Cybersecurity Report e o Mid-Year Cybersecurity Report. Esses relatórios fornecem uma atualização sobre o estado de preparação da segurança, análise especializada das principais vulnerabilidades, fatores por trás da explosão de ataques usando adware, spam e muito mais.
+Os analistas de segurança cibernética devem assinar e ler esses relatórios para saber como os agentes de ameaças estão direcionando suas redes e o que pode ser feito para mitigar esses ataques.
+Pesquise na Internet para localizar e fazer download dos Cisco Cybersecurity Reports do site da Cisco.
+
+**Blogs e Podcasts de segurança**
+Outro método para se manter atualizado sobre as ameaças mais recentes é ler blogs e ouvir podcasts. Blogs e podcasts também fornecem conselhos, pesquisas e técnicas de mitigação recomendadas.
+Existem vários blogs e podcasts de segurança disponíveis que um analista de segurança cibernética deve seguir para aprender sobre as ameaças, vulnerabilidades e explorações mais recentes.
+A Cisco fornece blogs sobre tópicos relacionados à segurança de vários especialistas do setor e do Cisco Talos Group. Pesquise blogs de segurança da Cisco para localizá-los. Você também pode se inscrever para receber notificações de novos blogs por e-mail. O Cisco Talos também oferece uma série de mais de 80 podcasts que podem ser reproduzidos da Internet ou baixados para o dispositivo de sua escolha.
+
