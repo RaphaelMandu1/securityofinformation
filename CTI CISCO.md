@@ -771,3 +771,194 @@ As organizações podem contribuir com informações sobre ameaças compartilhan
 
 Honeypots são redes simuladas ou servidores projetados para atrair atacantes. As informações relacionadas ao ataque coletadas de honeypots podem então ser compartilhadas com os assinantes da plataforma de inteligência de ameaças. No entanto, hospedar honeypots pode ser um risco. Basear um honeypot na nuvem isola o honeypot das redes de produção. Essa abordagem é uma alternativa atraente para coletar informações sobre ameaças.
 
+
+Laboratório - Identifique a inteligência de ameaça relevante
+Objetivos
+Parte 1: Pesquisa MITRE CVEs
+
+Parte 2: Acesse a Base de Conhecimento MITRE ATT&CK
+
+Parte 3: Investigar o possível malware
+
+Histórico/Cenário
+Você foi contratado como analista de segurança digital de Tier 1 pela XYZ, Inc. Os analistas de Tier 1 normalmente são responsáveis por responder a tickets de entrada e alertas de segurança. Neste laboratório, você realizará pesquisas de inteligência de ameaças em vários cenários que afetaram a XYZ, Inc. Cada cenário exigirá que você acesse sites de inteligência de ameaças e responda a perguntas sobre a ameaça encontrada no cenário.
+
+Recursos necessários
+●    1 PC com acesso à Internet
+
+Instruções
+Parte 1: CVEs do MITRE de pesquisa
+A organização MITRE criou o banco de dados de Vulnerabilidades e Exposições Comuns (CVE) em 1999 para identificar, definir e catalogar vulnerabilidades de segurança digital divulgadas publicamente. Foi endossado pelo National Institute of Standards and Technology (NIST) em 2002 O banco de dados do CVE agora é o método padrão de registro e identificação de vulnerabilidades.
+
+Nesta parte, você pesquisará o programa CVE e usará a lista CVE para identificar ameaças.
+
+Etapa 1: Pesquisar o site do CVE.
+Acesse https://cve.mitre.org e navegue até a página Sobre> Terminologia para responder às seguintes perguntas.
+
+Perguntas:
+O que é o Programa CVE?
+O programa CVE é um esforço internacional orientado pela comunidade para catalogar vulnerabilidades de acordo com as regras e diretrizes do esforço.
+
+
+O que é uma CVE Numbering Authority (CNA)?
+ACNA éuma organização responsável pela atribuição regular de IDs de CVE a vulnerabilidades e por criar e publicar informações sobre a vulnerabilidade no registro CVE associado. Cada CNA tem uma responsabilidade específica pela identificação e publicação de vulnerabilidades.
+
+
+O que é um Publicador de dados autorizado (ADP)?
+Um ADP é uma organização autorizada dentro do Programa CVE para enriquecer um Registro CVE publicado anteriormente por uma CNA com informações adicionais relacionadas, incluindo pontuações de risco (por exemplo, Common Vulnerability Scoring System (CVSS), listas de produtos afetados e versões.
+
+
+O que é a lista de CVE?
+A Lista CVE é um catálogo pesquisável de todos os registros CVE identificados ou relatados para o programa CVE.
+
+O que é um registro CVE?
+O registro CVE são dados descritivos sobre a vulnerabilidade associados a uma ID de CVE, fornecida por uma CNA e enriquecida por ADPs. Esses dados são fornecidos em vários formatos humanos e legíveis por máquina. Um registro CVE está associado a um dos seguintes estados: Reservado, Publicado e Rejeitado.
+
+
+O que é um ID de CVE?
+Um identificador alfanumérico exclusivo atribuído pelo programa CVE. Cada identificador faz referência a uma vulnerabilidade específica. Uma ID de CVE permite que a automação e várias partes discutam, compartilhem e correlacionem informações sobre uma vulnerabilidade específica, sabendo que estão se referindo à mesma coisa.
+
+
+Etapa 2: Pesquise CVEs no site do Cisco Security Advisories.
+Muitos sites de segurança e softwares se referem a CVEs. Por exemplo, o site cisco.com oferece o Cisco Security Advisories que identifica vulnerabilidades associadas a produtos da Cisco. Nesta etapa, você consultará este site para identificar uma ID de CVE.
+
+a.     Deixe o site cve.mitre.org aberto. Em outra guia do navegador, faça uma pesquisa na Internet por Cisco Security Advisories e clique no link para acessar a página da web tools.cisco.com.
+
+b.     Esta página lista todos os CVEs atualmente conhecidos. Para a coluna Impacto, clique na seta para baixo e desmarque tudo, exceto Crítica, e clique em Concluído.
+
+c.     Escolha um dos avisos e responda às seguintes perguntas sobre o comunicado selecionado.
+
+Perguntas:
+Qual é o nome do comunicado que você escolheu?
+O nome é listado na primeira coluna. Por exemplo, "Vulnerabilidade de execução de comando remoto e negação de serviço dos roteadores Cisco Small Business RV110W, RV130, RV130W e RV215W"
+
+O que é a ID de CVE? Você usará essa ID na próxima etapa.
+A ID do CVE está listada na terceira coluna. Por exemplo, a ID de CVE da Vulnerabilidade de execução de comando remoto e negação de serviço dos roteadores Cisco Small Business RV110W, RV130, RV130W e RV215W "é CVE-2021-34730.
+
+d.     Você pode clicar no comunicado para ir para uma página de detalhes ou clicar na seta para baixo ao lado do nome do aviso para obter mais informações.
+
+Pergunta:
+Há uma solução alternativa para o comunicado que você escolheu?
+A resposta é provavelmente "Não".
+
+Etapa 3: retornar ao site do CVE e pesquisar mais sobre o Cisco CVE escolhido.
+a.     Volte para o site cve.mitre.org, que ainda deve estar aberto em uma guia do navegador.
+
+b.     Clique em Pesquisar lista de CVE para abrir uma caixa de pesquisa.
+
+c.     No campo de pesquisa, insira a ID de CVE do comunicado crítico que você documentou na etapa anterior. A ID do CVE está no seguinte formato: CVE- [ano] - [id_number].
+
+Pergunta:
+Descreva resumidamente a vulnerabilidade.
+As respostas variam de acordo com o CVE escolhido. Por exemplo, o CVE-2021-34730 descreve uma vulnerabilidade no serviço Universal Plug-and-Play (UPnP) dos roteadores Cisco Small Business que pode permitir que um invasor remoto não autenticado crie uma condição de negação de serviço (DoS). Observe que essas são as mesmas informações que você pode encontrar nos detalhes deste comunicado no site do Cisco Security Advisories.
+
+
+Parte 2: Acesse a Base de Conhecimento MITRE ATT&CK
+O MITRE Adversarial Tactics, Techniques & Common Knowledge Framework (ATT&CK) permite detectar táticas, técnicas e procedimentos do atacante (TTP) como parte da defesa contra ameaças e atribuição de ataques. Nesta parte, você investigará o site MITRE ATT&CK para responder a perguntas.
+
+Etapa 1: acesse o site MITRE ATT&CK.
+Acesse o site https://attack.mitre.org.
+
+A página exibe uma matriz de ataque para empresas, que identifica várias táticas e as técnicas usadas pelos agentes de ameaças. Tática são os títulos das colunas de cabeçalho (por exemplo, reconhecimento, desenvolvimentos de recursos etc.) com as técnicas listadas abaixo. Uma frase curta para cada técnica resume o que um agente de ameaças poderia fazer para executar um ataque. Ao clicar na frase vinculada, você será direcionado a uma página para obter informações detalhadas sobre as técnicas e os métodos de mitigação.
+
+Observação: talvez você precise expandir a largura da janela do navegador para ver todas as 14 táticas. Como alternativa, mantenha a tecla Shift pressionada e role a roda do mouse para deslocar a janela para a esquerda e direita.
+
+Essa matriz é um excelente lugar para aprender mais sobre as diferentes táticas e técnicas que os agentes de ameaças usam para comprometer sistemas. Os analistas de segurança digital visitam regularmente este site para pesquisar ataques específicos e possíveis mitigações.
+
+Etapa 2: Investigar a tática de reconhecimento e a tática de phishing para informações.
+Use a página MITRE ATT&CK para responder às seguintes perguntas.
+
+Perguntas:
+Quantas técnicas são atribuídas à tática de reconhecimento?
+As respostas podem variar, mas no momento desta redação, havia 10 técnicas sob a tática de reconhecimento.
+
+Em Reconhecimento, clique em Phishing para obter informações e leia a descrição. Descreva resumidamente como um agente de ameaças pode coletar informações de reconhecimento usando técnicas de phishing?
+Os adversários podem enviar mensagens de phishing para obter informações confidenciais que podem ser usadas durante a segmentação. Todas as formas de phishing são engenharia social disponibilizada eletronicamente. O phishing pode ser segmentado, conhecido como spearphishing, em que um indivíduo, empresa ou setor específico será alvo do adversário.
+
+Expanda o menu suspenso sob o cabeçalho Phishing para informações ou consulte o menu à esquerda. Quais são as sub-técnicas usadas quando esta usando phishing para obter informações?
+As respostas devem ser Spearphishing Service, Spearphishing Attachment e Spearphishing Link.
+
+
+Que medidas você poderia tomar para atenuar essas técnicas?
+Configuração de software de software usando anti-spoofing e autenticação de e-mail para filtrar mensagens e treinamento do usuário para identificar ataques de engenharia social.
+
+
+Etapa 3: Investigar a tática de comando e controle e a técnica de codificação de dados.
+Use a página MITRE ATT&CK para responder às seguintes perguntas.
+
+Observação: Comando e controle é a 12ª tática na matriz. Você pode precisar expandir a largura da janela do navegador para vê-la. Como alternativa, mantenha a tecla Shift pressionada e role a roda do mouse para deslocar a janela para a esquerda e direita.
+
+Perguntas:
+Quantas técnicas são atribuídas à tática de comando e controle?
+As respostas podem variar, mas no momento da redação deste texto havia 16 técnicas disponíveis.
+
+Em Comando e controle, clique em Codificação de dados e leia a descrição. Descreva resumidamente como um agente de ameaças pode usar a codificação de dados para comando e controle?
+Os agentes de ameaças podem codificar dados para dificultar a detecção do conteúdo do comando e do tráfego de controle. As informações de comando e controle (C2) podem ser codificadas usando um sistema de codificação de dados padrão (por exemplo, ASCII, Unicode, Base64, MIME) e em compressão de dados (por exemplo, gzip).
+
+
+O que você poderia fazer para atenuar essa técnica?
+Os sistemas de detecção e prevenção de intrusão de rede (IDS / IPS) usando assinaturas/regras de rede para identificar o tráfego de malware específico podem ser usados para mitigar a atividade no nível da rede.
+
+
+Etapa 4: Investigar a tática de impacto
+Use a página MITRE ATT&CK para responder às seguintes perguntas.
+
+Observação: a tática de impacto é a última tática na extrema direita da matriz.
+Quantas técnicas são atribuídas à tática Impact?
+border:none'>
+
+Em Impacto, clique em Limpeza de disco e leia a descrição. Descreva resumidamente o impacto se um agente de ameaça limpar um disco?
+As respostas vão variar. Os adversários podem limpar ou corromper dados de disco bruto em sistemas específicos para interromper a disponibilidade no sistema e nos recursos de rede. O malware usado para limpar discos pode ter recursos semelhantes a worms para se propagar pela rede, aproveitando técnicas adicionais.
+
+
+O que você poderia fazer para atenuar essa técnica?
+Implemente um plano de recuperação de desastres de TI que contenha procedimentos para fazer backups de dados regulares que podem ser usados para restaurar dados corporativos. Garanta que os backups sejam armazenados fora do sistema e que estejam protegidos contra métodos comuns que os criminosos podem usar para obter acesso e destruir os backups para impedir a recuperação.
+
+
+Parte 3: Investigar o possível malware
+Há uma série de ferramentas que um analista de segurança digital pode usar para validar software mal-intencionado. Nesta parte, você investigará um alerta IPS para ver se é um software mal-intencionado.
+
+Etapa 1: Gerar um hash SHA256 para um arquivo suspeito.
+Como analistas de segurança digital de Tier 1, você tem acesso a um sistema de gerenciamento de eventos de informações de segurança (SIEM) em sua estação de gerenciamento Linux. O SIEM acabou de enviar um alerta IPS referenciando um endereço IP local de 10.8.19.101. Você decide examinar o tráfego real identificado no alerta ao girar para o Wireshark.
+
+a.     Ao percorrer as várias capturas de pacotes do endereço IP 10.8.19.101, você percebe que um arquivo foi baixado pelo host, conforme mostrado na figura.
+
+b.     Você decide exportar esse arquivo do Wireshark para análise de malware usando o comando Arquivo> Exportar objetos> HTTP e salva o arquivo com o nome ooiwy.pdf.
+
+c.     Em seguida, você gera o valor de hash SHA256 do arquivo salvo usando o comando sha256sum, como mostrado.
+
+[analyst@secOps~]:~$ sha256sum ooiwy.pdf
+
+f25a780095730701efac67e9d5b84bc289afea56d96d8aff8a44af69ae606404 ooiwy. pdf
+
+Observe que a assinatura de hash SHA256 foi gerada. Essa sequência pode ser validada em vários sites de reputação de arquivo para ver se o arquivo é malware.
+
+Etapa 2: Pesquisar o hash nos sites de reputação de arquivos.
+Há vários sites de reputação de arquivos que podem ser usados para investigar esse arquivo. Nesta etapa, você usará o site da Cisco Talos e o virustotal.com.
+
+a.     Pesquise "Cisco Talos" e clique no primeiro link para acessar o site do Cisco Talos Intelligence Group.
+
+b.     Localize os menus na parte superior e sobre o Centro de reputação para um submenu suspenso. Clique no link da página de pesquisa de reputação do arquivo Talos.
+
+c.     Copie o valor do hash SHA destacado da etapa anterior e cole-o na janela de pesquisa. Clique na caixa de seleção “Não sou um robô” e clique em Pesquisar.
+
+d.     Revise as informações desse arquivo.
+
+Perguntas:
+O que é a pontuação de reputação de arquivo ponderado do Talos? Isso é bom ou ruim?
+Você pode passar o mouse sobre o ? para descobrir que a pontuação é uma escala de 1 a 100. A pontuação do arquivo é 100, que identifica este arquivo como extremamente mal-intencionado.
+
+e.     Pesquise e acesse o site da vírusTotal.
+
+f.       Clique em Pesquisar, cole o hash SHA256 no campo e pressione Enter. A página exibe todos os fornecedores de segurança que identificaram esse arquivo como mal-intencionado (à esquerda) e os nomes que essas empresas usam para identificar o arquivo mal-intencionado.
+
+g.     Observe os títulos das colunas DETECÇÃO, DETALHES, RELAÇÕES, COMPORTAMENTO e COMUNIDADE. Use as informações na página DETALHES para responder às seguintes perguntas.
+
+Quando esse arquivo foi criado?
+Tempo de criação  2021-07-06 13:28:40
+
+Que outros nomes o arquivo é conhecido além de ooiwy.pdf?
+RegistryDemo, RegistryDemo.EXE, cdnupdaterapi.png e ooiwy.pdf.exe
+
+Qual é a máquina de destino?
+A máquina de destino é uma com processadores Intel 386 ou posteriores e processadores compatíveis.
