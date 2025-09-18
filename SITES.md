@@ -38,3 +38,8 @@ O International Information Systems Security Certification Consortium (ISC)² fo
 CIS
 O Center for Internet Security (CIS) é um ponto focal para prevenção, proteção, resposta e recuperação de ameaças cibernéticas para governos estaduais, locais, tribais e territoriais (SLTT) por meio do Multi-State Information Sharing and Analysis Center (MS-ISAC). O MS-ISAC oferece avisos e avisos de ameaças cibernéticas 24 horas por dia, 7 dias por semana, identificação de vulnerabilidades, mitigação e resposta a incidentes.
 
+Para permanecer eficaz, um profissional de segurança de rede deve:
+
+Mantenha-se informado sobre as ameaças mais recentes - Isso inclui assinar feeds em tempo real sobre ameaças, consultar sites relacionados à segurança rotineiramente, acompanhar blogs e podcasts de segurança e muito mais.
+Continuar a atualizar as habilidades - Isso inclui participar de treinamentos, workshops e conferências relacionados à segurança.
+Nota: A segurança de rede tem uma curva de aprendizado muito acentuada e exige um compromisso com o desenvolvimento profissional contínuo.
