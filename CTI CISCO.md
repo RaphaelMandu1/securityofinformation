@@ -610,3 +610,105 @@ Outro método para se manter atualizado sobre as ameaças mais recentes é ler b
 Existem vários blogs e podcasts de segurança disponíveis que um analista de segurança cibernética deve seguir para aprender sobre as ameaças, vulnerabilidades e explorações mais recentes.
 A Cisco fornece blogs sobre tópicos relacionados à segurança de vários especialistas do setor e do Cisco Talos Group. Pesquise blogs de segurança da Cisco para localizá-los. Você também pode se inscrever para receber notificações de novos blogs por e-mail. O Cisco Talos também oferece uma série de mais de 80 podcasts que podem ser reproduzidos da Internet ou baixados para o dispositivo de sua escolha.
 
+Use um navegador da Internet para pesquisar o relatório de ameaças de raiz da web do final de 2020 em pdf. Role para baixo qualquer anúncio publicitário, abra o documento 2020 Webroot Threat Report_US_FINAL.pdf e revise as descobertas.
+
+Perguntas:
+Com base nas descobertas, onde o malware normalmente se esconde em um PC com Windows?
+As respostas vão variar. 26,5% de todas as infecções em PCs são encontradas em %appdata%. Outros locais comuns são %temp%, %cache% e %windir%
+
+
+
+Com base nas descobertas, quais são algumas tendências em ransomware?
+As respostas vão variar. O Ransomware é mais frequentemente direcionado para alvos mais fracos e de maior valor. Os agentes de ameaças estão usando o reconhecimento para identificar alvos com maior probabilidade de ficarem vulneráveis.
+
+
+Com base nas descobertas, quais são as tendências atuais de ataques de phishing?
+As respostas vão variar. A capacidade de um hacker de obter acesso ao e-mail de uma pessoa continua com uma conversa legítima atual com um payload mal-intencionado anexado. O payload pode escapar de qualquer filtragem de e-mail. O uso de HTTPS em sites de phishing aumentou. Os ataques de phishing parecem seguir as notícias públicas sobre uma empresa ou o lançamento de um novo produto (I-Phone). Personificar novas empresas, incluindo a DocuSign e o Steam, oferece novos desafios para a assinatura de documentos digitais e atualizações automáticas de jogos.
+
+
+Com base nas descobertas, por que os dispositivos Android são mais suscetíveis a problemas de segurança?
+As respostas vão variar. Com base em suas descobertas, os dispositivos Android vêm pré-instalados com entre 100 e 400 aplicativos que podem estar vulneráveis. Esses aplicativos são conhecidos pelos agentes de ameaças como geralmente instalados e, portanto, são alvos prováveis.
+
+
+Investigue a empresa que criou o relatório. Descreva a empresa.
+A Webroot é uma empresa de segurança digital que oferece uma gama de produtos e serviços de segurança para residências e empresas.
+
+
+Algumas empresas produzem relatórios de inteligência de ameaças com base no setor. Nesta parte do laboratório, você investigará esses relatórios orientados para o setor.
+
+Pesquise um relatório de inteligência de acordo com o setor.
+
+a.    Use um navegador da Internet para pesquisar a segurança digital do FIreeYE.
+
+b.    Clique no link para a página inicial do FIreeYE.
+
+c.    No menu da página inicial do FIreeYE, clique em Recursos.
+
+d.    No menu, selecione Relatórios de inteligência de ameaças por setor.
+
+e.    Selecione o setor de Serviços de saúde e faça o download do relatório.
+
+Com base no FIreeYE, as descobertas identificam as duas famílias de malware mais usadas pelos agentes de ameaças nesse setor.
+As respostas devem incluir o uso de WITCHCOVEN em 49% e XtremeRAT em 32%. Os agentes de ameaças usam-na para capturar sistemas e organizações de computadores. XtremeRAT é uma ferramenta de acesso remoto (RAT) que pode carregar e baixar arquivos, interagir com o registro do Windows, manipular processos e serviços e capturar dados.
+
+f.    Volte para a página Relatórios de inteligência de ameaças por setor e selecione o setor de Energia. Baixe o relatório.
+
+g.    Com base no FIreeYE, as descobertas identificam as duas famílias de malware mais usadas pelos agentes de ameaças nesse setor.
+As respostas variam, mas devem incluir SOGU em 41% e ADDTEMP em 20%. SOGU é um backdoor que pode carregar e baixar arquivos e fornecer acesso ao sistema de arquivos, ao registro, à configuração e ao shell remoto, entre outros. Ele usa um protocolo personalizado para fornecer acesso gráfico de C2 à área de trabalho do sistema.
+
+
+
+
+Parte 3: Pesquisa em inteligência de ameaças de segurança cibernética em tempo real
+Hoje, o compartilhamento de dados de inteligência de ameaças está se tornando cada vez mais popular. O compartilhamento de dados de ameaças digitais melhora a segurança para todos. Empresas e agências governamentais têm sites que podem ser usados para enviar dados de segurança digital, bem como receber as atividades e alertas de segurança digital mais recentes.
+
+Etapa 1: Acessar o site da Agência de segurança digital e segurança cibernética
+a.    Use um navegador da Internet para pesquisar Department of Homeland Security (DHS): compartilhamento automatizado de indicadores do CISA.
+
+b.    Clique em Compartilhamento automatizado de indicadores | Link do CISA.
+
+c.    Nas opções de Menu, clique em CYBERSECURITY. Na página do CyberSecurity, você deve ver muitas opções de Links rápidos. Role a página até a seção Ameaças cibernéticas no estado nacional.
+
+Perguntas:
+Identifique as quatro ameaças cibernéticas do estado nacional.
+As respostas devem incluir agentes de ameaças cibernéticas nacionais, da China, da Rússia, da Coreia do Norte e do Irã.
+
+
+Selecione um dos Estados Nacionais acusados e descreva um comunicado emitido.
+As respostas vão variar. As referências para várias ameaças são descritas para os estados nação dos agentes acusados de ameaça.
+
+
+Etapa 2: Na página da Web CYBERSECURITY | CISA, baixe e abra o Catálogo de serviços da CISA
+a.    Retorne à página da Web de CYBERSECURITY | CISA. Role para baixo até a seção CISA Cybersecurity Services da página. Localize e clique no link Catálogo de serviços CISA.
+
+b.    O catálogo CISA fornece acesso a todas as áreas de serviços do CISA em um único documento. Clique no link para baixar o catálogo de serviços do CISA
+
+c.    Próximo. role para baixo até a página 18, índice - SERVIÇOS PARA PARTES INTERESSADAS DO GOVERNO FEDERAL. Na coluna Nome do serviço, localize a Atividade de segurança digital atual
+
+d.    Clique no URL do site correspondente. Nesta página, documente duas atualizações de segurança digital sobre produtos de software.
+
+Pergunta:
+Qual é o nome e o "carimbo de hora" da empresa de software? Descreva resumidamente a atualização.
+As respostas variam, mas devem incluir as informações mais recentes sobre ameaças digitais.Por exemplo, uma atualização foi lançada em 21 de setembro de 2021 em uma série de produtos de software da Apple, incluindo Safer, iOS 15 e watchOS. É recomendável atualizar os produtos para incluir os patches de segurança mais recentes. Em 14 de setembro de 2021, a Adobe lançou atualizações de segurança para vários de seus produtos, incluindo o Photoshop Elements e o Acrobat.
+
+Questões para Reflexão
+1.    Quais são alguns dos desafios de segurança digital com escolas e empresas caminhando em direção à aprendizagem e ao trabalho remotos?
+As respostas variam, mas podem incluir phishing adicional para e-mail, mensagens de texto e videoconferência.
+
+
+2.    Quais são os dois termos usados para descrever o malware ADDTEMP e como ele é disponibilizado?
+As respostas devem incluir que o malware ADDTEMP, também conhecido como Deserto Falcon e Arid Viper, pode ser entregue via Spear Phishing.
+
+
+3.    Pesquise na Web e localize outros relatórios anuais de segurança digital para 2020. Quais empresas criaram os relatórios?
+As respostas variam. A Cisco, TrendMicro e Check Point oferecem esses repositórios, assim como muitas outras empresas e organizações.
+
+
+4.    Localize um relatório de segurança digital por mais um ano. Qual foi o tipo mais comum de exploração nesse ano?
+As respostas variam.
+
+
+5.    Qual é o valor desses relatórios e do que você precisa ter cuidado ao aceitar as informações apresentadas neles?
+Os relatórios são muito valiosos porque fornecem informações que ajudam os profissionais de segurança digital a saber sobre ameaças emergentes. É importante avaliar os relatórios de acordo com quem os criou. Alguns são criados por empresas que podem estar tentando vender seus produtos através dos relatórios. Alem disso os relatórios podem estar velhos. Novas ameaças estão imergindo constantemente, por isso é importante seguir fontes de informações mais atualizadas, como o CVE.
+
+
