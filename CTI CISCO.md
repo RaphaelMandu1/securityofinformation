@@ -878,6 +878,15 @@ Os adversários podem enviar mensagens de phishing para obter informações conf
 Expanda o menu suspenso sob o cabeçalho Phishing para informações ou consulte o menu à esquerda. Quais são as sub-técnicas usadas quando esta usando phishing para obter informações?
 As respostas devem ser Spearphishing Service, Spearphishing Attachment e Spearphishing Link.
 
+**Avaliação de Vulnerabilidade de Endpoint**
+
+Quanto dinheiro uma organização deve gastar em segurança de rede e operações cibernéticas? Como uma organização sabe quanto esforço e recursos deve colocar para manter a rede e os dados seguros? Essas perguntas podem ser respondidas através da avaliação de risco e vulnerabilidade. Analistas de segurança cibernética e especialistas em segurança usam uma variedade de ferramentas para realizar avaliações de vulnerabilidade. A criação de perfis de rede e dispositivo fornece uma linha de base que serve como ponto de referência para identificar desvios em relação às operações normais. Da mesma forma, a criação de perfil do servidor é usada para estabelecer o estado operacional aceito dos servidores. As organizações usam o Common Vulnerability Scoring System (CVSS) para ponderar os riscos de uma vulnerabilidade usando uma variedade de métricas. Em seguida, as organizações aplicam técnicas de gerenciamento de risco para selecionar e especificar seus controles de segurança. As organizações usam um Sistema de Gerenciamento de Segurança da Informação (ISMS) para identificar, analisar e lidar com os riscos de segurança das informações. Este módulo aborda detalhes da criação de perfis de rede e servidor, CVSS, técnicas de gerenciamento de risco e ISMS.
+
+<img width="931" height="262" alt="image" src="https://github.com/user-attachments/assets/078e2279-5879-42a2-b4a1-0774355221a0" />
+
+
+
+
 
 Que medidas você poderia tomar para atenuar essas técnicas?
 Configuração de software de software usando anti-spoofing e autenticação de e-mail para filtrar mensagens e treinamento do usuário para identificar ataques de engenharia social.
