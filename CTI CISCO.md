@@ -1141,6 +1141,9 @@ Para que uma pontuação seja calculada para os grupos de métricas Temporal ou 
 
 <img width="940" height="699" alt="image" src="https://github.com/user-attachments/assets/ea4b14b1-3293-4af9-af18-a30ae0cac4a2" />
 
+<img width="862" height="624" alt="image" src="https://github.com/user-attachments/assets/5f910c1c-3ed0-43c2-87e7-eab10fcca66d" />
+
+
 
 
 
