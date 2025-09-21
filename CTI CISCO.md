@@ -1351,7 +1351,17 @@ A gestão de riscos é um processo contínuo, multi-passo, cíclico, como mostra
 
 <img width="805" height="568" alt="image" src="https://github.com/user-attachments/assets/84acfc02-463c-4a99-9e82-238ff603252a" />
 
-
+O risco é determinado como a relação entre ameaça, vulnerabilidade e a natureza da organização. Trata-se, em primeiro lugar, de responder às seguintes questões como parte de uma avaliação de risco:
+Quem são os atores que querem nos atacar?
+Quais vulnerabilidades os atores ameaçadores podem explorar?
+Como seriamos afetados por ataques?
+Qual é a probabilidade de que diferentes ataques ocorram?
+A publicação especial 800-30 do NIST descreve a avaliação de risco como:
+o processo de identificação, estimativa e priorização dos riscos de segurança das informações. A avaliação do risco requer uma análise cuidadosa das informações sobre ameaças e vulnerabilidades para determinar a extensão em que circunstâncias ou eventos podem afetar negativamente uma organização e a probabilidade de tais circunstâncias ou eventos ocorrerem.
+A publicação completa está disponível para download no NIST.
+Uma atividade obrigatória na avaliação de riscos é a identificação de ameaças e vulnerabilidades e a correspondência de ameaças com vulnerabilidades no que geralmente é chamado de emparelhamento de ameaças (T-V). Os pares T-V podem então ser usados como uma linha de base para indicar o risco antes de os controles de segurança serem implementados. Esta linha de base pode, então, ser comparada com avaliações de risco continuas como meio de avaliar a eficácia da gestão do risco. Esta parte da avaliação de risco é referida como a determinação do perfil de risco inerente de uma organização.
+Após a identificação dos riscos, eles podem ser pontuados ou ponderados como forma de priorizar estratégias de redução de risco. Por exemplo, as vulnerabilidades que se verificou terem correspondido a várias ameaças podem receber classificações mais altas. Além disso, os pares T-V que mapeiam para o maior impacto institucional também receberão ponderações mais elevadas.
+A tabela lista as quatro formas potenciais de responder aos riscos identificados, com base em suas ponderações ou pontuações.
 
 
 
