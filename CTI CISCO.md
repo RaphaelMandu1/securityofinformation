@@ -990,3 +990,96 @@ Para detectar incidentes de segurança graves, é importante compreender, caract
 Deve-se ter cuidado ao capturar dados de linha de base para que todas as operações normais de rede sejam incluídas na linha de base Além disso, é importante que a linha de base seja atual. Não deve incluir dados de desempenho da rede que não façam mais parte do funcionamento normal. Por exemplo, aumentos na utilização da rede durante operações periódicas de backup do servidor fazem parte do funcionamento normal da rede e devem fazer parte dos dados da linha de base. No entanto, a medição do tráfego que corresponde ao acesso externo a um servidor interno que foi movido para a nuvem não seria. Um meio de capturar apenas o período certo para medição de linha de base é conhecido como detecção de anomalias de janela deslizante. Ele define uma janela que é mais representativa da operação de rede e exclui dados que estão desatualizados. Esse processo continua com medições repetidas da linha de base para garantir que as estatísticas de medição da linha de base retratem a operação da rede com a máxima precisão.
 O aumento da utilização de links WAN em momentos incomuns pode indicar uma violação de rede e uma extracção de dados. Os hosts que começam a acessar servidores obscuros da Internet, resolvem domínios obtidos por meio de DNS dinâmico ou usam protocolos ou serviços que não são necessários para o usuário do sistema também podem indicar comprometimento. Desvios no comportamento da rede são difíceis de detectar se o comportamento normal não é conhecido.
 Ferramentas como NetFlow e Wireshark podem ser usadas para caracterizar características normais de tráfego de rede. Como as organizações podem fazer demandas diferentes em suas redes dependendo da hora do dia ou do dia do ano, a linha de base da rede deve ser realizada durante um período prolongado. A figura exibe algumas perguntas a serem feitas ao estabelecer uma linha de base de rede.
+
+Duração de sessão - Este é o tempo entre o estabelecimento de um fluxo de dados e seu término.
+taxa de transferência total - Esta é a quantidade de dados que passam de uma determinada fonte para um determinado destino em um determinado período de tempo.
+Portas usadas - Esta é uma lista de processos TCP ou UDP que estão disponíveis para aceitar dados
+Espaço de endereço de ativo crítico - Estes são os endereços IP ou a localização lógica de sistemas ou dados essenciais
+
+Além disso, um perfil dos tipos de tráfego que normalmente entram e saem da rede é uma ferramenta importante para compreender o comportamento da rede. O malware pode usar portas incomuns que podem não ser vistas normalmente durante a operação normal da rede. O tráfego de host para host é outra métrica importante. A maioria dos clientes de rede se comunica diretamente com servidores, portanto, um aumento do tráfego entre clientes pode indicar que o malware está se espalhando lateralmente pela rede.
+
+Finalmente, alterações no comportamento do usuário, conforme revelado pelo AAA, logs do servidor ou um sistema de criação de perfil do usuário, como o Cisco Identity Services Engine (ISE), é outro indicador valioso. Saber como os usuários individuais normalmente usam a rede leva à detecção de potencial comprometimento das contas de usuário. Um usuário que de repente começa a fazer login na rede em momentos estranhos a partir de um local remoto deve gerar alarmes se esse comportamento for um desvio de uma norma conhecida.
+
+**Criação de perfil do servidor**
+
+A definição de perfil do servidor é usada para estabelecer o estado operacional aceito dos servidores. Um perfil de servidor é uma linha de base de segurança para um determinado servidor. Estabelece os parâmetros de rede, usuário e aplicativo que são aceitos para um servidor específico.
+Para estabelecer um perfil de servidor, é importante entender a função que um servidor se destina a executar em uma rede. A partir daí, vários parâmetros operacionais e de uso podem ser definidos e documentados.
+A tabela lista elementos de um perfil de servidor.
+
+Portas de escuta - Estes são os daemons e portas TCP e UDP que normalmente podem ser abertos no servidor
+Usuários e contas logados - Estes são os parâmetros que definem o acesso e o comportamento do usuário
+Contas de serviço - Estas são as definições do tipo de serviço que um aplicativo pode executar
+Ambiente de Software - Essas são as tarefas, processos e aplicativos que têm permissão para serem executados no servidor.
+
+**Detecção de anomalias de rede**
+
+O comportamento da rede é descrito por uma grande quantidade de dados diversos, como os recursos do fluxo de pacotes, os recursos dos próprios pacotes e a telemetria de várias fontes. Uma abordagem para a detecção de ataques de rede é a análise desses dados diversos e não estruturados usando técnicas de análise de Big Data. Isso é conhecido como análise de comportamento de rede (NBA).
+
+Isto implica a utilização de técnicas sofisticadas de aprendizagem estatística e de máquina para comparar as linhas de base de desempenho normais com o desempenho da rede num determinado momento. Desvios significativos podem ser indicadores de compromisso. Além disso, o comportamento da rede pode ser analisado quanto a comportamentos de rede conhecidos que indicam comprometimento.
+
+A detecção de anomalias pode reconhecer o tráfego de rede causado pela atividade de worm que exibe o comportamento de varredura. A detecção de anomalias também pode identificar hosts infectados na rede que estão verificando outros hosts vulneráveis.
+
+A figura ilustra uma versão simplificada de um algoritmo projetado para detectar uma condição incomum nos roteadores de fronteira de uma empresa.
+
+Agora, o algoritmo pode ser interpretado como: a cada 5 minutos, obter uma amostragem de 1/100 dos fluxos durante o segundo 30. Se o número de fluxos for maior que 500, gere um alarme. Se o número de fluxos for inferior a 500, não faça nada. Este é um exemplo simples de usar um perfil de tráfego para identificar o potencial de perda de dados.
+
+Além de abordagens estatísticas e comportamentais para detecção de anomalias é a detecção de anomalias baseada em regras. A detecção baseada em regras analisa pacotes decodificados para ataques com base em padrões predefinidos.
+
+**Teste de Vulnerabilidade de Rede**
+
+A maioria das organizações conecta-se às redes públicas de alguma forma devido à necessidade de acessar a internet. Essas organizações também devem fornecer serviços voltados para a internet de vários tipos ao público. Devido ao grande número de potenciais vulnerabilidades e ao fato de que novas vulnerabilidades podem ser criadas dentro de uma rede da organização e seus serviços voltados para a Internet, testes periódicos de segurança são essenciais.
+A tabela lista vários tipos de testes que podem ser realizados.
+
+
+Análise de Risco - Esta é uma disciplina na qual os analistas avaliam o risco representado por vulnerabilidades para uma organização específica.
+Uma análise de risco inclui avaliação da probabilidade de ataques, identifica tipos de prováveis agentes de ameaças e avalia o impacto de explorações bem-sucedidas na organização.
+
+Avaliação de vulnerabilidade - Este teste emprega software para verificar servidores voltados para a Internet e redes internas em busca de vários tipos de vulnerabilidades.
+Essas vulnerabilidades incluem infecções desconhecidas, fraquezas nos serviços de banco de dados voltados para a Web, patches de software ausentes, portas de escuta desnecessárias, etc.
+As ferramentas para avaliação de vulnerabilidades incluem a plataforma OpenVAS de código aberto, Microsoft Baseline Security Analyzer, Nessus, Qualys e FireEye Mandiant Serviços.
+A avaliação de vulnerabilidade inclui, mas vai além, varredura de portas.
+
+Teste de penetração - Este tipo de teste usa ataques simulados autorizados para testar a força de segurança de rede.
+Pessoal interno com experiência em hackers ou hackers éticos profissionais identificam ativos que podem ser alvos de agentes de ameaças.
+Uma série de explorações é usada para testar a segurança desses ativos.
+Ferramentas de software de exploração simulada são usadas com frequência.
+O teste de penetração não apenas verifica se existem vulnerabilidades, mas também explora essas vulnerabilidades para determinar o impacto potencial de uma exploração bem-sucedida.
+Um teste de penetração individual é muitas vezes conhecido como um pen test.
+Metasploit é uma ferramenta usada em testes de penetração.
+A CORE Impact oferece software e serviços de teste de penetração.
+Teste de Penetração
+
+
+Análise de Risco - Os individuos realizam uma análise abrangente de impactos de ataques aos principais ativos da empresa e funcionando
+Consultores interno ou externo, Frameworks de gestão de risco.
+
+Vulnerabilidade Avaliação - Gerenciamento de patches, varreduras de host, varredura de portas, outras varreduras e serviços de vulnerabilidade
+OpenVas, Microsoft Baseline Analyzer, Nessus, Qualys, Nmap.
+
+Teste de Penetração - Uso de técnicas e ferramentas de hacking para penetrar defesas de rede e identificar a profundidade do potencial penetração - Metasploit, CORE Impact, hackers éticos
+
+**Visão geral do CVSS**
+
+O Common Vulnerability Scoring System (CVSS) é uma ferramenta de avaliação de risco projetada para transmitir os atributos comuns e a gravidade das vulnerabilidades em sistemas de hardware e software de computador. A terceira revisão, CVSS 3.0, é uma estrutura aberta e neutra do fornecedor, padrão do setor, para ponderar os riscos de uma vulnerabilidade usando uma variedade de métricas. Esses pesos combinam-se para fornecer uma pontuação do risco inerente a uma vulnerabilidade. A pontuação numérica pode ser usada para determinar a urgência da vulnerabilidade e a prioridade de abordá-la. Os benefícios do CVSS podem ser resumidos da seguinte forma:
+
+Ele fornece pontuações padronizadas de vulnerabilidade que devem ser significativas em todas as organizações.
+Ele fornece uma estrutura aberta com o significado de cada métrica abertamente disponível para todos os usuários.
+Ele ajuda a priorizar o risco de uma forma que seja significativa para organizações individuais.
+O Fórum de Equipes de Resposta a Incidentes e Segurança (FIRST) foi designado como guardião do CVSS para promover sua adoção globalmente. O padrão Versão 3 foi desenvolvido com contribuições da Cisco e de outros parceiros do setor. A versão 3.1 foi lançada em junho de 2019. A figura exibe a página de especificação do CVSS no site FIRST.
+
+www.first.org
+
+
+**Grupos métricos CVSS**
+
+Antes de realizar uma avaliação do CVSS, é importante conhecer os termos fundamentais utilizados no instrumento de avaliação.
+
+Muitas das métricas abordam o papel do que o CVSS chama de autoridade. Uma autoridade é uma entidade de computador, como um banco de dados, sistema operacional ou caixa de proteção virtual, que concede e gerencia acesso e privilégios aos usuários.
+
+Grupos métricos CVSS
+
+<img width="839" height="561" alt="image" src="https://github.com/user-attachments/assets/f9bb38c6-5577-43b2-9797-1a895c5dc0be" />
+
+
+
+
