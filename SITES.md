@@ -43,3 +43,36 @@ Para permanecer eficaz, um profissional de segurança de rede deve:
 Mantenha-se informado sobre as ameaças mais recentes - Isso inclui assinar feeds em tempo real sobre ameaças, consultar sites relacionados à segurança rotineiramente, acompanhar blogs e podcasts de segurança e muito mais.
 Continuar a atualizar as habilidades - Isso inclui participar de treinamentos, workshops e conferências relacionados à segurança.
 Nota: A segurança de rede tem uma curva de aprendizado muito acentuada e exige um compromisso com o desenvolvimento profissional contínuo.
+
+
+
+
+CYBER THREAT INTELLIGENCE
+
+https://viewdns.info/
+https://host.io/
+https://subdomainfinder.c99.nl/index.php
+wappalyzer extension chrome
+
+Você pode acessar a documentação da API em https://developer.shodan.io/api e ver como os dados podem ser recuperados por meio da API.
+Outros mecanismos de busca alternativos ao Shodan são "BinaryEdge", "Zoomeye" e "Censys".
+Alienvault, Malwarebazaar, Abuse.ch, Malshare, Anyrun, Virustotal, Hybrid-Analysis, Totalhash, Phishunt, Spamhaus, Tor Exit Nodes, Urlscan, Zone-h, Rats, Sorbs, Barracuda
+
+Blogs de Ransomware
+http://ransomwr3tsydeii4q43vazm7wofla5ujdajquitomtd47cxjtfgwyyd.onion/
+
+Sites de Compartilhamento de Arquivos
+Dork
+
+Buckets Públicos
+Amazon S3 Buckets, Azure Blobs e Google Cloud Storage.
+
+Honeypots
+Kippo, Cowrite, Glastopf, Nodepot, Google Hack Honeypot, ElasticHoney e Honeymail são alguns dos honeypots populares.
+
+Após a interpretação dos dados em relação à superfície de ataque, eles se tornarão informações de ameaças consumíveis. As informações obtidas podem ser utilizadas nas três áreas a seguir.
+
+Gerenciamento de Superfície de Ataque Externa (EASM)
+Proteção de Risco Digital (DRP)
+Inteligência de Ameaças Cibernéticas (CTI)
+
