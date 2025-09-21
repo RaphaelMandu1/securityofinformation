@@ -1494,5 +1494,198 @@ O risco pode ser interno, externo ou ambos. Seu impacto pode repercutir-se por t
 
 Promover a conscientização de riscos na empresa ajuda os funcionários a desenvolver uma compreensão de quais riscos existem, seu impacto potencial e como a empresa pode gerenciar esses riscos.
 
+Laboratório - Gerenciamento de risco
+Introdução
+O processo de uma empresa de identificar e avaliar riscos é um esforço contínuo, porque os tipos de ameaças mudam e nunca desaparecem completamente. O objetivo do gerenciamento de riscos é reduzir essas ameaças a um nível aceitável. Existem diferentes níveis de gerenciamento de riscos. As empresas devem gerenciar corretamente os riscos para proteger as informações e os sistemas de informação. O gerenciamento de riscos também ajuda a evitar ações legais, interrupções nas operações e protege a reputação das empresas.
+
+Objetivos
+Explore o processo de gerenciamento de riscos.
+
+Parte 1: Explicar os níveis de ação de risco
+
+Parte 2: Explicar os conceitos de gerenciamento de riscos
+
+Parte 3: Explicar os processos de gerenciamento de riscos
+
+Recursos necessários
+PC ou dispositivo móvel com acesso à internet
+
+Instruções
+Parte 1: Níveis de ação de risco
+O gerenciamento de riscos é a identificação, avaliação e priorização de riscos. As empresas gerenciam os riscos de uma das quatro maneiras. Cada um pode ser uma escolha apropriada, dependendo das circunstâncias e do tipo de risco em questão:
+
+·       Prevenção (eliminação) - A prevenção de riscos é a remoção ou a eliminação completa dos riscos de uma ameaça específica. Por exemplo, evitar ou eliminar a ameaça de compartilhamento ou uso indevido de senhas dos usuários poderia envolver a implementação de um sistema de autenticação de impressão digital em todas as estações de trabalho dos usuários.
+
+·        Mitigação (redução) - A mitigação de riscos envolve a implementação de controles que permitem à empresa continuar a executar uma atividade enquanto usa mecanismos para reduzir o risco de uma determinada ameaça. Uma empresa também pode aumentar seus controles técnicos e a supervisão da rede para reduzir o risco de ameaças operacionais.
+
+·       Transferência - as empresas podem transferir riscos de ameaças específicas. O risco financeiro de uma ameaça pode ser gerenciado com a compra de uma apólice de seguro ou a contratação de um prestador de serviço para lidar com ameaças específicas.
+
+·       Aceitar - Aceitar o risco envolve a identificação das ameaças, mas não implementar processos de mitigação somente depois que uma decisão consciente for tomada para fazer isso. A decisão consciente é informada pela análise dos vários componentes do risco antes de prosseguir.
+
+Etapa 1: Gerenciar o risco.
+Nesta etapa, você descreverá exemplos de gerenciamento de riscos associados a ameaças específicas às informações ou aos sistemas de informações da empresa.
+
+a.     Uma empresa é regularmente solicitada a lidar com informações confidenciais de clientes. A divulgação dessas informações representa um sério risco para a empresa
+
+Pergunta:
+Quais etapas a empresa pode implementar para eliminar o risco associado a e-mails ou transferências acidentais dessas informações?
+A empresa pode implementar uma política que proíbe que os funcionários enviem por e-mail ou transfiram dados de clientes. A empresa também pode impedir que os funcionários acessem essas informações. A empresa também pode rastrear e bloquear todos os dados enviados por e-mail ou transferidos da rede da empresa.
+
+
+b.     A empresa teve vários problemas de funcionários que compartilham senhas ou usam senhas fracas.
+
+Perguntas:
+Cite duas maneiras de reduzir esse risco.
+Implemente políticas e diretrizes de senha da empresa e reforce o uso de senhas fortes em todo o sistema da empresa.
+
+
+Dê dois exemplos de transferência de riscos de uma empresa.
+As respostas podem variar, mas o uso de seguros ou contratos de nível de serviço deve ser mencionado.
+
+
+Etapa 2: Explore os níveis de risco.
+O processo de uma empresa de identificar e avaliar riscos é um esforço contínuo, porque os tipos de ameaças mudam e nunca desaparecem completamente. O objetivo do gerenciamento de riscos é reduzir essas ameaças a um nível aceitável.
+
+Perguntas:
+Realize uma pesquisa na internet usando os seguintes termos: negligência, devido cuidado e diligência para responder às seguintes perguntas:
+
+O que é negligência? Dê um exemplo das consequências da negligência.
+As respostas variam. Negligência significa que nenhuma ação ou controle é feito para reduzir os riscos. A ameaça é muito alta e o custo de um incidente pode ser catastrófico e pode levar a acusações criminais.
+
+Defina o devido cuidado e a devida diligência e explique a diferença entre esses dois termos.
+As respostas variam. O devido cuidado envolve tomar medidas razoáveis para reduzir o nível de risco. O risco ainda existe, mas medidas razoáveis reduzem uma possível perda. A due diligence diligência prévia envolve etapas responsáveis tomadas para eliminar o risco. Alguns riscos ainda existem, mas vários controles são implementados para evitar possíveis perdas.
+
+
+Parte 2: Conceitos de gerenciamento de riscos
+O gerenciamento de riscos é uma técnica usada para identificar e avaliar os fatores que podem ameaçar as informações e os sistemas de informação. O estudo de análise de risco inclui vários termos e conceitos comumente usados, incluindo o seguinte:
+
+Ativos - ativos são tudo de valor usado e necessário para a conclusão de uma tarefa comercial. Os ativos incluem itens tangíveis e intangíveis, como equipamentos, código de software, dados, instalações, pessoal, valor de mercado e opinião pública. O gerenciamento de riscos tem a ver com a proteção de recursos valiosos da empresa.
+
+Ameaças - As ameaças são um ato mal-intencionado ou um evento inesperado que danifica os sistemas de informações ou outros recursos organizacionais relacionados. Podem ser ações intencionais que resultam em perda ou dano a um ativo. As ameaças também podem ser não intencionais, como um acidente, um desastre natural ou falha de equipamento.
+
+Vulnerabilidade - Vulnerabilidades são qualquer falha ou fraqueza que permitiria que uma ameaça causasse dano e danificasse um ativo. Exemplos podem ser código de falha, configurações incorretas e falha ao seguir procedimentos.
+
+Impacto - O impacto ao risco é o dano ocorrido por um evento que causa a perda de um ativo ou a interrupção do serviço. Esse dano pode ser medido de forma quantitativa ou qualitativa com base no impacto nas operações da empresa.
+
+Risco - Risco é a probabilidade de perda devido a uma ameaça aos ativos de uma empresa.
+
+Contramedidas - Contramedidas são uma ação, um dispositivo ou uma técnica que reduz uma ameaça ou uma vulnerabilidade ao eliminá-la ou evitá-la. Um exemplo seria software antivírus, firewalls, políticas e treinamento.
+
+Avaliação de riscos - A avaliação de riscos é o processo de identificação de vulnerabilidades e ameaças e avaliação dos possíveis impactos para determinar onde implementar controles de segurança.
+
+O que é uma avaliação de risco à segurança? Uma avaliação de riscos identifica, quantifica e prioriza os riscos e vulnerabilidades em um sistema. Uma avaliação de risco identifica ameaças e agentes de ameaças reconhecidos e a probabilidade de que esses fatores resultem em uma exposição ou perda.
+
+Estudo de caso:
+
+Uma empresa gerencia um banco de dados de clientes que rastreia compras on-line dos produtos. Essas compras são feitas com contas do PayPal ou cartões de crédito. O servidor de banco de dados tem várias vulnerabilidades. O banco de dados está em um servidor na sala do servidor na sede da empresa. O servidor custou US $ 25.000. O banco de dados é composto por todos os 40.000 clientes e mais de 1,5 milhão de transações. O servidor registra mais de 120 transações por dia, gerando mais de 25 mil por dia em vendas. O backup da base de dados é feito diariamente às 2h da manhã. Todos os pedidos também são rastreados e conectados em sistemas separados em caso de falha do servidor. Esse processo pode levar até 50 horas/homem de entrada para processamento manual todos os dias.
+
+Perguntas:
+Cite pelo menos dois tipos de vulnerabilidades que a equipe de segurança digital deve analisar:
+As respostas vão variar. As vulnerabilidades podem incluir falhas de hardware, ataques de hackers, desastres naturais, malware e configurações incorretas.
+
+Descreva as possíveis ameaças ao servidor com base nas vulnerabilidades que você identificou:
+As respostas variam. As ameaças ao servidor devem incluir queda de hardware com base em falhas de equipamento, violação de dados ou ataque de ransomware, incêndio, tornado, furacões, terremotos, sistema corrompido ou danos devido a malware ou falha do sistema ou mau desempenho devido a configurações incorretas.
+
+
+Descreva o impacto para a empresa devido às seguintes ameaças:
+●   Violação de dados
+As respostas variam. O impacto pode variar de perda completa do servidor de banco de dados a afetar as vendas e a receita para a empresa. O impacto também pode incluir danos à reputação da empresa.
+●  Ransomware
+As respostas variam. O impacto pode variar de perda completa do servidor de banco de dados a afetar as vendas e a receita das empresas e a interrupção das operações regulares. O impacto também pode incluir danos à reputação da empresa.
+●   Falha de hardware:
+As respostas variam. O impacto pode variar de perda completa do servidor de banco de dados a afetar as vendas e a receita para a empresa. O impacto também pode incluir danos à reputação da empresa.
+
+
+Liste uma contramedida para as seguintes ameaças ao servidor de banco de dados da empresa:
+
+●   Violação de dados
+As respostas variam. As medidas de contador para violações de dados podem incluir políticas ou procedimentos atualizados, criptografia de dados, treinamento dos funcionários em relação a medidas de segurança, atualizações de segurança e limite de acesso de acordo com a necessidade.
+●   Ataque de ransomware:
+As respostas variam. As medidas de contraponto para o ataque de ransomware podem incluir software antivírus e antimalware, SO e aplicativos atualizados, backups de dados, aplicar políticas de segurança e mecanismos de controle de acesso físico.
+●   Falha de hardware:
+As respostas variam. As medidas de medição para falhas de hardware podem incluir redundância de hardware, mecanismos de controle de acesso e substituir equipamentos obsoletos.
+●   Malware:
+As respostas variam. As medidas de contenção poderiam incluir software antivírus e antimalware, sistemas operacionais e aplicativos atualizados, backups de dados, aplicar políticas de segurança e mecanismos de controle de acesso físico.
+
+
+
+Parte 3: Processos de gerenciamento de riscos
+O gerenciamento de riscos é um processo formal que reduz o impacto de ameaças e vulnerabilidades. Não é possível eliminar completamente o risco, mas é possível gerenciá-lo a um nível aceitável. O gerenciamento de riscos mede o impacto de uma ameaça e o custo para implementar controles ou contramedidas para atenuar a ameaça. Todas as empresas aceitam algum risco. O custo de uma contramedida não deve ser superior ao valor do ativo que você está protegendo.
+
+Etapa 1: Estruturar e avaliar os riscos
+Identifique as ameaças em toda a organização que aumentam o risco. As ameaças identificadas incluem processos, produtos, ataques, falha potencial ou interrupção de serviços, percepção negativa da reputação da organização, potencial responsabilidade legal ou perda de propriedade intelectual.
+
+Depois que um risco é identificado, ele é avaliado e analisado para determinar a gravidade que a ameaça representa. Algumas ameaças podem paralisar toda a organização, enquanto outras ameaças são pequenas inconveniências. O risco pode ser priorizado pelo impacto financeiro real (análise quantitativa) ou um impacto em escala na operação da organização (análise qualitativa).
+
+Em nosso exemplo, as seguintes vulnerabilidades foram identificadas. Atribua um valor quantitativo a cada risco com base nas respostas do seu comitê. Justifique o valor que você determinou.
+
+Pergunta:
+Use o estudo de caso para formular suas respostas.
+
+●   Violação de dados que afeta todos os clientes:
+As respostas variam. O impacto de uma violação de dados pode custar US $ 100.000 ou mais e 5 dias úteis para restaurar os dados.
+
+●   Falha de hardware do servidor que exige substituição de hardware:
+As respostas variam. O impacto da falha de hardware pode custar US $ 5.000 ou mais e 2 dias úteis para substituir falhas de hardware.
+
+●   Ransomware que afeta todo o banco de dados do servidor:
+As respostas variam. O impacto do ataque de ransomware pode custar US $ 20.000 ou mais e são necessários 5 dias úteis para restaurar os dados e remover o ransomw.
+
+●   Inundação na sala do servidor causada pela ativação de sprinklers:
+As respostas variam. O impacto da inundação pode custar US $ 50.000 ou mais e 3 dias úteis para substituir o hardware danificado e restaurar os dados.
+
+
+Etapa 2: Responder ao risco
+Esta etapa envolve o desenvolvimento de um plano de ação para reduzir a exposição ao risco geral da empresa. O gerenciamento classifica e prioriza ameaças; uma equipe determina como responder a cada ameaça. Eles podem ser mitigados, transferidos ou aceitos.
+
+Pergunta:
+Classifique as vulnerabilidades e proponha uma possível medida preventiva para cada ameaça.
+
+●   Violação de dados que afeta todos os clientes:
+As respostas variam. O impacto de uma violação de dados é alto. Pode custar US $ 100.000 ou mais, além da confiança do cliente e da reputação da empresa. Algumas das contramedidas podem ser treinamento de funcionários, criptografia de dados e atualizações de software e hardware.
+
+
+●   Falha de hardware do servidor que exige substituição de hardware:
+As respostas variam. O impacto da falha de hardware do servidor é médio e pode custar US $ 5.000 ou mais, além de custos de serviço. Algumas das contramedidas podem ser backups de dados e do sistema.
+
+
+●   Ransomware que afeta todo o banco de dados do servidor:
+As respostas variam. O impacto do ataque de ransomware é baixo e pode custar US $ 20.000 ou mais. Isso pode causar interrupção do serviço e perda de dados. Algumas das contramedidas podem ser treinamento de segurança e backup de dados.
+
+
+●   Inundação na sala do servidor causada pela ativação de sprinklers:
+As respostas variam. O impacto do ataque de ransomware é baixo e pode custar US $ 50.000 ou mais. Isso pode causar interrupção do serviço e perda de dados. Algumas das contramedidas podem ser seguro de compra e backup de dados.
+
+
+Etapa 3: Monitorar riscos
+Revise continuamente as reduções de risco devido a ações de eliminação, mitigação ou transferência. Nem todos os riscos podem ser eliminados, portanto, as ameaças aceitas precisam ser monitoradas de perto. É importante entender que algum risco está sempre presente e é aceitável. À medida que as contramedidas são implementadas, o impacto no risco diminui. É necessário monitorar e revisar constantemente novas contramedidas.
+
+Pergunta:
+Quais ações podem diminuir o impacto de uma ameaça de ransomware?
+As respostas variam. Escolha de duas a três contramedidas e explique como elas eliminariam o impacto potencial.
+
+
+**O Processo de gerenciamento de riscos**
+O gerenciamento de riscos é um processo formal que mede o impacto de uma ameaça e o custo para implementar controles ou contramedidas para atenuar essa ameaça.
+
+O risco não pode ser eliminado completamente, mas ainda pode ser gerenciado para um nível aceitável. Todas as empresas aceitam algum risco, e o custo de uma contra-medida não deve ser maior do que o valor do ativo que está sendo protegido.
+
+Enquadre o Risco
+Identifique as ameaças em toda a organização que aumentam o risco. As ameaças identificadas incluem processos, produtos, ataques, falha potencial ou interrupção de serviços, percepção negativa da reputação da organização, potencial responsabilidade legal ou perda de propriedade intelectual.
+
+Avaliar Risco
+Depois que um risco é identificado, ele é avaliado e analisado para determinar a gravidade que a ameaça
+representa. Algumas ameaças podem paralisar toda a organização, enquanto outras ameaças são pequenas
+inconveniências. O risco pode ser priorizado pelo impacto financeiro real (análise quantitativa) ou um
+impacto em escala na operação da organização (análise qualitativa).
+
+Responsa ao risco
+Desenvolver um plano de ação para reduzir a exposição geral aos riscos da empresa. O gerenciamento classifica e prioriza ameaças; uma equipe determina como responder a cada ameaça. Eles podem ser mitigados, transferidos ou aceitos.
+
+Monitore o Risco
+Revise continuamente as reduções de risco devido a ações de eliminação, mitigação ou transferência.
+Nem todos os riscos podem ser eliminados, portanto, as ameaças aceitas precisam ser monitoradas de perto. Uma empresa pode usar um registro de riscos -um programa de software ou serviço de nuvem - para registrar informações sobre riscos identificados. O registro de riscos contém detalhes sobre os riscos e os controles implementados ou as estratégias de resposta usadas.
+
+
 
 
