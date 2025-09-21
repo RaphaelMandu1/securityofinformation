@@ -962,3 +962,12 @@ RegistryDemo, RegistryDemo.EXE, cdnupdaterapi.png e ooiwy.pdf.exe
 
 Qual é a máquina de destino?
 A máquina de destino é uma com processadores Intel 386 ou posteriores e processadores compatíveis.
+
+
+
+**Fontes de informação**
+Existem muitas organizações que fornecem inteligência de rede. As organizações de segurança de rede incluem SANS, Mitre, FIRST, SecurityNewsWire, (ISC) 2 e CIS. Você deve se manter atualizado sobre as ameaças mais recentes e continuar a atualizar suas habilidades. O Cisco Annual Cybersecurity Report e o Mid-Year Cybersecurity Report são ótimos recursos para usar. Também é útil ler blogs e ouvir podcasts.
+
+Serviços de inteligência de ameaças
+Os serviços de inteligência contra ameaças permitem a troca de informações sobre ameaças, como vulnerabilidades, indicadores de comprometimento (IOC) e técnicas de mitigação. Essas informações não são compartilhadas apenas com o pessoal, mas também com sistemas de segurança. À medida que as ameaças surgem, os serviços de inteligência de ameaças criam e distribuem regras de firewall e IOCs para os dispositivos que assinaram o serviço. Um desses serviços é o Cisco Talos Threat Intelligence Group. FireEye é outra empresa de segurança que oferece serviços para ajudar as empresas a proteger suas redes. A FireEye usa uma abordagem de três frentes combinando inteligência de segurança, experiência em segurança e tecnologia. A FireEye oferece SIEM e SOAR com a Helix Security Platform, que usa análise comportamental e detecção avançada de ameaças, com suporte da rede mundial de inteligência contra ameaças da FireEye Mandiant. O Departamento de Segurança Interna dos EUA (DHS) oferece um serviço gratuito chamado Automated Indicator Sharing (AIS). O AIS permite a troca em tempo real de indicadores de ameaças cibernéticas entre o Governo Federal dos EUA e o setor privado. O governo dos Estados Unidos patrocinou a MITRE Corporation para criar e manter um catálogo de ameaças de segurança conhecidas chamadas Common Vulnerabilities and Exposure (CVE). Três padrões comuns de compartilhamento de informações sobre ameaças incluem STIX (Structured Threat Information Expression), Trusted Automated Exchange of Indicator Information (TAXII) e CyBox. Esses padrões abertos fornecem as especificações que auxiliam na troca automatizada de informações de inteligência de ameaças cibernéticas em um formato padrão.
+
