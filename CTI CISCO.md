@@ -1145,6 +1145,213 @@ Para que uma pontuação seja calculada para os grupos de métricas Temporal ou 
 
 
 
+Outras fontes de informações sobre vulnerabilidades
+Existem outras fontes importantes de informações sobre vulnerabilidades. Estes trabalham em conjunto com o CVSS para fornecer uma avaliação abrangente da gravidade da vulnerabilidade. Existem dois sistemas que operam nos Estados Unidos:
+
+**Vulnerabilidades e exposições comuns (CVE)**
+
+Este é um dicionário de nomes comuns, na forma de identificadores CVE, para vulnerabilidades conhecidas de segurança cibernética. O identificador CVE fornece uma maneira padrão de pesquisar uma referência a vulnerabilidades. Quando uma vulnerabilidade for identificada, identificadores CVE podem ser usados para acessar correções. Além disso, os serviços de inteligência contra ameaças usam identificadores CVE e aparecem em vários logs do sistema de segurança. O site Detalhes do CVE fornece uma ligação entre as pontuações do CVSS e as informações do CVE. Ele permite a navegação de registros de vulnerabilidade CVE por classificação de gravidade CVSS.
+
+Pesquise Mitre na internet para obter mais informações sobre CVE como mostrado na figura.
+cve.mitre.org
+
+**National Vulnerability Database (NVD)**
+
+Isso utiliza identificadores CVE e fornece informações adicionais sobre vulnerabilidades, como pontuações de ameaças CVSS, detalhes técnicos, entidades afetadas e recursos para investigação adicional. O banco de dados foi criado e é mantido pela agência do National Institute of Standards and Technology (NIST) do governo dos EUA.
+
+nvd.nist.gov
+
+
+Laboratório - Avaliar vulnerabilidades
+Objetivos
+Neste laboratório, analisaremos os recursos de um exemplo de relatório de vulnerabilidade de teste penetração.
+
+Parte 1: Conheça os criadores do relatório de avaliação de vulnerabilidade
+
+Parte 2: Seções de revisão do relatório
+
+Histórico/Cenário
+As avaliações de vulnerabilidade podem ser realizadas internamente ou por empresas terceirizadas. As avaliações de vulnerabilidade são geralmente automatizadas. Os hosts de rede acessíveis são identificados e verificados com ferramentas de avaliação de vulnerabilidade. A verificação cria muitos dados que mapeiam os endereços IP do host para as vulnerabilidades detectadas. Com base nesses dados, é possível criar dados de resumo e visualizações para simplificar a interpretação do relatório.
+
+Quando identificadas, as vulnerabilidades são classificadas com frequência por gravidade, usando um meio padrão de fazer isso, como o CVSS. Além disso, informações de referência são frequentemente fornecidas para permitir uma pesquisa mais profunda, se necessário. Normalmente, um número de CVE será fácil de investigar mais.
+
+O relatório pode sugerir técnicas comuns de mitigação que orientam a equipe de segurança digital sobre como eliminar as vulnerabilidades que foram identificadas.
+
+Recursos necessários
+●   Computador com acesso à Internet
+
+●   Exemplo de relatório de avaliação de vulnerabilidade
+
+Instruções
+Parte 1: Conheça os criadores do relatório de avaliação de vulnerabilidade
+Etapa 1: Pesquise a fonte do relatório.
+O relatório que usaremos neste laboratório foi criado pelo serviço de higiene cibernética do NCATS.
+
+Pesquise o NCATS na Internet e responda às seguintes perguntas.
+
+Perguntas:
+O que significa NCATS?
+Avaliações nacionais de segurança cibernética e serviços técnicos
+
+O que é o Serviço de verificação de vulnerabilidades da Cyber Higiene? Pesquise detalhes na Web.
+É um serviço gratuito de avaliação de vulnerabilidades fornecido pela Agência de segurança de segurança digital e segurança (CISA) do Departamento de segurança nacional dos EUA.
+
+Quais outros serviços de segurança digital estão disponíveis no NCATS?
+Além da varredura de vulnerabilidade da Cyber Higiene, o NCATS oferece a Avaliação de campanhas de phishing, Avaliação de risco e vulnerabilidade e Validação de projeto de arquitetura.
+
+Para quem esses serviços estão disponíveis?
+Governos federais, estaduais, locais, tribais e territoriais e organizações de infraestrutura essenciais dos setores público e privado nos EUA.
+
+Etapa 2: Localizar e abrir o relatório.
+a.     O link para o relatório que analisaremos está diretamente na seção Cyber Hhigiene: Análise de vulnerabilidade da página do NCATS. Para acessar o link pelo mecanismo de pesquisa do Google, digite o seguinte: site: us-cert.cisa.gov/CyHy.
+
+b.     Abra o relatório e analise o índice para ter uma ideia do que está incluído.
+
+Parte 2: Seções de revisão do relatório
+As duas primeiras seções do relatório explicam o uso pretendido e fornecem uma visão geral de alto nível, como um painel, dos resultados do relatório.
+
+Etapa 1: Revise a seção Como usar o relatório.
+É importante entender o uso pretendido de qualquer relatório de avaliação de segurança. Um bom relatório fornecerá diretrizes úteis e focadas para o uso da avaliação.
+
+Observação: como este relatório é um exemplo, a empresa para a qual o relatório foi preparado é chamada de Empresa de amostra (Amostra).
+
+Reveja os resultados e responda às seguintes perguntas.
+
+Qual é o objetivo do relatório?
+Ajudar as empresas a fortalecer sua postura de segurança.
+
+Em que seção do relatório você pode encontrar uma visão geral de alto nível dos resultados da avaliação, incluindo algumas comparações de desempenho semanal?
+Boletim informativo sobre a higiene cibernética
+
+Onde você pode encontrar uma lista detalhada de descobertas e recomendar mitigações para cada vulnerabilidade?
+Apêndice C
+
+O que permite abrir facilmente os resultados da digitalização em uma planilha ou em outro documento tabular?
+No Apêndice G, os arquivos s separados por vírgulas (CSV) são fornecidos para essa finalidade.
+
+
+Etapa 2: Revisar o Boletim informativo sobre higiene cibernética.
+Veja o boletim informativo sobre a higiene cibernética. Isso fornece um resumo de alto nível dos resultados da avaliação. Essa empresa é verificada semanalmente, então há algumas informações de tendência que são fornecidas com os resultados da verificação atual.
+
+Perguntas:
+Qual porcentagem dos hosts verificados foram considerados vulneráveis? Como isso se compara à verificação anterior?
+10%, ou 393, hosts foram considerados vulneráveis. Isso significa 44 hosts a menos do que a verificação anterior.
+
+As vulnerabilidades são classificadas por gravidade. Qual nível de gravidade representa o maior número de hosts recentemente vulneráveis?
+Outros 108 hosts foram recentemente identificados como tendo vulnerabilidades de gravidade média.
+
+Que tipo de vulnerabilidade requer mais tempo para a empresa mitigar?
+A empresa leva um tempo médio de 158 dias para reduzir uma vulnerabilidade de nível médio.
+
+A verificação incluiu 293.005 endereços IP, mas avaliou apenas 3.986 hosts. Por que você acha que isso é?
+A organização de exemplo forneceu acesso a um espaço de endereço de 293.005 endereços, mas, no momento da verificação, apenas 3.986 estavam ativos e acessíveis para a verificação.
+
+
+Etapa 3: Analisar o resumo executivo.
+Ir para Resumo executivo Leia esta seção e responda às seguintes perguntas.
+
+Perguntas:
+Quais foram as duas principais funções da avaliação e quais hosts ela avaliou?
+A avaliação conduziu o mapeamento de rede para identificar hosts e outras informações e a avaliação de vulnerabilidade de hosts acessíveis pela Internet que foram encontrados durante o mapeamento.
+
+
+Quantos tipos distintos de vulnerabilidades foram identificados?
+63
+
+Das cinco principais vulnerabilidades por ocorrência, qual sistema ou protocolo comum foi considerado mais vulnerável?
+Certificados SSL e pacotes de criptografia.
+
+Das cinco principais categorias por grau de risco, quais vulnerabilidades parecem estar relacionadas a uma determinada peça de hardware de rede? O que é o dispositivo?
+MikroTik Router OS 6.41.3 SMB e MikroTik RouterOS HTTP Server arbitrário. É um roteador MikroTik.
+
+Pesquise na Web em “MikroTik Router OS 6.41.3 SMB”. Localize a entrada de CVE para esta vulnerabilidade no site National Vulnerability Database (NVD). Qual é a pontuação básica e a classificação de gravidade do CVSS?
+Classificação básica de CVSS 9.8, classificação crítica (CVE-2018-7445).
+
+Localize o relatório de divulgação completo desta CVE pesquisando na Web ou clicando em um link de referência. No relatório completo, quais são as duas formas de mitigar a vulnerabilidade?
+O relatório completo pode ser encontrado no site Seclists.org. O item 5 diz que o sistema operacional do roteador deve ser atualizado para a versão 6.41.3 ou superior, ou o serviço SMB deve ser desativado.
+
+
+Que tipo de vulnerabilidade é essa e o que um invasor pode fazer quando é explorada?
+uma saturação do buffer Os invasores podem facilmente executar o código do sistema porque o usuário não precisa ser autenticado para explorá-lo.
+
+O que a empresa de exemplo deve ter feito para impedir que essa vulnerabilidade crítica apareça na rede?
+Eles deveriam estar seguindo os avisos de produto do hardware de rede. Depois que eles foram informados sobre a vulnerabilidade, eles deveriam ter atualizado a versão do RouterOS o mais rápido possível.
+
+
+Etapa 4: Analisar a metodologia e o processo de avaliação.
+É importante avaliar a metodologia usada para criar uma avaliação de vulnerabilidade para determinar a qualidade do trabalho que foi feito. Analise o material nessa seção do relatório.
+
+Perguntas:
+Na seção Processo, o relatório menciona uma rede IP na qual a verificação foi realizada. Qual é a rede IP e para quem ela é registrada? Por que é importante informar isso à empresa exemplo?
+64.69.57.0/ 24. Vários sites de consulta de endereço IP relatam que essa rede IP está registrada no Departamento de Segurança Nacional dos EUA. Como o processo de avaliação de vulnerabilidades realiza varreduras detalhadas na rede da empresa, isso pode ser interpretado como um ataque de reconhecimento de um agente de ameaças. A empresa pode tentar acidentalmente mitigar a ameaça ao bloquear os endereços IP na rede na borda da rede. Além disso, para que a verificação seja bem-sucedida, talvez seja necessário permitir o acesso de endereços dessa rede através de um firewall para conexões originadas de fora da rede.
+
+
+O que qualifica um computador para ser designado como host para os fins deste relatório?
+Um host é definido como um dispositivo com um endereço que tem pelo menos um serviço aberto ou de escuta em execução.
+
+
+Qual ferramenta a varredura usou para mapeamento de rede? Qual ferramenta foi usada para avaliação de vulnerabilidade?
+O Nmap foi usado para mapeamento de rede e o Nessus foi usado para varredura de vulnerabilidade.
+
+
+Quem oferece o produto Nessus e qual é a limitação da versão do Nessus que pode ser baixada gratuitamente?
+A Tenable fornece o produto Nessus. A versão gratuita é limitada à verificação de apenas 16 endereços IP.
+
+Vulnerabilidades com que intervalo de pontuações do CVSS são rotuladas como de "Alta" gravidade?
+Vulnerabilidades com uma pontuação base no CVSS de 7,0 a 10,0
+
+
+Etapa 5: Investigar as vulnerabilidades detectadas.
+Acesse a seção 7 do relatório e localize a Tabela 6. Os nomes de vulnerabilidade consistem em uma frase descritiva padrão. Selecione uma descrição e procure-a na Web. Você verá um link para tenable.com para cada um deles. A Tenable mantém páginas de referência para as vulnerabilidades que podem ser detectadas pelo Nessus.
+
+a. Abra a página de referência da vulnerabilidade e revise as informações fornecidas pelo Tenable. Leia o resumo e a descrição da vulnerabilidade. Algumas páginas de referência oferecem medidas de mitigação sugeridas.
+
+b. Selecione três das vulnerabilidades na lista de principais vulnerabilidades e repita esse processo. Analise a vulnerabilidade, o número de CVE, a descrição e as medidas de mitigação, se houver. Investigue mais a vulnerabilidade se estiver interessado.
+
+Etapa 6: Investigar a mitigação de vulnerabilidades.
+Acesse o Apêndice C do relatório. As técnicas de mitigação estão listadas para muitas das vulnerabilidades detectadas. Responda às perguntas a seguir.
+
+Perguntas:
+Qual é o endereço IP do host que está executando um serviço PHP vulnerável? Por que você acha que essa vulnerabilidade existe neste host?
+xx124.231. O host precisa que seu software seja atualizado. Aparentemente, o gerenciamento de patches e os serviços de atualização não são usados para o host.
+
+O que deve ser feito para mitigar essa vulnerabilidade?
+Atualize o software de serviço do php para a versão 5.6.34 ou superior.
+
+
+Há muitos problemas associados ao SSL. Quais são algumas das medidas de mitigação recomendadas no relatório?
+Forçar o uso de SSL em alguns protocolos.
+Adquirir ou gerar certificados adequados para os serviços.
+Substituir certificados expirados.
+Configurar aplicativos para usar criptografias de força apropriadas.
+Substitua o SSL 2.0 ou 3.0 pelo TLS 1.1 ou superior.
+
+
+1. Descreva a avaliação de vulnerabilidade realizada pelo NCCIC, inclusive como ela foi realizada, as ferramentas utilizadas e uma breve descrição dos resultados.,
+O NCCIC oferece um serviço gratuito de varredura de vulnerabilidades para organizações governamentais e do setor privado qualificadas. A verificação é feita de forma remota e periódica. Os relatórios dos resultados estão disponíveis para os beneficiários. Os relatórios podem ser usados para descobrir vulnerabilidades, preparar tendências e atualizações semanais e orientar na mitigação de vulnerabilidades. O NCCIC usa o Nmap para criar um mapa de rede no qual os hosts são identificados e o Nessus para verificar se há vulnerabilidades nos hosts identificados. Os relatórios incluem vários detalhes, tabelas e gráficos para ajudar a comunicar aos beneficiários os problemas de segurança na rede que exigem atenção. Cada vulnerabilidade é classificada por gravidade de acordo com a pontuação do CVSS.
+
+
+Como os nomes de vulnerabilidade são úteis para investigações futuras?
+Os nomes de vulnerabilidade correspondem a uma referência mantida pela Tenable, a empresa que oferece o Nessus. A referência de Tenable fornece mais detalhes sobre as vulnerabilidades e muitas vezes fornece links para outras fontes para obter mais informações. A referência de Tenable também fornece links para especificações de CVE para a vulnerabilidade. A Tenable também fornece os vetores CVSS para a vulnerabilidade.
+
+
+2. Forneça três ações que você pode adotar, com base nas informações fornecidas em um relatório de higiene cibernética.
+As respostas variam. Alguns exemplos são:
+
+Use o relatório para identificar vulnerabilidades críticas que devem ser abordadas imediatamente.
+Identificar hosts que exigem medidas de mitigação para lidar com vulnerabilidades, especialmente se o host tiver várias vulnerabilidades.
+Identificar vulnerabilidades que são compartilhadas por muitos hosts na rede.
+Recomendar soluções centralizadas, como sistemas de gerenciamento de patches, para reduzir a probabilidade de vulnerabilidades críticas ou de alta gravidade aparecerem na rede.
+
+**Gerenciamento de risco**
+Um processo de gestão de riscos
+O gerenciamento de riscos envolve a seleção e especificação de controles de segurança para uma organização. Faz parte de um programa contínuo de segurança da informação em toda a organização que envolve a gestão do risco para a organização ou para indivíduos associados à operação de um sistema.
+
+A gestão de riscos é um processo contínuo, multi-passo, cíclico, como mostrado na figura.
+
+<img width="805" height="568" alt="image" src="https://github.com/user-attachments/assets/84acfc02-463c-4a99-9e82-238ff603252a" />
+
+
 
 
 
