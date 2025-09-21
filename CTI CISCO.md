@@ -1364,4 +1364,35 @@ Após a identificação dos riscos, eles podem ser pontuados ou ponderados como 
 A tabela lista as quatro formas potenciais de responder aos riscos identificados, com base em suas ponderações ou pontuações.
 
 
+Prevenção de riscos - Pare de realizar as atividades que criam risco.
+É possível que, como resultado de uma avaliação de risco, seja determinado que o risco envolvido em uma atividade supera o beneficio da atividade para a organização.
+Se isso for verdade, então pode ser determinado que a atividade deve ser descontinuada.
+Diminua o risco tomando medidas para reduzir a vulnerabilidade.
+Isso envolve a implementação de abordagens de gerenciamento discutidas anteriormente neste capítulo.
+
+Redução de risco - Por exemplo, se uma organização usa sistemas operacionais de servidor que são frequentemente visados por agentes de ameaças, o risco pode ser reduzido garantindo que os servidores sejam corrigidos assim que as vulnerabilidades forem identificadas.
+
+Compartilhamento de risco - Desloque parte do risco para outras partes.
+Por exemplo, uma técnica de compartilhamento de risco pode ser terceirizar alguns aspectos das operações de segurança para terceiros.
+A contratação de um CSIRT de segurança como serviço (SECaaS) para realizar o monitoramento de segurança é um exemplo.
+Outro exemplo é comprar um seguro que ajude a mitigar algumas das perdas financeiras devido a um incidente de segurança.
+
+Retenção de risco - Aceite o risco e suas consequências.
+Essa estratégia é aceitável para riscos que têm baixo impacto potencial e custo relativamente alto de mitigação ou redução.
+Outros riscos que podem ser retidos são aqueles que são tão dramáticos que não podem ser evitados, reduzidos ou compartilhados de forma realista.
+
+
+Gestão de Vulnerabilidade
+Ciclo de vida de gerenciamento de vulnerabilidade
+De acordo com o NIST, o gerenciamento de vulnerabilidades é uma prática de segurança projetada para impedir proativamente a exploração de vulnerabilidades de TI existentes em uma organização. O resultado esperado é reduzir o tempo e o dinheiro gasto para lidar com vulnerabilidades e a exploração dessas vulnerabilidades. O gerenciamento proativo de vulnerabilidades de sistemas reduzirá ou eliminará o potencial de exploração e envolverá consideravelmente menos tempo e esforço do que responder após uma exploração ter ocorrido.
+
+O gerenciamento de vulnerabilidades requer um meio robusto de identificar vulnerabilidades com base em boletins de segurança do fornecedor e em outros sistemas de informação, como o CVE. O pessoal de segurança deve ser competente para avaliar o impacto, se houver, das informações de vulnerabilidade recebidas. As soluções devem ser identificadas com meios eficazes de implementar e avaliar as consequências imprevistas das soluções implementadas. Finalmente, a solução deve ser testada para verificar se a vulnerabilidade foi eliminada.
+
+**Ciclo de vida de gerenciamento de vulnerabilidade**
+
+<img width="836" height="587" alt="image" src="https://github.com/user-attachments/assets/743d9f72-0e87-4ee3-8f5c-c824d2772da1" />
+
+
+
+
 
