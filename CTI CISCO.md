@@ -1080,6 +1080,68 @@ Grupos métricos CVSS
 
 <img width="839" height="561" alt="image" src="https://github.com/user-attachments/assets/f9bb38c6-5577-43b2-9797-1a895c5dc0be" />
 
+**Grupo de Métrica Base**
+Isso representa as características de uma vulnerabilidade que são constantes ao longo do tempo e em contextos. Ele tem duas classes de métricas:
+Explorabilidade- Esses são recursos da exploração, como vetor, complexidade e interação do usuário exigidas pela exploração.
+Métricas de impacto - Os impactos da exploração estão enraizados na tríade de confidencialidade, integridade e disponibilidade da CIA.
+
+**Grupo de Metrica Temporal**
+Isso mede as características de uma vulnerabilidade que pode mudar ao longo do tempo, mas não em ambientes de usuário. Ao longo do tempo, a gravidade de uma vulnerabilidade mudará à medida que for detectada e serão desenvolvidas medidas para combatê-la. A gravidade de uma nova vulnerabilidade pode ser alta, mas diminuirá à medida que patches, assinaturas e outras contramedidas forem desenvolvidas.
+
+**Grupo de Metrica Ambiental**
+Isso mede os aspectos de uma vulnerabilidade que estão enraizados no ambiente de uma organização específica. Essas métricas ajudam a classificar as consequências dentro de uma organização e permitem o ajuste de métricas menos relevantes para o que uma organização faz.
+
+
+
+**Grupo de Métrica Base**
+Vetor de Ataque - Essa é uma métrica que reflete a proximidade do agente da ameaça ao componente vulnerável. Quanto mais distante o agente da ameaça estiver do componente, maior será a gravidade. Atores de ameaças próximos à sua rede ou dentro de sua rede são mais fáceis de detectar e mitigar.
+
+Complexidade do ataque - Esta é uma métrica que expressa o número de componentes, software, hardware ou redes, que estão além do controle do invasor e que devem estar presentes para que uma vulnerabilidade seja explorada com sucesso.
+
+Privilégios obrigatórios - Esta é uma métrica que captura o nível de acesso necessário para uma exploração bem-sucedida da vulnerabilidade
+
+Interação de Usuário - Essa métrica expressa a presença ou ausência do requisito de interação do usuário para que uma exploração seja bem-sucedida.
+
+Escopo - Essa métrica expressa se várias autoridades devem estar envolvidas em uma exploração. Isso é expresso como se a autoridade inicial muda para uma segunda autoridade durante a exploração.
+
+As métricas de Impacto do Grupo Métrico Base aumentam com o grau ou conseqüência da perda devido ao componente afetado. A
+tabela lista os componentes de métrica de impacto.
+
+
+Impacto de  confidencialidade - Esta é uma métrica que mede o impacto na confidencialidade devido a uma vulnerabilidade explorada com sucesso. A confidencialidade refere-se à limitação do acesso a apenas usuários autorizados.
+
+Impacto de integridade - Esta é uma métrica que mede o impacto na integridade devido a uma vulnerabilidade explorada com sucesso. Integridade refere-se à confiabilidade e autenticidade das informações.
+
+Impacto de Disponibilidade - Essa é uma métrica que mede o impacto na disponibilidade devido a uma vulnerabilidade explorada com êxito. Disponibilidade refere-se à acessibilidade de informações e recursos de rede. Ataques que consomem largura de banda de rede, ciclos de processador ou espaço em disco afetam a disponibilidade.
+
+**Processo CVSS**
+O CVSS Base Metrics Group foi projetado como uma forma de avaliar vulnerabilidades de segurança encontradas em sistemas de software e hardware. Ele descreve a gravidade de uma vulnerabilidade com base nas características de uma exploração bem-sucedida da vulnerabilidade. Os outros grupos de métricas modificam a pontuação de gravidade base, contabilizando como a classificação de gravidade base é afetada por fatores de tempo e ambientais.
+
+O processo CVSS usa uma ferramenta chamada Calculadora CVSS v3.1, mostrada na figura.
+
+www.first.org/cvss/calculator
+
+A calculadora é como um questionário no qual são feitas escolhas que descrevem a vulnerabilidade para cada grupo de métricas. Depois que todas as escolhas são feitas, uma pontuação é gerada. O texto pop-up que explica cada métrica e valor métrico é exibido passando o mouse sobre cada um. As opções são feitas escolhendo um dos valores para a métrica. Apenas uma escolha pode ser feita por métrica.
+
+A calculadora CVSS pode ser acessada na parte CVSS do site FIRST.
+
+Um guia detalhado do usuário que define critérios métricos, exemplos de avaliações de vulnerabilidades comuns e a relação de valores métricos com a pontuação final está disponível para dar suporte ao processo.
+
+Após a conclusão do grupo Métrica Base, a classificação de gravidade numérica é exibida, conforme mostrado na figura.
+
+<img width="954" height="573" alt="image" src="https://github.com/user-attachments/assets/0b5910da-a9cc-4d76-9abf-6fe7947b2093" />
+
+<img width="943" height="598" alt="image" src="https://github.com/user-attachments/assets/859e3f2c-cf0c-4c46-a239-b886ff450ccf" />
+
+<img width="949" height="217" alt="image" src="https://github.com/user-attachments/assets/28a792ac-661b-4c53-a3b7-f5d5984558bd" />
+
+<img width="968" height="688" alt="image" src="https://github.com/user-attachments/assets/79ae745b-95b2-495a-9aa7-d576296454c4" />
+
+Para que uma pontuação seja calculada para os grupos de métricas Temporal ou Ambiental, o grupo Métrica Base deve primeiro ser concluído. Em seguida, os valores de métrica Temporal e Ambiental modificam os resultados da Métrica Base para fornecer uma pontuação geral. A interação das pontuações para os grupos métricos é mostrada na figura.
+
+<img width="940" height="699" alt="image" src="https://github.com/user-attachments/assets/ea4b14b1-3293-4af9-af18-a30ae0cac4a2" />
+
+
 
 
 
