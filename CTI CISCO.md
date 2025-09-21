@@ -1392,7 +1392,107 @@ O gerenciamento de vulnerabilidades requer um meio robusto de identificar vulner
 
 <img width="836" height="587" alt="image" src="https://github.com/user-attachments/assets/743d9f72-0e87-4ee3-8f5c-c824d2772da1" />
 
+Descobrir
+Inventário de todos os ativos na rede e identifique os detalhes do host, incluindo sistemas operacionais e serviços abertos, para identificar vulnerabilidades. Desenvolva uma linha de base da rede. Identifique vulnerabilidades de segurança em um agendamento automatizado regular.
 
+
+Priorizar Ativos
+Categorize os ativos em grupos ou unidades de negócios e atribua um valor comercial a grupos de ativos com base na sua importância às operações de negócios.
+
+
+Avaliar
+Determine um perfil de risco básico para eliminar riscos com base na importância, vulnerabilidade, ameaças e classificação de ativos.
+
+Delta
+Meça o nível de risco comercial associado aos seus ativos de acordo com suas políticas de segurança. Documente um plano de segurança, monitore atividades suspeitas e descreva vulnerabilidades conhecidas.
+
+Reparar
+Priorize de acordo com o risco comercial e resolva vulnerabilidades por ordem de risco.
+
+Verificar
+Verifique se as ameaças foram eliminadas por meio de auditorias de acompanhamento.
+
+
+**Gerenciamento de ativos**
+
+O gerenciamento de ativos envolve a implementação de sistemas que controlam a localização e a configuração de dispositivos e software em rede em uma empresa. Como parte de qualquer plano de gerenciamento de segurança, as organizações devem saber quais equipamentos acessam a rede, onde esse equipamento está dentro da empresa e logicamente na rede, e que software e dados esses sistemas armazenam ou podem acessar. O gerenciamento de ativos não apenas rastreia ativos corporativos e outros dispositivos autorizados, mas também pode ser usado para identificar dispositivos que não estão autorizados na rede.
+
+O NIST especifica na publicação NISTIR 8011 Volume 2, os registros detalhados que devem ser mantidos para cada dispositivo relevante. O NIST descreve técnicas e ferramentas potenciais para operacionalizar um processo de gerenciamento de ativos:
+
+Detecção automatizada e inventário do estado real dos dispositivos
+Articulação do estado desejado para esses dispositivos usando políticas, planos e procedimentos no plano de segurança das informações da organização
+Identificação de ativos autorizados não conformes
+Remediação ou aceitação do estado do dispositivo, possível iteração da definição de estado desejado
+Repita o processo em intervalos regulares ou em curso
+
+
+**Gerenciamento de dispositivos móveis**
+O gerenciamento de dispositivos móveis (MDM), especialmente na era do BYOD, apresenta desafios especiais para a gestão de ativos. Os dispositivos móveis não podem ser controlados fisicamente nas instalações de uma organização. Elas podem ser perdidas, roubadas ou adulteradas, colocando em risco o acesso a dados e à rede. Parte de um plano MDM é agir quando os dispositivos deixam a custódia da parte responsável. As medidas que podem ser tomadas incluem desativar o dispositivo perdido, criptografar os dados no dispositivo e aprimorar o acesso ao dispositivo com medidas de autenticação mais robustas.
+
+Devido à diversidade de dispositivos móveis, é possível que alguns dispositivos que serão usados na rede sejam inerentemente menos seguros do que outros. Os administradores de rede devem assumir que todos os dispositivos móveis não são confiáveis até que tenham sido adequadamente protegidos pela organização.
+
+Os sistemas MDM, como o Cisco Meraki Systems Manager, mostrado na figura, permitem que o pessoal de segurança configure, monitore e atualize um conjunto muito diversificado de clientes móveis a partir da nuvem.
+
+
+**Gerenciamento de configurações**
+
+O gerenciamento de configuração aborda o inventário e o controle das configurações de hardware e software dos sistemas. Configurações seguras de dispositivos reduzem o risco de segurança. Por exemplo, uma organização fornece muitos computadores e laptops para seus funcionários. Isso amplia a superfície de ataque para a organização, porque cada sistema pode ser vulnerável a explorações. Para gerenciar isso, a organização pode criar imagens de software de linha de base e configurações de hardware para cada tipo de máquina. Essas imagens podem incluir um pacote básico de software necessário, software de segurança de ponto de extremidade e políticas de segurança personalizadas que controlam o acesso do usuário a aspectos da configuração do sistema que poderiam ser tornados vulneráveis. As configurações de hardware podem especificar os tipos permitidos de interfaces de rede e os tipos permitidos de armazenamento externo.
+
+O gerenciamento de configuração se estende à configuração de software e hardware de dispositivos de rede e servidores também. Conforme definido pelo NIST, gerenciamento de configuração:
+
+Compreende uma coleção de atividades focadas no estabelecimento e manutenção da integridade de produtos e sistemas, através do controle dos processos de inicialização, mudança e monitoramento das configurações desses produtos e sistemas.
+
+A publicação especial NIST 800-128 sobre gerenciamento de configuração para segurança de rede está disponível para download no NIST.
+
+Para dispositivos de interrede, estão disponíveis ferramentas de software que farão backup de configurações, detectam alterações nos arquivos de configuração e habilitam a alteração em massa de configurações em vários dispositivos.
+
+Com o advento dos data centers em nuvem e da virtualização, o gerenciamento de vários servidores apresenta desafios especiais. Ferramentas como Puppet, Chef, Ansible e SaltStack permitem o gerenciamento eficiente de servidores usados na computação baseada em nuvem.
+
+
+**Gerenciamento de patches corporativos**
+O gerenciamento de patches está relacionado ao gerenciamento de vulnerabilidades. Vulnerabilidades aparecem frequentemente em sistemas operacionais e firmware críticos de cliente, servidor e dispositivo de rede. Software de aplicativos, especialmente aplicativos de Internet e estruturas como Acrobat, Flash e Java, também são freqüentemente descobertos como tendo vulnerabilidades. O gerenciamento de patches envolve todos os aspectos da aplicação de patches de software, incluindo a identificação de patches necessários, aquisição, distribuição, instalação e verificação de que o patch está instalado em todos os sistemas necessários. A instalação de patches é frequentemente a maneira mais eficaz de mitigar vulnerabilidades de software. Às vezes, eles são a única maneira de fazê-lo.
+
+O gerenciamento de patches é exigido por algumas regulamentações de conformidade, como Sarbanes Oxley (SOX) e a Lei de Portabilidade e Responsabilidade de Seguros de Saúde (HIPAA). A falha na implementação de patches de forma sistemática e oportuna pode resultar em falhas de auditoria e penalidades por não conformidade. O gerenciamento de patches depende dos dados de gerenciamento de ativos para identificar sistemas que executam software que exigem patches. O software de gerenciamento de patches está disponível em empresas como SolarWinds e LANDesk. O Microsoft System Center Configuration Manager (SCCM) é uma ferramenta de nível empresarial para distribuição automatizada de patches para um grande número de estações de trabalho e servidores Microsoft Windows.
+
+**Técnicas de gerenciamento de patch**
+
+Baseado em agentes
+Isso requer que um agente de software esteja sendo executado em cada host a ser corrigido. O agente informa se o software vulnerável está instalado no host. O agente se comunica com o servidor de gerenciamento de patches, determina se existem patches que exigem instalação e instala os patches. O agente é executado com privilégios suficientes para permitir que ele instale os patches. As abordagens baseadas em agentes são os meios preferidos para a aplicação de patches em dispositivos móveis.
+
+Varredura sem agente
+Os servidores de gerenciamento de patches verificam a rede em busca de dispositivos que exigem patches. O servidor determina quais patches são necessários e instala esses patches nos clientes. Somente os dispositivos que estão em segmentos de rede digitalizados podem ser corrigidos dessa maneira. Isso pode ser um problema para dispositivos móveis.
+
+Monitoramento de rede passivos
+Os dispositivos que requerem aplicação de patches são identificados através do monitoramento do tráfego na rede. Essa abordagem só é eficaz para software que inclui informações de versão em seu tráfego de rede.
+
+Perfil de rede e servidor
+É importante executar o perfil de rede e dispositivo para fornecer informações estatisticas de linha de base que podem servir como um ponto de referência para o desempenho normal da rede e do dispositivo. Elementos importantes do perfil de rede incluem duração da sessão, taxa de transferência total, portas usadas e espaço de endereço de ativos criticos. A definição de perfil do servidor é usada para estabelecer o estado operacional aceito dos servidores. Um perfil de servidor é uma linha de base de segurança para um determinado servidor. Estabelece os parámetros de rede, usuário e aplicativo que são aceitos para um servidor específico. O comportamento da rede é descrito por uma grande quantidade de dados diversos, como os recursos do fluxo de pacotes, os recursos dos próprios pacotes e a telemetria de várias fontes. A análise de Big Data pode ser usada para realizar a detecção de anomalias estatisticas, comportamentais e baseadas em regras.
+A segurança de rede pode ser avaliada usando uma variedade de ferramentas e serviços. Análise de risco é a avaliação do risco representado por vulnerabilidades a uma organização específica. A avaliação de vulnerabilidades usa software para verificar servidores voltados para a Internet e redes internas em busca de vários tipos de vulnerabilidades. O teste de penetração usa ataques simulados autorizados para testar a força da segurança da rede.
+
+Sistema de pontuação de vulnerabilidade com CVSS
+O Common Vulnerability Scoring System (CVSS) é uma estrutura aberta de padrão do setor neutro para classificar os riscos de uma determinada vulnerabilidade usando uma variedade de métricas para calcular uma pontuação composta. O CVSS produz pontuações padronizadas de vulnerabilidade que devem ser significativas em todas as organizações. É uma estrutura aberta com o significado de cada métrica abertamente disponível para todos os usuários. Ele permite priorizar o risco de uma forma que seja significativa para organizações individuais. O CVSS utiliza três grupos de métricas para avaliar a vulnerabilidade. Os grupos métricos são o grupo métrico base, o grupo de métricas temporais e o grupo de métricas ambientais. O grupo métrico base foi concebido como uma forma de avaliar vulnerabilidades de segurança encontradas em sistemas de software e hardware.
+As vulnerabilidades são classificadas de acordo com o vetor de ataque, a complexidade do ataque, os privilégios necessários, a interação do usuário e o escopo. Os grupos temporal e ambiental modificam o escore métrico base de acordo com o histórico da vulnerabilidade e o contexto da organização específica. Uma ferramenta de calculadora CVSS está disponível no site FIRST. A calculadora CVSS produz um número que descreve a gravidade do risco que é colocado pela vulnerabilidade. As pontuações variam de zero a dez. As faixas de escores apresentam valores qualitativos de risco nenhum, baixo, médio, alto ou critico. Em geral, qualquer vulnerabilidade que exceda 3.9 deve ser resolvida. Quanto maior o nível de classificação, maior a urgência para remediação. Outras fontes importantes de informações de vulnerabilidade incluem Vulnerabilidades e Exposições Comuns (CVE) e o Banco de Dados Nacional de Vulnerabilidades (NVD), ambos disponíveis online.
+
+Gerenciamento de dispositivo seguros.
+O gerenciamento de riscos envolve a seleção e especificação de controles de segurança para uma organização. Hà quatro maneiras potenciais de responder aos riscos, evitar riscos significa interromper a atividade vulnerável, o sistema ou o serviço porque o risco é muito alto. Redução do risco significa tomar medidas para mitigar o risco, a fim de limitar o seu impacto. Partilha de riscos significa terceirização da responsabilidade pelo risco ou utilização de seguro para cobrir danos causados pelo risco. Retenção de riscos significa aceitar o risco e não tomar nenhuma ação.
+O gerenciamento de vulnerabilidades é uma prática de segurança projetada para impedir proativamente a exploração de vulnerabilidades de TI existentes em uma organização. O ciclo de vida do gerenciamento de vulnerabilidades envolve seis etapas: descobrir, priorizar ativos, avaliar, relatar, corrigir e verificar. O gerenciamento de ativos envolve a implementação de sistemas que controlam a localização e a configuração de dispositivos e software em rede em uma empresa. Os sistemas de gerenciamento de dispositivos móveis (MDM) permitem que o pessoal de segurança configure, monitore e atualize um conjunto muito diversificado de clientes móveis a partir da nuvem. O gerenciamento de configuração aborda o inventário e o controle das configurações de hardware e software dos sistemas. O gerenciamento de patches está relacionado ao gerenciamento de vulnerabilidades e envolve todos os aspectos da aplicação de patches de software, incluindo a aquisição, distribuição, instalação e verificação de patches. O gerenciamento de patches é exigido por alguns regulamentos de conformidade. Existem diferentes técnicas de gerenciamento de patches, como varredura baseada em agente, sem agente e monitoramento passivo de rede.
+
+**GERENCIAMENTO DE RISCOS E CONTROLES DE SEGURANÇAS**
+
+Tipos de risco
+Risco é a probabilidade de perda devido a uma ameaça - um ato mal-intencionado ou evento inesperado - que danifica os sistemas de informação ou os ativos da empresa.
+
+O impacto no risco é o dano causado por um evento que causa perda de ativos ou interrupção do (s) serviço (s). O objetivo do gerenciamento de riscos é reduzir essas ameaças a um nível aceitável e implementar controles para manter esse nível.  
+
+ALTO RISCO - Negligência significa que nenhuma ação ou controle é feito para reduzir os riscos. A ameaça é muito alta e o custo de um incidente pode ser catastrófico.
+
+BAIXO RISCO - Exercer o devido cuidado pode ajudar a reduzir o nível de risco. O risco ainda existe, mas essas etapas razoáveis reduzem uma possível perda.
+
+RISCO ACEITAVEL - O exercício da due diligence envolve tomar medidas razoáveis para eliminar o risco. Alguns riscos ainda existem, mas vários controles são implementados para evitar possíveis perdas.
+
+O risco pode ser interno, externo ou ambos. Seu impacto pode repercutir-se por toda a empresa e afetar outras entidades externas.
+
+Promover a conscientização de riscos na empresa ajuda os funcionários a desenvolver uma compreensão de quais riscos existem, seu impacto potencial e como a empresa pode gerenciar esses riscos.
 
 
 
