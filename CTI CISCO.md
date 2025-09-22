@@ -1850,9 +1850,32 @@ Pergunta:
 Usando a tabela abaixo, qual é o impacto qualitativo?
 Principal
 
+
 Mitigação de riscos
+A mitigação envolve reduzir a gravidade da perda ou a probabilidade de que a perda ocorra. Muitos controles técnicos mitigam riscos, incluindo os sistemas de autenticação, permissões de arquivos e firewalls.
+
+A empresa e os profissionais de segurança devem entender que a mitigação de riscos pode ter impacto positivo e negativo na empresa. A boa mitigação de riscos encontra um equilíbrio entre o impacto negativo das contramedidas e dos controles e o benefício da redução do risco.
+
+ACEITAR O RISCO E REVALIDAR PERIODICAMENTO
+Uma estratégia de curto prazo é aceitar o risco, o que implica na criação de planos de contingência para esse risco. Pessoas e empresas têm que aceitar o risco diariamente.
 
 
+REDUZIR COM IMPLEMENTAÇÃO
+Metodologias modernas reduzem o risco com o desenvolvimento de software de forma incremental e proporcionando atualizações e patches regulares para enfrentar vulnerabilidades e configurações incorretas.
+
+
+EVITAR O RISCO ALTERADO TOTALMENTE
+Um bom plano de mitigação de risco pode incluir duas ou mais estratégias.
+
+TRANSFERIR OS RISCO PARA TERCEIRO
+A terceirização de serviços, a compra de seguros ou a compra de contratos de manutenção são todos exemplos de transferência de risco. Contratação de especialistas para realizar tarefas críticas para reduzir o risco pode ser uma boa decisão e produzir melhores resultados com menos investimento no longo prazo.
+
+Priorizar os ativos
+A @Apollo produziu uma tabela de gerenciamento de ativos, que eles esperam que possam ser usados para ordenar os ativos da prioridade mais alta para a mais baixa.
+
+Eles pediram sua recomendação. Você pode ajudar?
+
+<img width="808" height="475" alt="image" src="https://github.com/user-attachments/assets/f3e2e4ea-5464-418c-92c7-64d57a45889b" />
 
 
 
