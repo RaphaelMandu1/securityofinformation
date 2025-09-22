@@ -1686,6 +1686,47 @@ Monitore o Risco
 Revise continuamente as reduções de risco devido a ações de eliminação, mitigação ou transferência.
 Nem todos os riscos podem ser eliminados, portanto, as ameaças aceitas precisam ser monitoradas de perto. Uma empresa pode usar um registro de riscos -um programa de software ou serviço de nuvem - para registrar informações sobre riscos identificados. O registro de riscos contém detalhes sobre os riscos e os controles implementados ou as estratégias de resposta usadas.
 
+Tipos de fonte de ameaça
+
+A avaliação de ameaças é a base para a avaliação de riscos. Uma ameaça é o potencial que uma vulnerabilidade será identificada e explorada, enquanto um vetor de ameaças é o caminho que um invasor utiliza para afetar o alvo.
+
+Os tipos de fonte de ameaça são categorizados da seguinte forma e podem ser internos ou externos.
+
+Adversarial:  ameaças de indivíduos, grupos, organizações ou nações.
+Acidental:  ações que ocorrem sem uma intenção mal-intencionada.
+Estrutural:  falhas de equipamento e software.
+Ambiental:  desastres externos que podem ser naturais ou causados pelo homem, como incêndios e inundações
+
+
+Metodologia de avaliação de Riscos
+
+As empresas avaliam e examinam seus riscos operacionais ao realizar uma avaliação de risco para garantir que o gerenciamento de riscos atenda a todos os objetivos comerciais.
+
+
+Análise de Risco
+Análise de risco é o processo de analisar os perigos representados por eventos naturais e provocados por humanos aos ativos de uma empresa. Um usuário realiza uma identificação de ativo para ajudar a determinar quais ativos serão protegidos.
+
+Uma análise de risco tem quatro objetivos:
+
+Identificar ativos e seu valor
+Identificar vulnerabilidades e ameaças
+Quantificar a probabilidade e o impacto das ameaças identificadas
+Equilibrar o impacto da ameaça com relação ao custo da contramedida
+Role para baixo para saber mais sobre as duas abordagens à análise de risco.
+
+
+Análise de risco quantitativa
+Uma análise quantitativa atribui números para o processo de análise de risco. O valor do ativo é o custo de reposição do ativo. O valor de um ativo pode ser medido também pela receita adquirida com o uso do ativo.
+
+O fator de exposição (EF) é um valor subjetivo expresso como uma porcentagem do servidor de arquivos perdido devido a uma ameaça específica. Se ocorrer uma perda total, o EF é igual a 1.0 (100%).
+
+A ARO ( annualized rate of occurrence, Taxa anualizada de ocorrência) é a probabilidade de uma perda ocorrer durante o ano. Uma ARO pode ser maior que 100%, se uma perda puder ocorrer mais de uma vez por ano.
+
+O cálculo da ALE (annual loss expectancy, expectativa de perda anual) dá à gerência uma noção de quanto deverá gastar para proteger o ativo.
+
+<img width="448" height="339" alt="image" src="https://github.com/user-attachments/assets/6260748c-1fa0-458b-b649-c9cf90506a94" />
+
+
 
 
 
