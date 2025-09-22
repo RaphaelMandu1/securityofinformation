@@ -1877,5 +1877,67 @@ Eles pediram sua recomendação. Você pode ajudar?
 
 <img width="808" height="475" alt="image" src="https://github.com/user-attachments/assets/f3e2e4ea-5464-418c-92c7-64d57a45889b" />
 
+**Controles de segurança**
+
+O risco inerente de um sistema é o risco que o sistema representa inerentemente, sem que haja controles de pessoas, processos ou tecnologia.
+
+Os controles de segurança são proteções ou contramedidas que uma empresa implementa para evitar, detectar, neutralizar ou minimizar os riscos de segurança dos ativos da empresa. 
+
+Selecione os ícones de adição para obter mais informações sobre esses tipos de controle.
+
+Controles administrativos
+Os controles administrativos consistem em procedimentos e políticas que uma empresa implementa ao lidar com informações confidenciais. Esses controles determinam como as pessoas agem.
+
+Controles técnicos.
+Os controles técnicos envolvem hardware e / ou software implementado para gerenciar riscos e oferecer proteção.
+
+Controles físicos
+Os controles físicos são mecanismos como cercas e bloqueios implantados para proteger sistemas, instalações, pessoal e recursos. Os controles físicos separam fisicamente pessoas ou outras ameaças dos sistemas.
+
+ Controles de segurança funcional
+O  uso funcional  de uma salvaguarda específica ou  uma contra-medida ajudará a determinar o motivo de sua escolha e implementação.
+
+Selecione os títulos para saber mais sobre os controles de segurança funcionais.
 
 
+Controles preventivos
+Os controles de segurança preventiva impedem que atividades indesejadas e não autorizadas ocorram e / ou aplicam restrições a usuários autorizados.
+
+Por exemplo, atribuir privilégios de usuário específico em um sistema é um controle preventivo, pois coloca limites para impedir que determinados usuários acessem e executem ações não autorizadas. Um firewall que bloqueia o acesso a uma porta ou um serviço que criminosos virtuais podem explorar também é um controle preventivo.
+
+Controles dissuasivos
+Um impedimento tem como objetivo desencorajar que algo aconteça. Os profissionais e empresas de segurança digital usam as dissuasões para limitar ou mitigar uma ação ou comportamento, mas as dissuasões não os impedem.
+As dissuasões de controle de acesso desencorajam os criminosos virtuais a obter acesso não autorizado aos sistemas de informações e dados confidenciais. Eles podem ser eficazes para desencorajar muitos tipos diferentes de ataques a sistemas, além de roubo de dados e disseminação de códigos mal-intencionados.
+
+Controles de detecção
+As detecções de controle de acesso identificam diferentes tipos de atividade não autorizada. Os controles de detetive não são uma medida preventiva e, em vez disso, concentram-se na descoberta de uma violação de segurança depois que ela ocorre.
+Todos os sistemas de detetive têm várias coisas em comum. Eles buscam atividades incomuns ou proibidas e podem ser muito simples, como um detector de movimento ou agente de segurança, ou complexos, como um sistema de detecção de invasão. Também fornecem métodos para gravar ou alertar os operadores do sistema sobre um possível acesso não autorizado.
+
+Controles corretivos
+Os controles corretivos restauram o sistema ao estado de confidencialidade, integridade e disponibilidade. Eles também podem restaurar os sistemas ao estado normal, após ocorrer atividade não autorizada.
+As empresas implementam controles de acesso corretivos após o sistema passar por uma ameaça. Sistemas de detecção de invasão, portas de segurança (mantraps), planejamento de negócios contínuo, antivírus, alarmes e políticas de segurança são exemplos de controles de acesso por correção.
+
+Controles de recuperação
+Os controles de acesso de recuperação restauram os recursos, funções e capacidades após uma violação de uma política de segurança. Os controles de recuperação podem reparar danos, além de deter qualquer dano adicional. Esses controles têm mais recursos avançados em controles de acesso corretivos.
+Operações de backup e restauração, sistemas de acionamento de tolerância a falhas, clusters de servidores, cópias de sombra de banco de dados e software antivírus são exemplos de controles de acesso por recuperação.,
+
+Controles de compensação
+Os controles de acesso compensatórios fornecem opções a outros controles para aumentar o reforço relacionado à sustentação de uma política de segurança.
+Um controle compensatório também pode substituir um controle que não pode ser usado devido às circunstâncias. Por exemplo, se uma empresa não pode ter um cão de guarda, em vez disso, ela implementa um detector de movimento com um holofote e um som de latidos.
+ExempLos de controles de segurança compensatórios incluem políticas de segurança, supervisão de pessoal, monitoramento e procedimentos de tarefas de trabalho que são usados na ausência do controle ideal que uma empresa teria implantado.
+
+
+Auditoria de controles e conformidade
+O Center for Internet Security (CIS) criou um mapeamento de seus 18 controles de segurança essenciais para algumas das estruturas de conformidade comuns. Isso fornece orientações úteis para profissionais de segurança que estão trabalhando para criar e manter a conformidade com as estruturas necessárias.
+Uma pesquisa no Google no site: mapeamento e conformidade de cisecurity.org retorna uma página na qual o CIS fornece orientação sobre controles de segurança que são relevantes para estruturas essenciais de conformidade do setor, como PCI DSS, NIST Cybersecurity Framework, FISMA, HIPAA, GDPR e ISO / IEC 27001. Links e referências úteis são fornecidos para ilustrar como os controles do CIS permitem a conformidade com as diferentes estruturas.
+
+Além disso, os membros do CIS têm acesso à ferramenta de orientação e avaliação de controles do CIS-CAT Pro, que oferece assistência na avaliação da conformidade por meio dos mapeamentos dos controles do CIS para as estruturas de conformidade individuais.
+
+Os controles de segurança preventiva impedem que atividades indesejadas e não autorizadas ocorram e / ou aplicam restrições a usuários autorizados.
+Controles dissuasivos desencorajam que algo aconteça.
+As detecções de controle de acesso identificam diferentes tipos de atividade não autorizada.
+Controles corretivos correções neutralizam algo que é indesejável.
+Os controles de recuperação restauram recursos, funções e recursos.
+Oscontroles de acesso compensatórios fornecem opções a outros controles para aumentar o reforço relacionado à sustentação de uma política de segurança.
+
+<img width="837" height="718" alt="image" src="https://github.com/user-attachments/assets/5bd58d1e-d835-40e3-bace-b23b52cafef2" />
