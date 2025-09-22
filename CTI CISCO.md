@@ -1727,6 +1727,132 @@ O cálculo da ALE (annual loss expectancy, expectativa de perda anual) dá à ge
 <img width="448" height="339" alt="image" src="https://github.com/user-attachments/assets/6260748c-1fa0-458b-b649-c9cf90506a94" />
 
 
+Análise de risco qualitativa
+A análise qualitativa de riscos usa opiniões e cenários que descrevem a probabilidade de uma ameaça contra seu impacto. Por exemplo, a ameaça de uma falha no servidor pode ser provável, mas seu impacto pode ser apenas marginal.
+
+Uma matriz de riscos é uma ferramenta que ajuda a priorizar riscos para determinar para quais organizações a empresa precisa desenvolver uma resposta. Os resultados podem ser classificados e usados como um guia para determinar se a empresa executa alguma ação.
+
+Quando a matriz de risco é codificada por cores, como  mostrado aqui,  ela é chamada de mapa de calor de risco.
+
+<img width="421" height="314" alt="image" src="https://github.com/user-attachments/assets/bb41dfd5-072e-436a-8324-ec048c93bd25" />
+
+BAIXO
+Tentar determinar a probabilidade de um ataque de uma fonte de ameaça humana pode ser difícil e pode envolver a avaliação do nível de habilidade, motivação, oportunidade e tamanho.
+
+ACEITAVEL
+Ao avaliar a vulnerabilidade, fatores como facilidade de descoberta, capacidade de exploração, reconhecimento e detecção de intrusão desempenham um papel importante. Use uma combinação de estimativa e dados históricos para fornecer a probabilidade mais precisa de um evento ocorrer.
+
+ALTO
+Por fim, determine a magnitude do impacto. Uma simples medida de impacto pode variar de muito baixo a muito alto ou de um impacto insignificante a um impacto catastrófico.
+
+
+Lab - Análise de risco
+Objetivos
+Parte 1: Usar métodos de análise de risco
+
+Parte 2: Calcular riscos
+
+Histórico/Cenário
+Uma análise de risco determina possíveis vulnerabilidades e ameaças, sua probabilidade e consequências e as tolerâncias para tais eventos. Os resultados desse processo podem ser expressos usando um método quantitativo ou um método qualitativo. A análise de risco quantitativa envolve cálculos para atribuir um valor a uma possível vulnerabilidade ou ameaça. Essa opção funciona melhor ao lidar com ativos tangíveis, como edifícios, computadores ou inventário. A análise de risco qualitativa atribui um nível usado para priorizar o risco potencial, para que as empresas possam adotar uma abordagem lógica para lidar com as ameaças mais importantes. Esse método funciona melhor para ativos intangíveis, como propriedade intelectual, reputação da empresa ou contas a receber.
+
+Recursos necessários
+PC ou dispositivo móvel com acesso à internet
+
+Instruções
+Parte 1: Use os métodos de análise de risco
+Risco Quantitativo
+
+A análise de risco quantitativa é o processo de determinar objetivamente o impacto de um evento usando métricas e modelos. Uma análise quantitativa depende de informações e tendências históricas para prever o desempenho futuro. O resultado da análise é um valor.
+
+Calcular a expectativa de perda anualizada (ALE) é um método comum para estimar a redução no valor ou na capacidade de um ativo após a ocorrência de um evento adverso.
+
+Etapa 1: Calcular o valor do ativo.
+Nesta etapa, você demonstrará como calcular o valor do ativo.
+
+Custo inicial do ativo
+
+O valor do ativo é a despesa total necessária para substituir um ativo. Por exemplo, o valor total de um ativo pode incluir a compra e licenciamento ou desenvolvimento, juntamente com os custos de manutenção e suporte. Neste exemplo, o servidor de banco de dados de clientes da empresa custa aproximadamente US $ 20.000. Isso inclui hardware, software e configuração.
+
+Valor organizacional
+
+Um valor intangível é mais difícil de calcular porque pode incluir o custo de criação, aquisição e recriação de informações e o impacto ou perda nos negócios se as informações forem perdidas ou comprometidas. Também pode incluir custos de responsabilidade. Neste exemplo, o custo para criar o site do cliente é de US $ 40.000.
+
+Valor público
+
+Um custo intangível que inclui a perda de informações proprietárias, processos ou reputação da empresa. Esse valor é estimado em US $ 75.000.
+
+Perguntas:
+Qual é o valor total do ativo do servidor?
+O valor tangível e intangível do servidor é de aproximadamente US $ 135.000.
+
+Por que o custo intangível é tão alto? Isso é realista?
+Considere o valor da reputação de uma empresa. É muito difícil construir e manter a reputação de uma empresa. Danos à reputação podem ser muito caros e permanentes. Então - sim, essa avaliação é realista.
+
+Etapa 2: Calcular o fator de exposição
+O fator de exposição é expresso como uma porcentagem (ou equivalente decimal) de perda de um ativo se uma ameaça ou vulnerabilidade específica for detectada. O fator de exposição é um valor subjetivo. Se o ativo for completamente perdido, o fator de exposição seria 100% ou 1. O fator de exposição pode ser uma fração do valor, como 40% ou .4, por exemplo.
+
+Pergunta:
+Por exemplo, qual é o impacto no servidor se a sala do servidor inundar e o custo para restaurar o servidor for de US $ 30.000?
+
+Valor de ativo: US $ 135.000
+
+Custo de restauração: US $ 30.000
+
+O fator de exposição é 30.000 / 135.000 = 22% ou 0,22
+
+Etapa 3: Calcular a expectativa de perda única
+Calcule a expectativa de perda única (SLE) usando o valor do ativo e multiplicando-o pelo fator de exposição. O resultado é a perda de dólares esperada devido à ocorrência de um único evento. Um único ativo pode ter várias ameaças potenciais ou vulnerabilidades, e uma única expectativa de perda pode ser calculada para cada ocorrência.
+
+Por exemplo, estima-se que um ataque de negação de serviço tenha um fator de exposição ou impacto de 20% ou 0,2. Isso significa que o SLE é de US $ 135.000 x 0,2 = US $ 27.000.
+
+Estime o SLE se ocorrer uma falha no disco rígido ou na unidade de armazenamento em que o mesmo valor de ativo seja estimado em US $ 135.000. Esse tipo de perda resultaria em um fator de exposição de 0,5.
+
+Perguntas:
+O que é o SLE?
+SLE éigual a 135.000 x 0,5 = US $ 67.500
+
+Calcular o SLE de um ataque de Ransomware com uma exposição de 100% ou 1,0.
+SLE éigual a 135.000 x 1,0 = US $ 135.000
+
+Etapa 4: Calcular a taxa de ocorrência anualizada
+A taxa de ocorrência anualizada (ARO) é uma medida da frequência com que um evento ocorre em um único ano. O ARO é sempre expresso em uma classificação anual, mesmo se um incidente ocorrer e é registrado em outras medidas de tempo. Em nosso exemplo, o servidor de banco de dados do cliente é afetado por um ataque de DoS ou DDoS a cada 120 dias ou 4 meses em média. Isso significa que o evento ocorrerá em média três vezes em um ano civil, então o ataque de DoS / DDoS tem um ARO de 3.
+
+a.     Nesse cenário, calcule o ARO de um ataque de ransomware no servidor de banco de dados do cliente empresarial. Em média, o servidor sofre ataques de ransomware a cada 24 meses ou dois anos.
+
+Pergunta:
+Qual é o ARO de um ataque de ransomware no servidor de banco de dados do cliente?
+Se o evento ocorrer a cada 24 meses, a ARO seria 12 / 24 = 0,5.
+
+
+b.     Nesse cenário, calcule o ARO de uma falha de hardware com o servidor de banco de dados do cliente. Em média, o servidor apresenta falhas de hardware a cada 30 meses.
+
+Pergunta:
+Qual é o ARO de falhas de hardware com o servidor de banco de dados do cliente?
+Se o evento ocorrer a cada 30 meses, o ARO seria 12 / 30 = 0,4.
+
+Etapa 5: Calcular a expectativa de perda anualizada
+A expectativa de perda anualizada (ALE) é o produto do ARO e do SLE. Para calcular o ALE, pegue o SLE e multiplique-o pelo ARO. Por exemplo, se uma queda de energia for determinada como tendo um SLE de US $ 50.000,00 e um ARO de 0,5, o ALE seria de US $ 25.000.
+
+Perguntas:
+Qual é a AEA de uma falha de hardware no servidor de banco de dados do cliente se o SLE = US $ 5.000 e ARO = 2,5?
+ALE = 5000 x 2,5 = 12500
+
+Qual é a ALE de um ataque de hackers com o servidor de banco de dados do cliente se o SLE = $ 10.000 e ARO = 0,5?
+ALE = 10.000 x 0,5 = 5.000
+
+Etapa 6: Calcular a análise qualitativa de riscos
+Uma análise qualitativa compara o impacto de uma ameaça com a probabilidade de sua ocorrência e usa rótulos como baixo, médio ou alto. O impacto de um evento é uma medida da perda quando uma ameaça explora uma vulnerabilidade. A probabilidade é de que o evento de ameaça ocorra.
+
+A análise qualitativa de riscos examina o nível de impacto geral na empresa. Esses problemas incluem perda de receita, perda de reputação e perda de clientes.
+No primeiro caso, o servidor Web apresenta uma falha no disco rígido, causando perda de receita, reputação e clientes. Esse é um impacto de alto risco e uma possível probabilidade de ocorrência.
+
+Pergunta:
+Usando a tabela abaixo, qual é o impacto qualitativo?
+Principal
+
+Mitigação de riscos
+
+
 
 
 
