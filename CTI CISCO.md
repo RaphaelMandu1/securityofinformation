@@ -1962,6 +1962,40 @@ A publicação especial do Guia para integração de tecnicas forenses para resp
 
 <img width="650" height="215" alt="image" src="https://github.com/user-attachments/assets/ccc59087-04d4-427c-a590-d7b5d1a6cee0" />
 
+Coleta
+Esta é a identificação de potenciais fontes de dados forenses e aquisição, manuseio e armazenamento desses dados. Este estágio é crítico porque deve-se ter especial cuidado para não danificar, perder ou omitir dados importantes.
+
+Análise
+Isto implica avaliar e extrair informações relevantes dos dados recolhidos. Isso pode envolver descompactação ou descriptografia dos dados. As informações irrelevantes para a investigação podem ter de ser removidas. Identificar evidências reais em grandes coleções de dados pode ser muito difícil e demorado.
+Isto implica tirar conclusões dos dados. Recursos relevantes, como pessoas, lugares, horários, eventos, etc., devem ser documentados. Esta etapa também pode envolver a correlação de dados de várias fontes.
+
+Relatórios
+Isso implica preparar e apresentar informações resultantes da análise. Os relatórios devem ser imparciais e devem ser apresentadas explicações alternativas, se for caso disso. Limitações da análise e problemas encontrados devem ser incluídos. Devem também ser feitas sugestões para uma investigação mais aprofundada e para os próximos passos.
+
+Tipos de evidencias
+Em processos judiciais, as provas são geralmente classificadas como diretas ou indiretas. Provas diretas são provas que estavam indiscutivelmente na posse do acusado, ou são testemunhas oculares de alguém que observou diretamente o comportamento criminoso.
+As provas são ainda classificadas como:
+
+Melhor evidência
+Esta é evidência que está em seu estado original. Essas evidências podem ser dispositivos de armazenamento usados por um acusado, ou arquivos de arquivos que podem ser comprovados como inalterados.
+
+Provas corroborantes
+Esta é uma evidência que suporta uma afirmação que é desenvolvida a partir da melhor evidência.
+
+Provas indiretas
+Esta é evidência que, em combinação com outros fatos, estabelece uma hipótese. Isso também é conhecido como evidência circunstancial. Por exemplo, a evidência de que um indivíduo cometeu crimes semelhantes pode apoiar a afirmação de que a pessoa cometeu o crime de que é acusado.
+
+
+Ordem de Coleta de Evidencias
+
+Prioridade de coleta
+IETF RFC 3227 fornece diretrizes para a coleta de evidências digitais. Descreve uma ordem para a recolha de provas digitais com base na volatilidade dos dados. Os dados armazenados na RAM são os mais voláteis, e serão perdidos quando o dispositivo for desligado. Além disso, dados importantes na memória volátil podem ser substituídos por processos de rotina da máquina. Portanto, a coleta de evidências digitais deve começar com a evidência mais volátil e avançar para a menos volátil, como mostrado na figura.
+
+Prioridade de coleta
+
+<img width="545" height="488" alt="image" src="https://github.com/user-attachments/assets/eaae8a70-524b-42f9-9eef-87b546861979" />
+
+
 
 
 
