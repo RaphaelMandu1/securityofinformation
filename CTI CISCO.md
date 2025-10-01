@@ -1941,3 +1941,27 @@ Os controles de recuperação restauram recursos, funções e recursos.
 Oscontroles de acesso compensatórios fornecem opções a outros controles para aumentar o reforço relacionado à sustentação de uma política de segurança.
 
 <img width="837" height="718" alt="image" src="https://github.com/user-attachments/assets/5bd58d1e-d835-40e3-bace-b23b52cafef2" />
+
+Computação forense digital
+Agora que investigou e identificou alertas válidos, o que faz com as provas? O analista de segurança cibernética irá inevitavelmente descobrir evidências de atividade criminosa. A fim de proteger a organização e prevenir o cibercrime, é necessário identificar os atores da ameaça, denunciá-los às autoridades competentes e fornecer provas para apoiar a acusação. Os analistas de segurança cibernética de nível 1 geralmente são os primeiros a descobrir delitos. Os analistas de segurança cibernética devem saber como lidar adequadamente com evidências e atribuí-la a atores ameaçadores.
+
+A perícia digital é a recuperação e investigação de informações encontradas em dispositivos digitais no que diz respeito a atividades criminosas. Indicadores de comprometimento são a evidência de que ocorreu um incidente de segurança cibernética. Essas informações podem ser dados em dispositivos de armazenamento, na memória volátil do computador ou vestígios de cibercrime que são preservados em dados de rede, como pcaps e logs. É essencial que todos os indicadores de compromisso sejam preservados para análise futura e atribuição de ataques.
+
+A atividade cibernética pode ser amplamente caracterizada como originária de dentro ou fora da organização. Investigações privadas estão preocupadas com indivíduos dentro da organização. Esses indivíduos poderiam simplesmente estar se comportando de maneiras que violam os acordos do usuário ou outras condutas não criminais. Quando indivíduos são suspeitos de envolvimento em atividades criminosas envolvendo roubo ou destruição de propriedade intelectual, uma organização pode optar por envolver autoridades policiais, caso em que a investigação se torna pública. Os usuários internos também poderiam ter usado a rede da organização para realizar outras atividades criminosas que não estão relacionadas à missão organizacional, mas estão em violação de vários estatutos legais. Neste caso, funcionários públicos realizarão a investigação.
+
+Quando um invasor externo explora uma rede e rouba ou alterou dados, as evidências precisam ser coletadas para documentar o escopo da exploração. Vários órgãos reguladores especificam uma série de ações que uma organização deve tomar quando vários tipos de dados foram comprometidos. Os resultados da investigação forense podem ajudar a identificar as ações que precisam ser tomadas.
+
+Por exemplo, de acordo com os regulamentos HIPAA dos EUA, se ocorrer uma violação de dados que envolva informações do paciente, a notificação da violação deve ser feita aos indivíduos afetados. Se a violação envolver mais de 500 pessoas em um estado ou jurisdição, a mídia, bem como os indivíduos afetados, devem ser notificados. A investigação forense digital deve ser usada para determinar quais indivíduos foram afetados e para certificar o número de indivíduos afetados para que a notificação apropriada possa ser feita em conformidade com os regulamentos HIPAA.
+
+É possível que a própria organização possa ser objeto de uma investigação. Os analistas de segurança cibernética podem encontrar-se em contato direto com evidências forenses digitais que detalham a conduta dos membros da organização. Os analistas devem conhecer os requisitos relativos à preservação e tratamento de tais evidências. Se a intenção de destruir provas for estabelecida, poderá resultar em penalidades criminais para a organização e até mesmo para o analista de segurança cibernética.
+
+O Processo Forense de Evidências Digitais
+É importante que uma organização desenvolva processos e procedimentos bem documentados para análise forense digital. A conformidade regulamentar pode exigir esta documentação, e essa documentação pode ser inspecionada pelas autoridades em caso de investigação pública.
+
+A publicação especial do Guia para integração de tecnicas forenses para resposta a incidentes NIST 800-86 é um recurso valioso para organizações que precisam de orientação no desenvolvimento de planos forenses digitais. Por exemplo, ele recomenda que a computação forense seja realizada usando o processo de quatro fases.
+
+<img width="650" height="215" alt="image" src="https://github.com/user-attachments/assets/ccc59087-04d4-427c-a590-d7b5d1a6cee0" />
+
+
+
+
