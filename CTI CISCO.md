@@ -2517,6 +2517,27 @@ A avaliação subjetiva de cada incidente exige que os membros da equipe de resp
 Deve haver uma política em vigor em cada organização que descreva quanto tempo a evidência de um incidente é mantida. Muitas vezes, as provas são retidas durante muitos meses ou muitos anos após um incidente ter ocorrido. Em alguns casos, os regulamentos de conformidade podem exigir o período de retenção. Estes são alguns dos fatores determinantes para a retenção de evidências:
 
 
+Processo
+Quando um atacante será processado por causa de um incidente de segurança, as provas devem ser mantidas até que todas as ações legais tenham sido concluídas. Isso pode ser vários meses ou muitos anos. Em ações judiciais, nenhuma evidência deve ser ignorada ou considerada insignificante. A política de uma organização pode declarar que qualquer evidência que envolva um incidente que tenha sido envolvido em ações legais nunca deve ser excluída ou destruída.
 
+Tipo de dados
+Uma organização pode especificar que tipos específicos de dados devem ser mantidos por um período de tempo específico. Itens como e-mail ou texto podem precisar ser mantidos apenas por 90 dias. Dados mais importantes, como os usados em uma resposta a incidentes (que não teve ação legal), podem precisar ser mantidos por três anos ou mais.
+
+Custo
+Se houver muita mídia de hardware e armazenamento que precisa ser armazenada por um longo período de tempo, ela pode se tornar dispendiosa. Lembre-se também de que, à medida que a tecnologia muda, os dispositivos funcionais que podem usar hardware desatualizado e mídia de armazenamento também devem ser armazenados.
+
+Requisitos de relatórios e compartilhamento de informações
+Os regulamentos governamentais devem ser consultados pela equipe jurídica para determinar com precisão a responsabilidade da organização em relatar o incidente. Além disso, o gerenciamento precisará determinar qual comunicação adicional é necessária com outras partes interessadas, como clientes, fornecedores, parceiros, etc.
+
+Além dos requisitos legais e das considerações das partes interessadas, o NIST recomenda que uma organização coordene com as organizações para compartilhar detalhes sobre o incidente. Por exemplo, a organização poderia registrar o incidente no banco de dados da comunidade VERIS.
+
+As recomendações críticas do NIST para o compartilhamento de informações são as seguintes:
+
+Planeje a coordenação de incidentes com partes externas antes que ocorram incidentes.
+Consulte o departamento jurídico antes de iniciar qualquer esforço de coordenação.
+Realizar compartilhamento de informações sobre incidentes durante todo o ciclo de vida de resposta a incidentes.
+Tente automatizar o máximo possível do processo de compartilhamento de informações.
+Equilibre os benefícios do compartilhamento de informações com as desvantagens do compartilhamento de informações confidenciais.
+Compartilhe o máximo possível de informações apropriadas sobre incidentes com outras organizações.
 
 
