@@ -2148,4 +2148,29 @@ Caracterização do modelo de diamante de uma exploração
 
 <img width="758" height="464" alt="image" src="https://github.com/user-attachments/assets/7d0817bc-f1b4-4be4-956b-7eb30c8aafc8" />
 
+O modelo de diamante e a cadeia de morte cibernética (Cadeia Cyber Kill)
+Exemplos de tópicos de atividades
+Os adversários não operam em apenas um evento. Em vez disso, os eventos são encadeados em uma cadeia na qual cada evento deve ser concluído com êxito antes do próximo evento. Este segmento de eventos pode ser mapeado para a Cyber Kill Chain discutida anteriormente no capítulo.
+
+O exemplo a seguir, mostrado na figura, ilustra o processo de ponta a ponta de um adversário à medida que eles atravessam verticalmente a Cyber Kill Chain, usam um host comprometido para girar horizontalmente para outra vítima e, em seguida, iniciar outro segmento de atividade:
+
+Adversary realiza uma pesquisa na web para a empresa vítima Gadgets, Inc. recebendo como parte dos resultados o nome de domínio gadgets.com.
+O adversário usa o domínio recém-descoberto gadets.com para uma nova pesquisa “administrador de rede gadget.com” e descobre postagens de fóruns de usuários que afirmam ser administradores de rede do gadget.com. Os perfis de usuário revelam seus endereços de e-mail.
+O adversário envia e-mails de phishing com um cavalo de Tróia anexado aos administradores de rede do gadget.com.
+Um administrador de rede (NA1) do gadget.com abre o anexo malicioso. Isso executa a exploração fechada, permitindo a execução de código adicional.
+O host comprometido do NA1 envia uma mensagem HTTP Post para um endereço IP, registrando-a com um controlador CNC. O host comprometido do NA1 recebe uma resposta HTTP em troca.
+É revelado pela engenharia reversa que o malware tem endereços IP adicionais configurados que atuam como um backup se o primeiro controlador não responder.
+Através de uma mensagem de resposta CNC HTTP enviada para o host do NA1, o malware começa a agir como um proxy da web para novas conexões TCP.
+Através de informações do proxy que está sendo executado no host da NA1, Adversary faz uma pesquisa na web para “pesquisa mais importante de sempre” e encontra Victima 2, Interessante Research Inc.
+Adversary verifica a lista de contatos de e-mail da NA1 para qualquer contato da Interessante Research Inc. e descobre o contato para o Diretor de Pesquisa Interessante da Inc.
+O Diretor de Pesquisa da Interessante Research Inc. recebe um e-mail spear-phish do endereço de e-mail da Gadget Inc. enviado do host da NA1 com a mesma carga útil observada no Evento 3.
+O adversário agora tem duas vítimas comprometidas, das quais ataques adicionais podem ser lançados. Por exemplo, o adversário poderia explorar os contatos de e-mail do Diretor de Pesquisa para as vítimas potenciais adicionais. O adversário também pode configurar outro proxy para exfiltrar todos os arquivos do Diretor de Pesquisa.
+
+Nota: Este exemplo é uma modificação do exemplo do Departamento de Defesa dos EUA na publicação “O modelo Diamante de analises de intrusão”.
+
+Exemplos de tópicos de atividades
+
+<img width="692" height="513" alt="image" src="https://github.com/user-attachments/assets/96a53a86-15b9-4348-b7ea-ef739a3d580f" />
+
+
 
