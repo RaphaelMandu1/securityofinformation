@@ -2138,5 +2138,14 @@ Estes são um ou mais recursos externos usados pelo adversário para o evento de
 <img width="789" height="562" alt="image" src="https://github.com/user-attachments/assets/b9fe0a2d-4c03-4835-9009-ebaf948b227c" />
 
 
+Pivotando em todo o modelo de diamante (Diamond Model)
+Caracterização do modelo Diamond de uma exploração
+Como analista de segurança cibernética, você pode ser chamado a usar o Modelo Diamond de Análise de Intrusão para diagramar uma série de eventos de intrusão. O Modelo Diamond é ideal para ilustrar como o adversário giro de um evento para o outro.
+
+Por exemplo, na figura um funcionário relata que seu computador está agindo de forma anormal. Uma verificação de host feita pelo técnico de segurança indica que o computador está infectado com malware. Uma análise do malware revela que o malware contém uma lista de nomes de domínio CNC. Estes nomes de domínio resolvem para uma lista de endereços IP. Esses endereços IP são então usados para identificar o adversário, bem como investigar registros para determinar se outras vítimas na organização estão usando o canal CNC.
+
+Caracterização do modelo de diamante de uma exploração
+
+<img width="758" height="464" alt="image" src="https://github.com/user-attachments/assets/7d0817bc-f1b4-4be4-956b-7eb30c8aafc8" />
 
 
