@@ -2290,6 +2290,30 @@ Ciclo de vida de resposta a incidentes
 
 <img width="811" height="245" alt="image" src="https://github.com/user-attachments/assets/13a825f5-7a4b-4482-837b-862ec8675577" />
 
+Preparação
+Fase de Preparação
+A fase de preparação é quando o CSIRT é criado e treinado. Essa fase também é quando as ferramentas e ativos que serão necessários pela equipe para investigar incidentes são adquiridos e implantados. A lista a seguir contém exemplos de ações que também ocorrem durante a fase de preparação:
+
+Os processos organizacionais são criados para abordar a comunicação entre as pessoas na equipe de resposta. Isso inclui informações de contato para partes interessadas, outros CSIRTs e aplicação da lei, um sistema de rastreamento de problemas, smartphones, software de criptografia, etc.
+São criadas instalações para hospedar a equipe de resposta e o SOC.
+Hardware e software necessários para análise e mitigação de incidentes são adquiridos. Isso pode incluir software forense, computadores sobressalentes, servidores e dispositivos de rede, dispositivos de backup, sniffers de pacotes e analisadores de protocolo.
+As avaliações de risco são usadas para implementar controles que limitarão o número de incidentes.
+A validação da implantação de hardware e software de segurança é realizada em dispositivos de usuário final, servidores e dispositivos de rede.
+Materiais de treinamento de conscientização sobre segurança do usuário são desenvolvidos
+Recursos adicionais de análise de incidentes podem ser necessários. Exemplos desses recursos são uma lista de ativos críticos, diagramas de rede, listas de portas, hashes de arquivos críticos e leituras de linha de base da atividade do sistema e da rede. O software de mitigação também é um item importante quando se prepara para lidar com um incidente de segurança. Uma imagem de um sistema operacional limpo e arquivos de instalação de aplicativos pode ser necessária para recuperar um computador de um incidente.
+
+Muitas vezes, o CSIRT pode ter um kit de salto preparado. Esta é uma caixa portátil com muitos dos itens listados acima para ajudar a estabelecer uma resposta rápida. Alguns desses itens podem ser um laptop com software apropriado instalado, mídia de backup e qualquer outro hardware, software ou informações para ajudar na investigação. É importante inspecionar regularmente o kit de salto para instalar atualizações e certificar-se de que todos os elementos necessários estão disponíveis e prontos para uso. É útil praticar a implantação do jump kit com o CSIRT para garantir que os membros da equipe saibam usar seu conteúdo corretamente.
+
+Fase de Preparação
+
+<img width="808" height="249" alt="image" src="https://github.com/user-attachments/assets/e6c71be9-4b76-4ceb-8d72-c67d05b53805" />
+
+ Detecção e Análise
+ 
+<img width="802" height="246" alt="image" src="https://github.com/user-attachments/assets/7f815581-c8ed-4132-b4aa-7c4995c3017c" />
+
+
+
 
 
 
