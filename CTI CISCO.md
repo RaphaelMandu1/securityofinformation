@@ -2315,5 +2315,58 @@ Fase de Preparação
 
 
 
+Vetores de Ataque
+Uma organização deve estar preparada para lidar com qualquer incidente, mas deve se concentrar nos tipos mais comuns de incidentes para que eles possam ser tratados rapidamente. Estes são alguns dos tipos mais comuns de vetores de ataque:
+
+Web - Qualquer ataque iniciado a partir de um site ou aplicativo hospedado por um site.
+E-mail - Qualquer ataque iniciado a partir de um email ou anexo de email.
+Perda ou Roubo - Qualquer equipamento usado pela organização, como um laptop, desktop ou smartphone, pode fornecer as informações necessárias para que alguém inicie um ataque.
+Personificação - Quando algo ou alguém é substituído com o propósito de intenção maliciosa.
+Atrição - Qualquer ataque que use força bruta para atacar dispositivos, redes ou serviços.
+Mídia - Qualquer ataque iniciado a partir de armazenamento externo ou mídia removível.
+
+Detecção
+Alguns incidentes são fáceis de detectar, enquanto outros podem passar despercebidos por meses. A detecção de incidentes de segurança pode ser a fase mais difícil no processo de resposta a incidentes. Os incidentes são detectados de muitas maneiras diferentes e nem todas essas formas são muito detalhadas ou fornecem clareza detalhada. Existem formas automatizadas de detecção, como software antivírus ou IDS. Há também detecções manuais por meio de relatórios de usuários.
+
+É importante determinar com precisão o tipo de incidente e a extensão dos efeitos. Existem duas categorias para os sinais de um incidente:
+
+Precursor - Este é um sinal de que um incidente pode ocorrer no futuro. Quando precursores são detectados, um ataque pode ser evitado alterando medidas de segurança para abordar especificamente o tipo de ataque detectado. Exemplos de precursores são entradas de log que mostram uma resposta a uma varredura de porta ou uma vulnerabilidade recém-descoberta para o servidor Web de uma organização.
+Indicador - Este é um sinal de que um incidente já pode ter ocorrido ou está ocorrendo no momento. Alguns exemplos de indicadores são um host infectado com malware, vários logins com falha de uma fonte desconhecida ou um alerta IDS.
+
+Análise
+A análise de incidentes é difícil porque nem todos os indicadores são precisos. Em um mundo perfeito, cada indicador deve ser analisado para descobrir se é preciso. Isso é quase impossível devido ao número e variedade de incidentes registrados e relatados. O uso de algoritmos complexos e aprendizado de máquina muitas vezes ajudam a determinar a validade de incidentes de segurança. Isso é mais prevalente em grandes organizações que têm milhares ou mesmo milhões de incidentes diariamente. Um método que pode ser usado é a criação de perfis de rede e sistema. A criação de perfis é medir as características da atividade esperada em dispositivos e sistemas de rede para que as alterações nele possam ser mais facilmente identificadas.
+
+Quando um indicador é considerado preciso, isso não significa necessariamente que ocorreu um incidente de segurança. Alguns indicadores acontecem por outras razões além da segurança. Um servidor que falha continuamente, por exemplo, pode ter RAM ruim em vez de um ataque de estouro de buffer ocorrer. Para ser seguro, até mesmo sintomas ambíguos ou contraditórios devem ser analisados para determinar se ocorreu um incidente de segurança legítimo. O CSIRT deve reagir rapidamente para validar e analisar incidentes. Isso é realizado seguindo um processo predefinido e documentando cada etapa.
+
+Escopo
+Quando o CSIRT acredita que um incidente ocorreu, ele deve executar imediatamente uma análise inicial para determinar o escopo do incidente, como quais redes, sistemas ou aplicativos são afetados, quem ou o que originou o incidente e como o incidente está ocorrendo. Essa atividade de escopo deve fornecer informações suficientes para que a equipe priorize atividades subsequentes, como contenção do incidente e análise mais profunda dos efeitos do incidente.
+
+Notificação de incidentes
+Quando um incidente é analisado e priorizado, a equipe de resposta a incidentes precisa notificar as partes interessadas e externas apropriadas para que todos os que precisam estar envolvidos desempenhem suas funções. Exemplos de partes que são normalmente notificadas incluem:
+
+Diretor executivo de informações (CIO)
+Chefe de segurança da informação
+Oficial de segurança da informação local
+Outras equipes de resposta a incidentes dentro da organização
+Equipas externas de resposta a incidentes (se apropriado)
+Proprietário do sistema
+Recursos humanos (para casos envolvendo funcionários, como assédio por e-mail)
+Assuntos públicos (para incidentes que possam gerar publicidade)
+Departamento jurídico (para incidentes com potenciais ramificações legais)
+US-CERT (necessário para agências federais e sistemas operados em nome do governo federal)
+Aplicação da lei (se for caso disso)
+
+
+Contenção, erradicação e recuperação
+Fase de contenção, erradicação e recuperação
+
+<img width="805" height="255" alt="image" src="https://github.com/user-attachments/assets/4f4e0464-b675-41ab-a6a6-1a019de1a309" />
+
+Depois que um incidente de segurança foi detectado e uma análise suficiente foi realizada para determinar se o incidente é válido, ele deve ser contido para determinar o que fazer sobre ele. Estratégias e procedimentos para contenção de incidentes precisam estar em vigor antes que um incidente ocorra e implementado antes que haja danos generalizados.
+
+
+
+
+
 
 
