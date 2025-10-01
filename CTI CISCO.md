@@ -2064,3 +2064,79 @@ Nota: Ator ameaça é o termo usado ao longo deste curso para se referir à part
 
 
 
+Reconhecimento
+
+Reconhecimento é quando o ator ameaça realiza pesquisas, coleta inteligência e seleciona alvos. Isso informará o ator da ameaça se o ataque vale a pena executar. Qualquer informação pública pode ajudar a determinar o que, onde e como o ataque a ser executado. Há muitas informações publicamente disponíveis, especialmente para organizações maiores, incluindo artigos de noticias, sites, procedimentos de conferência e dispositivos de rede voltados para o público. Quantidades crescentes de informações sobre os funcionários estão disponíveis por meio de redes sociais.
+O agente da ameaça escolherá alvos que foram negligenciados ou desprotegidos porque terão uma maior probabilidade de serem penetrados e comprometidos. Todas as informações obtidas pelo agente da ameaça são revisadas para determinar sua importância e se revelam possíveis vias adicionais de ataque.
+A tabela resume algumas das táticas e defesas usadas durante a etapa de reconhecimento.
+
+Armamento
+
+O objetivo desta etapa é usar as informações do reconhecimento para desenvolver uma arma contra sistemas específicos ou individuos na organização. Para desenvolver essa arma, o designer usará as vulnerabilidades dos ativos que foram descobertos e os construirá em uma ferramenta que pode ser implantada. Depois que a ferramenta foi usada, espera-se que o ator da ameaça tenha alcançado seu objetivo de obter acesso ao sistema ou rede de destino, degradando a integridade de um alvo ou toda a rede. O agente da ameaça examinará ainda mais a segurança da rede e dos ativos para expor fraquezas adicionais, obter controle sobre outros ativos ou implantar ataques adicionais.
+Não é difícil escolher uma arma para o ataque. O agente da ameaça precisa analisar quais ataques estão disponiveis para as vulnerabilidades que eles descobriram. Existem muitos ataques que já foram criados e testados em geral. Um problema é que, como esses ataques são tão conhecidos, eles são provavelmente também conhecidos pelos defensores. Muitas vezes, é mais eficaz usar um ataque de dia zero para evitar métodos de detecção. Um ataque de dia zero usa uma arma que é desconhecida para os defensores e sistemas de segurança de rede. O ator ameaça pode querer desenvolver sua própria arma que é específicamente projetada para evitar a detecção, usando as informações sobre a rede e os sistemas que eles aprenderam. Os atacantes aprenderam a criar inúmeras variantes de seus ataques para evitar as defesas da rede.
+A tabela resume algumas das táticas e defesas usadas durante a etapa de armamento.
+
+Entrega
+
+Durante esta etapa, a arma é transmitida ao alvo usando um vetor de entrega. Isso pode ser através do uso de um site, midia USB removivel ou um anexo de e-mail. Se a arma não for entregue, o ataque não terá sucesso. O agente da ameaça usará muitos métodos diferentes para aumentar as chances de entregar a carga útil, como criptografar comunicações, fazer com que o código pareça legitimo ou ofuscar o código. Os sensores de segurança são tão avançados que podem detectar o código como malicioso, a menos que ele seja alterado para evitar a detecção. O código pode ser alterado para parecer inocente, mas ainda assim executar as ações necessárias, mesmo que possa demorar mais tempo para ser executado.
+A tabela resume algumas das táticas e defesas usadas durante a etapa de entrega.
+
+Exploração
+
+Depois que a arma foi entregue, o ator ameaça a usa para quebrar a vulnerabilidade e ganhar o controle do alvo. Os destinos de exploração mais comuns são aplicativos, vulnerabilidades do sistema operacional e usuários. O atacante deve usar uma exploração que ganhe o efeito que deseja. Isso é muito importante porque se a exploração errada for conduzida, obviamente o ataque não funcionará, mas efeitos colaterais não intencionais, como um DoS ou várias reinicializações de sistema, causarão atenção indevida que poderia facilmente informar os analistas de segurança cibernética sobre o ataque e as intenções do ator da ameaça.
+
+Instalação
+
+Esta etapa é onde o ator ameaça estabelece um backdoor para o sistema para permitir o acesso continuo ao alvo. Para preservar esse backdoor, é importante que o acesso remoto não alerte analistas ou usuários de segurança cibernética. O método de acesso deve sobreviver através de verificações antimalware e reinicialização do computador para ser eficaz. Esse acesso persistente também pode permitir comunicações automatizadas, especialmente eficazes quando vários canais de comunicação são necessários ao comandar uma botnet.
+
+Comando e Controle
+
+Nesta etapa, o objetivo é estabelecer comando e controle (CNC ou C2) com o sistema de destino. Os hosts comprometidos geralmente se sinalizam da rede para um controlador na Internet. Isso ocorre porque a maioria dos malwares requer interação manual para exfiltrar dados da rede. Os canais CNC são usados pelo ator de ameaças para emitir comandos para o software que eles instalaram no destino. O analista de segurança cibernética deve ser capaz de detectar comunicações CNC para descobrir o host comprometido. Isso pode ser na forma de tráfego não autorizado de Internet Relay Chat (IRC) ou tráfego excessivo para dominios suspeitos.
+
+Ações e Objetivos
+
+O passo final da Cyber Kill Chain descreve o ator ameaçador alcançar seu objetivo original. Isso pode ser roubo de dados, realizar um ataque DDoS ou usar a rede comprometida para criar e enviar spam ou mina Bitcoin. Neste ponto, o ator ameaça está profundamente enraizado nos sistemas da organização, escondendo seus movimentos e cobrindo seus rastros. É extremamente difícil remover o agente de ameaça da rede.
+
+Visão geral do modelo Diamante (Diamond)
+O Modelo Diamond de Análise de Intrusão é composto por quatro partes, como mostrado na figura. O modelo representa um incidente ou evento de segurança. No Modelo Diamond, um evento é uma atividade limitada ao tempo que é restrita a uma etapa específica em que um adversário usa uma capacidade sobre a infraestrutura para atacar uma vítima para alcançar um resultado específico.
+
+Adversário
+Estas partes são responsáveis pela intrusão
+
+Recursos
+Esta é uma ferramenta ou técnica que o adversário usa para atacar a vítima.
+
+Infraestrutura
+Este é o caminho ou caminhos de rede que os adversários usam para estabelecer e manter o comando e o controle sobre suas capacidades.
+
+Vitima
+Este é o alvo do ataque No entanto, uma vítima pode ser o alvo inicialmente e, em seguida, usada como parte da infra-estrutura para lançar outros ataques.
+
+O adversário usa recursos sobre infraestrutura para atacar a vítima. O modelo pode ser interpretado como dizendo: “O adversário usa a infraestrutura para se conectar à vítima. O adversário desenvolve capacidade de explorar a vítima.” Por exemplo, um recurso como malware pode ser usado na infraestrutura de e-mail por um adversário para explorar uma vítima.
+
+Os meta-recursos expandem o modelo ligeiramente para incluir os seguintes elementos importantes:
+
+Timestamp
+Isso indica a hora de início e parada de um evento e é parte integrante do agrupamento de atividades mal-intencionadas.
+
+Fase
+Isso é análogo às etapas da cadeia Cyber Kill; atividade maliciosa inclui duas ou mais etapas executadas sucessivamente para alcançar o 
+resultado desejado.
+
+Resultado
+Isso delineia o que o adversário ganhou com o evento. Os resultados podem ser documentados como um ou mais dos seguintes: confidencialidade comprometida, integridade comprometida e disponibilidade comprometida.
+
+Direção
+Indica a direção do evento em todo o Modelo Diamond. Elas incluem infraestrutura adversária, infraestrutura para vítima, vítima para infraestrutura e infraestrutura para adversário.
+
+Metodologia
+Ela é usada para classificar o tipo geral de evento, como varredura de portas, phishing, ataque de entrega de conteúdo, syn flood, etc.
+
+Recursos
+Estes são um ou mais recursos externos usados pelo adversário para o evento de intrusão, como software, conhecimento do adversário, informações (por exemplo, nome de usuário/senhas) e ativos para realizar o ataque (hardware, fundos, instalações, acesso à rede).
+
+<img width="789" height="562" alt="image" src="https://github.com/user-attachments/assets/b9fe0a2d-4c03-4835-9009-ebaf948b227c" />
+
+
+
+
