@@ -2172,5 +2172,124 @@ Exemplos de tópicos de atividades
 
 <img width="692" height="513" alt="image" src="https://github.com/user-attachments/assets/96a53a86-15b9-4348-b7ea-ef739a3d580f" />
 
+Estabelecendo uma capacidade de resposta a incidentes
+A resposta a incidentes envolve os métodos, políticas e procedimentos usados por uma organização para responder a um ataque cibernético. Os objetivos da resposta a incidentes são limitar o impacto do ataque, avaliar os danos causados e implementar procedimentos de recuperação. Devido à perda potencial de propriedade e receita em larga escala que pode ser causada por ataques cibernéticos, é essencial que as organizações criem e mantenham planos detalhados de resposta a incidentes e designem pessoal responsável pela execução de todos os aspectos desse plano.
+
+As recomendações do NIST (National Institute of Standards and Technology, Instituto Nacional de Padrões e Tecnologia) dos EUA para resposta a incidentes estão detalhadas em sua Publicação Especial 800-61, revisão 2, intitulada “Computer Security Incident Handling Guide”, que mostra a figura.
+
+Observação: Embora este capítulo resume grande parte do conteúdo do padrão NIST 800-61r2, você deve estar familiarizado com toda a publicação, pois ela aborda quatro tópicos principais de exame para o exame Cisco Cybersecurity Operations Fundamentals da Cisco.
+
+O padrão NIST 800-61r2 fornece diretrizes para o tratamento de incidentes, especialmente para analisar dados relacionados a incidentes e determinar a resposta apropriada a cada incidente. As diretrizes podem ser seguidas independentemente de plataformas de hardware, sistemas operacionais, protocolos ou aplicativos específicos.
+
+O primeiro passo para uma organização é estabelecer uma capacidade de resposta a incidentes de segurança de computador (CSIRC). O NIST recomenda a criação de políticas, planos e procedimentos para estabelecer e manter um CSIRC.
+
+Elementos de Politica
+Uma política de resposta a incidentes detalha como os incidentes devem ser tratados com base na missão, tamanho e função da organização. A política deve ser revista regularmente, de modo a ajustá-la de modo a atingir os objetivos do roteiro que foi elaborado. Os elementos de política incluem o seguinte:
+
+Declaração de compromisso de gestão
+Objetivos e objetivos da política
+Âmbito de aplicação da política
+Definição de incidentes de segurança informática e termos conexos
+Estrutura organizacional e definição de funções, responsabilidades e níveis de autoridade
+Priorização de classificações de gravidade de incidentes
+Medidas de desempenho
+Formulários de comunicação e contato
+
+Elementos do Plano
+Um bom plano de resposta a incidentes ajuda a minimizar os danos causados por um incidente. Ele também ajuda a melhorar o programa geral de resposta a incidentes, ajustando-o de acordo com as lições aprendidas. Ele garantirá que cada parte envolvida na resposta ao incidente tenha uma compreensão clara não só do que estará fazendo, mas também do que outros estarão fazendo. Os elementos do plano são os seguintes:
+
+Missão
+Estratégias e objetivos
+Aprovação da alta administração
+Abordagem organizacional para a resposta
+Como a equipe de resposta a incidentes se comunicará com o resto da organização e com outras organizações
+Métricas para medir a capacidade de resposta a incidentes
+Como o programa se encaixa na organização geral
+
+Elementos de procedimento
+Os procedimentos que são seguidos durante uma resposta a incidentes devem seguir o plano de resposta a incidentes. Os elementos de procedimentos são os seguintes:
+
+Processos técnicos
+Uso de técnicas
+Preenchimento de formulários,
+Seguindo listas de verificação
+Estes são procedimentos operacionais padrão (SOPs) típicos. Esses POPs devem ser detalhados para que a missão e os objetivos da organização estejam em mente quando esses procedimentos forem seguidos. Os SOPs minimizam os erros que podem ser causados por funcionários que estão sob estresse durante a participação no tratamento de incidentes. É importante compartilhar e praticar esses procedimentos, certificando-se de que eles são úteis, precisos e apropriados.
+
+Partes interessadas naresposta a incidentes
+Outros grupos e indivíduos dentro da organização também podem estar envolvidos com o tratamento de incidentes. É importante assegurar que cooperarão antes de um incidente estar em curso. Sua experiência e habilidades podem ajudar a equipe de resposta a incidentes de segurança informática (CSIRT) a lidar com o incidente de forma rápida e correta. Estas são algumas das partes interessadas que podem estar envolvidas na entrega de um incidente de segurança:
+
+Gerenciamento
+Os gerentes criam as políticas que todos devem seguir. Eles também projetam o orçamento e são responsáveis pela equipe de todos os departamentos. A gerência deve coordenar a resposta ao incidente com outras partes interessadas e minimizar os danos de um incidente.
+
+Garantia de informações
+Esse grupo pode precisar ser chamado para alterar coisas como regras de firewall durante alguns estágios de gerenciamento de incidentes, como contenção ou recuperação.
+
+Suporte de TI
+Este é o grupo que trabalha com a tecnologia na organização e a entende mais. Como o suporte de TI tem uma compreensão mais profunda, é mais provável que eles executem a ação correta para minimizar a eficácia do ataque ou preservar as evidências adequadamente.
+
+Departamento Jurídico
+É uma prática recomendada fazer com que o departamento jurídico revise as políticas, os planos e os procedimentos de incidentes para garantir que eles não violem quaisquer diretrizes locais ou federais. Além disso, se algum incidente tiver implicações legais, um perito jurídico terá de se envolver. Isso pode incluir acusação, coleta de evidências ou ações judiciais.
+
+Assuntos Públicos e Relações com os Media
+Há momentos em que a mídia e o público podem precisar ser informados de um incidente, como quando suas informações pessoais foram comprometidas durante um incidente.
+
+Recursos Humanos
+O departamento de recursos humanos pode precisar executar medidas disciplinares se ocorrer um incidente causado por um funcionário.
+
+Planejadores de Continuidade de Negócios
+Incidentes de segurança podem alterar a continuidade de negócios de uma organização. É importante que os responsáveis pelo planejamento de continuidade de negócios estejam cientes dos incidentes de segurança e do impacto que tiveram sobre a organização como um todo. Isto permitir-lhes-á fazer quaisquer alterações nos planos e nas avaliações de risco.
+
+Segurança física e gerenciamento de instalações
+Quando um incidente de segurança ocorre devido a um ataque físico, como tailgating ou surfe no ombro, essas equipes podem precisar serem informadas e envolvidas. É também da sua responsabilidade garantir instalações que contenham provas de uma investigação.
+
+A certificação do modelo de maturidade de segurança
+
+A estrutura de Certificação de Modelo de Maturidade de Segurança Cibernética (CMMC) foi criada para avaliar a capacidade das organizações que desempenham funções para o Departamento de Defesa dos EUA (DoD) para proteger a cadeia de suprimentos militar contra interrupções ou perdas devido a incidentes de segurança cibernética. Violações de segurança relacionadas às informações do DoD indicaram que os padrões do NIST não eram suficientes para atenuar o cenário de ameaças cada vez maior e em evolução, especialmente por parte dos atores do Estado/Nação. Para que as empresas recebam contratos do DoD, essas empresas devem ser certificadas. A certificação consiste em cinco níveis, com diferentes níveis exigidos dependendo do grau de segurança exigido pelo projeto.
+
+O CMMC especifica 17 domínios, cada um dos quais tem um número variável de recursos que estão associados a ele. A organização é classificada pelo nível de maturidade que foi alcançado para cada um dos domínios. Um dos domínios diz respeito à resposta a incidentes. Os recursos associados ao domínio de resposta a incidentes são os seguintes:
+
+Plano de resposta a incidentes
+Detectar e relatar eventos
+Desenvolver e implementar uma resposta a um incidente declarado
+Realizar revisões pós-incidentes
+Teste de resposta a incidentes
+O CMMC certifica organizações por nível. Para a maioria dos domínios, há cinco níveis, no entanto, para resposta a incidentes, existem apenas quatro. Quanto maior o nível certificado, mais madura será a capacidade de segurança cibernética da organização. Um resumo dos níveis de maturidade do domínio de resposta à incidência é mostrado abaixo.
+
+Nível 2
+Estabeleça um plano de resposta a incidentes que siga o processo do NIST. Detectar, relatar e priorizar eventos. Responda a eventos seguindo procedimentos predefinidos. Analise a causa dos incidentes para mitigar problemas futuros.
+
+Nivel 3
+Documentar e relatar incidentes às partes interessadas que foram identificados no plano de resposta a incidentes. Teste a capacidade de resposta a incidentes da organização.
+
+Nivel 4
+Use o conhecimento de táticas, técnicas e procedimentos do atacante (TPT) para refinar o planejamento e a execução da resposta a incidentes. Estabeleça um centro de operações de segurança (SOC) que facilite um recurso de resposta 24/7.
+
+Nivel 5
+Utilize técnicas de coleta de dados forenses informáticas aceitas e sistemáticas, incluindo o manuseio e armazenamento seguros de dados forenses. Desenvolva e utilize respostas manuais e automatizadas em tempo real para possíveis incidentes que seguem padrões conhecidos.
+
+Ciclo de vida de resposta a incidentes NIST
+O NIST define quatro etapas no ciclo de vida do processo de resposta a incidentes, conforme mostrado na figura.
+
+Preparação
+Os membros do CSIRT são treinados para responder a um incidente. Os membros do CSIRT devem desenvolver continuamente o conhecimento das ameaças emergentes.
+
+Detecção e análise
+Através do monitoramento contínuo, o CSIRT identifica, analisa e valida rapidamente um incidente.
+
+Contenção, erradicação e recuperação
+O CSIRT implementa procedimentos para conter a ameaça, erradicar o impacto nos ativos organizacionais e usar backups para restaurar dados e software. Esta fase pode voltar à detecção e análise para reunir mais informações, ou para expandir o escopo da investigação.
+
+Atividades pós-incidente
+O CSIRT então documenta como o incidente foi tratado, recomenda alterações para resposta futura e especifica como evitar uma repetição.
+
+
+Ciclo de vida de resposta a incidentes
+O ciclo de vida de resposta a incidentes destina-se a ser um processo de aprendizagem auto-reforçado, pelo qual cada incidente informa o processo para lidar com incidentes futuros. Cada uma dessas fases é discutida com mais detalhes neste tópico.
+
+Ciclo de vida de resposta a incidentes
+
+<img width="811" height="245" alt="image" src="https://github.com/user-attachments/assets/13a825f5-7a4b-4482-837b-862ec8675577" />
+
+
 
 
