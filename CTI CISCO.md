@@ -2441,6 +2441,80 @@ A avaliação subjetiva de cada incidente exige que os membros da equipe de resp
 Deve haver uma política em vigor em cada organização que descreva quanto tempo a evidência de um incidente é mantida. Muitas vezes, as provas são retidas durante muitos meses ou muitos anos após um incidente ter ocorrido. Em alguns casos, os regulamentos de conformidade podem exigir o período de retenção. Estes são alguns dos fatores determinantes para a retenção de evidências:
 
 
+Estratégia de contenção
+Para cada tipo de incidente, uma estratégia de contenção deve ser criada e aplicada. Estas são algumas condições para determinar o tipo de estratégia a ser criada para cada tipo de incidente:
+
+Quanto tempo levará para implementar e concluir uma solução?
+Quanto tempo e quantos recursos serão necessários para implementar a estratégia?
+Qual é o processo para preservar evidências?
+Um invasor pode ser redirecionado para uma área restrita para que o CSIRT possa documentar com segurança a metodologia do invasor?
+Qual será o impacto na disponibilidade de serviços?
+Qual é a extensão dos danos aos recursos ou ativos?
+Quão eficaz é a estratégia?
+Durante a contenção, podem ocorrer danos adicionais. Por exemplo, nem sempre é aconselhável desconectar o host comprometido da rede. O processo malicioso pode notar essa desconexão para o controlador CNC e acionar um apagamento de dados ou criptografia no destino. É aqui que a experiência e a experiência podem ajudar a conter um incidente além do escopo da estratégia de contenção.
+
+Evidência
+Durante um incidente, as provas devem ser recolhidas para resolvê-lo. Os elementos de prova também são importantes para a investigação posterior por parte das autoridades. Documentação clara e concisa sobre a preservação de evidências é fundamental. Para que as provas sejam admissíveis em tribunal, a recolha de provas deve estar em conformidade com regulamentos específicos. Após a coleta de evidências, ela deve ser devidamente contabilizada. Isso é conhecido como cadeia de custódia. Estes são alguns dos itens mais importantes para registrar ao documentar evidências usadas na cadeia de custódia:
+
+Localização da recuperação e armazenamento de todos os elementos de prova
+Quaisquer critérios de identificação para todas as evidências, como número de série, endereço MAC, nome de host ou endereço IP
+Informações de identificação para todas as pessoas que participaram da coleta ou manuseamento das evidências
+Hora e data em que a evidência foi coletada e em cada instância foi tratada
+É vital educar qualquer pessoa envolvida no tratamento de evidências sobre como preservar as evidências adequadamente.
+
+identificação do invasor
+A identificação de invasores é secundária à contenção, erradicação e recuperação de hosts e serviços. No entanto, a identificação de invasores minimizará o impacto em ativos e serviços comerciais críticos. Estas são algumas das ações mais importantes a serem executadas para tentar identificar um host atacante durante um incidente de segurança:
+
+Use bancos de dados de incidentes para pesquisar atividades relacionadas. Esse banco de dados pode ser interno ou localizado em organizações que coletam dados de outras organizações e os consolidam em bancos de dados incidentes, como o banco de dados da comunidade VERIS.
+Valide o endereço IP do invasor para determinar se ele é viável. O host pode ou não responder a um pedido de conectividade. Isso pode ser porque ele foi configurado para ignorar as solicitações ou o endereço já foi reatribuído a outro host.
+Use um mecanismo de busca na internet para obter informações adicionais sobre o ataque. Pode ter havido outra organização ou indivíduo que tenha liberado informações sobre um ataque a partir do endereço IP de origem identificado.
+Monitore os canais de comunicação que alguns atacantes usam, como o IRC. Como os usuários podem ser disfarçados ou anonimizados em canais de IRC, eles podem falar sobre suas façanhas nesses canais. Freqüentemente, as informações coletadas a partir desse tipo de monitoramento são enganosas e devem ser tratadas como pistas e não como fatos.
+
+Erradicação, recuperação e remediação
+Após a contenção, o primeiro passo para a erradicação é identificar todos os hospedeiros que precisam de correção. Todos os efeitos do incidente de segurança devem ser eliminados. Isso inclui infecções de malware e contas de usuário que foram comprometidas. Todas as vulnerabilidades que foram exploradas pelo invasor também devem ser corrigidas ou corrigidas para que o incidente não ocorra novamente.
+
+Para recuperar hosts, use backups limpos e recentes ou reconstrua-os com mídia de instalação se não houver backups disponíveis ou se eles tiverem sido comprometidos. Além disso, atualize e corrija totalmente os sistemas operacionais e o software instalado de todos os hosts. Altere todas as senhas de host e senhas para sistemas críticos de acordo com a política de segurança de senhas. Esse pode ser um bom momento para validar e atualizar a segurança da rede, as estratégias de backup e as políticas de segurança. Os atacantes freqüentemente atacam os sistemas novamente, ou usam um ataque semelhante para direcionar recursos adicionais, então não se esqueça de evitar isso da melhor forma possível. Concentre-se no que pode ser corrigido rapidamente enquanto prioriza sistemas e operações críticos.
+
+Atividades pós-incidentes
+Fase de atividade pós-incidente
+
+<img width="804" height="235" alt="image" src="https://github.com/user-attachments/assets/a8cc6b77-c1f1-43f8-b8fe-10ab8415844a" />
+
+Depois que as atividades de resposta a incidentes erradicaram as ameaças e a organização começou a se recuperar dos efeitos do ataque, é importante dar um passo atrás e periodicamente se reunir com todas as partes envolvidas para discutir os eventos que ocorreram e as ações de todos os indivíduos, enquanto Lidando com o incidente. Isso fornecerá uma plataforma para aprender o que foi feito corretamente, o que foi feito errado, o que poderia ser alterado e o que deve ser melhorado.
+
+Endurecimento baseado em lições
+
+Após um incidente importante ter sido tratado, a organização deve realizar uma reunião de “lições aprendidas” para analisar a eficácia do processo de manipulação de incidentes e identificar o fortalecimento necessário para controles e práticas de segurança existentes. Exemplos de boas perguntas a serem respondidas durante a reunião incluem o seguinte:
+
+Exatamente o que aconteceu, e quando?
+Quão bem a equipe e a gerência se comportaram ao lidar com o incidente?
+Os procedimentos documentados foram seguidos? Eram adequados?
+Quais informações foram necessárias antes?
+Foram tomadas quaisquer medidas ou medidas que possam ter inibido a recuperação?
+O que a equipe e a gerência fariam de forma diferente na próxima vez que ocorrer um incidente semelhante?
+Como o compartilhamento de informações com outras organizações pode ser aprimorado?
+Que medidas corretivas podem evitar incidentes semelhantes no futuro?
+Quais precursores ou indicadores devem ser observados no futuro para detectar incidentes semelhantes?
+Quais ferramentas ou recursos adicionais são necessários para detectar, analisar e mitigar incidentes futuros?
+6.4.9 Coleta e retenção de dados de incidentes
+Ao realizar reuniões de “lições aprendidas”, os dados coletados podem ser usados para determinar o custo de um incidente por razões de orçamento, bem como para determinar a eficácia do CSIRT e identificar possíveis deficiências de segurança em todo o sistema. Os dados coletados precisam ser acionáveis. Colete apenas dados que possam ser usados para definir e refinar o processo de manipulação de incidentes.
+
+Um maior número de incidentes tratados pode mostrar que algo na metodologia de resposta à incidência não está funcionando corretamente e precisa ser refinado. Poderia também mostrar incompetência no CSIRT. Um número menor de incidentes pode mostrar que a segurança da rede e do host foi melhorada. Também pode mostrar uma falta de detecção de incidentes. Contagens de incidentes separadas para cada tipo de incidente podem ser mais eficazes para mostrar pontos fortes e fracos do CSIRT e medidas de segurança implementadas. Essas subcategorias podem ajudar a direcionar onde reside uma fraqueza, em vez de se haver alguma fraqueza.
+
+O tempo de cada incidente fornece informações sobre a quantidade total de mão-de-obra usada e o tempo total de cada fase do processo de resposta a incidentes. O tempo até a primeira resposta também é importante, bem como quanto tempo levou para relatar o incidente e encaminhá-lo para além da organização, se necessário.
+
+É importante realizar uma avaliação objetiva de cada Incidente. A resposta a um incidente que foi resolvido pode ser analisada para determinar a sua eficácia. A Publicação Especial 800-61 do NIST fornece os seguintes exemplos de ativações realizadas durante uma avaliação objetiva de um incidente:
+
+Analisando logs, formulários, relatórios e outras documentações de incidentes para a adesão a políticas e procedimentos de resposta a incidentes estabelecidos.
+Identificando quais precursores e indicadores do incidente foram registrados para determinar com que eficácia o incidente foi registrado e identificado.
+Determinando se o incidente causou danos antes de ser detectado.
+Determinar se a causa real do incidente foi identificada e identificar o vetor de ataque, as vulnerabilidades exploradas e as características dos sistemas, redes e aplicativos alvo ou vitimizados.
+Determinando se o incidente é uma recorrência de um incidente anterior.
+Cálculo do dano monetário estimado do incidente (por exemplo, informações e processos comerciais críticos afetados negativamente pelo incidente).
+Medir a diferença entre a avaliação de impacto inicial e a avaliação de impacto final.
+Identificar quais medidas, se houver, poderiam ter evitado o incidente.
+A avaliação subjetiva de cada incidente exige que os membros da equipe de resposta a incidentes avaliem seu próprio desempenho, bem como o de outros membros da equipe e de toda a equipe. Outra fonte valiosa de entrada é o proprietário de um recurso que foi atacado, a fim de determinar se o proprietário acha que o incidente foi tratado de forma eficiente e se o resultado foi satisfatório.
+Deve haver uma política em vigor em cada organização que descreva quanto tempo a evidência de um incidente é mantida. Muitas vezes, as provas são retidas durante muitos meses ou muitos anos após um incidente ter ocorrido. Em alguns casos, os regulamentos de conformidade podem exigir o período de retenção. Estes são alguns dos fatores determinantes para a retenção de evidências:
 
 
 
