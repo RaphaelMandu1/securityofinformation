@@ -1995,6 +1995,71 @@ Prioridade de coleta
 
 <img width="545" height="488" alt="image" src="https://github.com/user-attachments/assets/eaae8a70-524b-42f9-9eef-87b546861979" />
 
+Um exemplo da ordem de coleta de evidências mais volátil a menos volátil é o seguinte:
+Registros de memória, caches
+Tabela de roteamento, cache ARP, tabela de processo, estatísticas de kernel, RAM
+Sistemas de arquivos temporários
+Meios não voláteis, fixos e removíveis
+Dados de registro e monitoramento remotos
+Interconexões físicas e topologias
+Mídia de arquivamento, fita ou outros backups
+Detalhes dos sistemas a partir dos quais as provas foram recolhidas, incluindo quem tem acesso a esses sistemas e a que nível de permissões devem ser registadas. Essas informações devem incluir configurações de hardware e software para os sistemas a partir dos quais os dados foram obtidos.
+
+
+Cadeia de Custódia
+Embora possam ter sido recolhidas provas de fontes que apoiam a atribuição a um indivíduo acusado, pode-se argumentar que a evidência poderia ter sido alterada ou fabricada após a coleta. Para contrariar este argumento, deve ser definida e seguida uma rigorosa cadeia de custódia.
+
+A cadeia de custódia envolve a coleta, manuseio e armazenamento seguro de evidências. Devem ser conservados registos pormenorizados dos seguintes elementos:
+
+Quem descobriu e recolheu as provas?
+Todos os detalhes sobre o tratamento de evidências, incluindo horas, locais e pessoal envolvido.
+Quem tem a principal responsabilidade pelas provas, quando a responsabilidade foi atribuída e quando a custódia mudou?
+Quem tem acesso físico à evidência enquanto foi armazenada? O acesso deve ser limitado apenas ao pessoal mais essencial.
+
+Integridade e preservação dos dados
+ 
+Ao coletar dados, é importante que eles sejam preservados em sua condição original. O carimbo de data/hora (timestamp) dos arquivos deve ser preservado. Por esta razão, a prova original deve ser copiada e a análise deve ser realizada apenas em cópias do original. Isto é para evitar perda acidental ou alteração da evidência. Como os carimbos de data/hora podem fazer parte da evidência, abrir arquivos da mídia original deve ser evitado.
+
+O processo utilizado para criar cópias dos elementos de prova utilizados no inquérito deve ser registado. Sempre que possível, as cópias devem ser cópias diretas em nível de bits dos volumes de armazenamento originais. Deve ser possível comparar a imagem do disco arquivado e a imagem do disco investigada para identificar se o conteúdo do disco investigado foi adulterado. Por esta razão, é importante arquivar e proteger o disco original para mantê-lo em sua condição original, sem adulteração.
+
+Memória volátil pode conter evidências forenses, então ferramentas especiais devem ser usadas para preservar essa evidência antes que o dispositivo seja desligado e as evidências sejam perdidas. Os usuários não devem desconectar, desconectar da tomada ou desligar máquinas infectadas, a menos que explicitamente instruído pelo pessoal de segurança.
+
+Seguir estes processos garantirá que qualquer evidência de delito será preservada, e quaisquer indicadores de comprometimento podem ser identificados.
+
+Atribuição de Ataque
+Depois que a extensão do ataque cibernético foi avaliada e as evidências coletadas e preservadas, a resposta ao incidente pode passar para identificar a origem do ataque. Como sabemos, existe uma ampla gama de atores de ameaças, que vão desde indivíduos descontentes, hackers, cibercriminosos e gangues criminosas, ou estados-nação. Alguns criminosos agem de dentro da rede, enquanto outros podem estar do outro lado do mundo. A sofisticação do crime cibernético também varia. Os Estados-nação podem empregar grandes grupos de indivíduos altamente treinados para realizar um ataque e esconder seus rastros, enquanto outros atores ameaçadores podem abertamente se gabar de suas atividades criminosas.
+
+Atribuição de ameaças refere-se ao ato de determinar o indivíduo, a organização ou a nação responsável por um incidente de invasão ou ataque bem-sucedido.
+
+A identificação dos intervenientes responsáveis pela ameaça deve ocorrer através da investigação sistemática e baseada em princípios dos elementos de prova. Embora possa ser útil também especular quanto à identidade dos atores da ameaça, identificando potenciais motivações para um incidente, é importante não deixar que isso vise a investigação. Por exemplo, atribuir um ataque a um concorrente comercial pode levar a investigação longe da possibilidade de uma gangue criminosa ou um Estado-nação ter sido responsável.
+
+Em uma investigação baseada em evidências, a equipe de resposta a incidentes correlaciona Táticas, Técnicas e Procedimentos (TTP) que foram usados no incidente com outras explorações conhecidas. Os cibercriminosos, assim como outros criminosos, têm traços específicos que são comuns à maioria dos seus crimes. Fontes de inteligência de ameaças podem ajudar a mapear o TTP identificado por uma investigação para fontes conhecidas de ataques semelhantes. No entanto, isso destaca um problema com a atribuição de ameaças. Evidência de cibercrime raramente é evidência direta. Identificar semelhanças entre TTP para atores conhecidos e desconhecidos da ameaça é evidência circunstancial.
+
+Alguns aspectos de uma ameaça que podem ajudar na atribuição são a localização de hosts ou domínios de origem, recursos do código usado em malware, as ferramentas usadas e outras técnicas. Por vezes, a nível da segurança nacional, as ameaças não podem ser atribuídas abertamente, porque isso exporia métodos e capacidades que precisam de ser protegidos.
+
+Para ameaças internas, o gerenciamento de ativos desempenha um papel importante. Descobrir os dispositivos a partir dos quais um ataque foi lançado pode levar diretamente ao ator da ameaça. Endereços IP, endereços MAC e logs DHCP podem ajudar a rastrear os endereços usados no ataque de volta para um dispositivo específico. Os logs AAA são muito úteis a esse respeito, pois rastreiam quem acessou quais recursos de rede a que horas.
+
+A estrutura MITRE ATT&CK
+Uma maneira de atribuir um ataque é modelar o comportamento do ator de ameaça. O MITRE Táticas e técnicas adversas & Estrutura de Conhecimento Comum (ATT&CK) permite detectar táticas, técnicas e procedimentos do atacante (TTP) como parte da defesa contra ameaças e atribuição de ataques. Isso é feito mapeando os passos em um ataque para uma matriz de táticas generalizadas e descrevendo as técnicas que são usadas em cada tática. As táticas consistem nos objetivos técnicos que um atacante deve realizar para executar um ataque e as técnicas são o meio pelo qual as táticas são realizadas. Por último, os procedimentos são as acções específicas tomadas pelos intervenientes ameaçadores nas técnicas identificadas. Os procedimentos são o uso documentado de técnicas no mundo real por atores ameaçadores.
+
+O MITRE ATT&CK Framework é uma base de conhecimento global do comportamento do ator de ameaças. Baseia-se na observação e análise de explorações do mundo real com o objetivo de descrever o comportamento do atacante, não o ataque em si. Ele foi projetado para permitir o compartilhamento automatizado de informações, definindo estruturas de dados para o intercâmbio de informações entre sua comunidade de usuários e MITRE.
+
+A figura mostra uma análise de uma exploração de ransomware a partir da excelente sandbox online ANY.RUN. As colunas mostram as táticas de matriz de ataque corporativo, com as técnicas usadas pelo malware organizadas sob as colunas. Clicar na técnica, em seguida, lista detalhes dos procedimentos que são usados pela instância de malware específica com uma definição, explicação e exemplos da técnica.
+
+Nota: Faça uma pesquisa na Internet no MITRE ATT&CK para saber mais sobre a ferramenta.
+
+Matriz MITRE ATT&CK para uma exploração de ransomware
+
+Etapas da cadeia Cyber Kill
+A Cyber Kill Chain foi desenvolvida pela Lockheed Martin para identificar e prevenir intrusões cibernéticas. Existem sete etapas para o Cyber Kill Chain. O foco nessas etapas ajuda os analistas a entender as técnicas, as ferramentas e os procedimentos dos atores de ameaças. Ao responder a um incidente de segurança, o objetivo é detectar e parar o ataque o mais cedo possível na progressão da cadeia de eliminação. Quanto mais cedo o ataque for interrompido; menos dano é feito e menos o atacante aprende sobre a rede de destino.
+
+A Cyber Kill Chain especifica o que um atacante deve completar para atingir seu objetivo. Os passos na Cyber Kill Chain são mostrados na figura.
+
+Se o atacante for parado em qualquer fase, a cadeia de ataque é quebrada. Quebrar a corrente significa que o defensor frustrou com sucesso a intrusão do ator da ameaça. Os atores da ameaça só serão bem-sucedidos se concluírem a Etapa 7.
+
+Nota: Ator ameaça é o termo usado ao longo deste curso para se referir à parte que instigou o ataque. No entanto, Lockheed Martin usa o termo “adversário” em sua descrição da Cyber Kill Chain. Portanto, os termos adversário e ator ameaça são usados de forma intercambiável neste tópico.
+
+<img width="760" height="508" alt="image" src="https://github.com/user-attachments/assets/edb4ac38-21a7-4b98-a73c-efc56993377f" />
 
 
 
