@@ -2540,4 +2540,108 @@ Tente automatizar o máximo possível do processo de compartilhamento de informa
 Equilibre os benefícios do compartilhamento de informações com as desvantagens do compartilhamento de informações confidenciais.
 Compartilhe o máximo possível de informações apropriadas sobre incidentes com outras organizações.
 
+Tipos de desastres
+Um desastre inclui qualquer evento natural ou causado por humanos que danifica os ativos ou propriedade e prejudica a capacidade de operação da empresa.
+
+Desastres naturais
+Desastres naturais diferem dependendo da localização e, às vezes, são difíceis de prever. Desastres naturais se enquadram nas seguintes categorias:
+Desastres geológicos incluem terremotos, deslizamentos de terra, vulcões e tsunamis
+Desastres meteorológicos incluem furacões, tornados, tempestades de neve, raios e granizo
+Desastres de saúde incluem doenças disseminadas, quarentenas e pandemias
+Desastres diversos incluem incêndios, inundações, tempestades solares e avalanches
+
+Desastres provocados por seres
+humanos
+Desastres provocados por seres humanos envolvem pessoas ou organizações e se enquadram nas seguintes categorias:
+Eventos trabalhistas incluindo greves, passeatas e "operações tartaruga"
+Eventos sócio-politicos incluindo vandalismo, bloqueios, protestos, sabotagem, terrorismo e guerra
+Eventos materiais incluindo incêndios e derramamentos perigosos
+Interrupções de serviços essenciais incluido falhas de energia, falhas de comunicação,
+
+Plano de recuperação de desastres
+
+Uma empresa coloca seu DRP (Disaster recovery plan, Plano de recuperação de desastres) em ação enquanto o desastre está em curso e os funcionários estão lutando para garantir que sistemas essenciais estejam on-line.
+
+O DRP inclui as atividades que a empresa realiza para avaliar, recuperar, reparar e restaurar instalações ou ativos danificados.
+
+Para criar o DRP, responda às seguintes perguntas:
+
+Quem é responsável por esse processo?
+O que o indivíduo precisa para realizar o processo?
+Onde o indivíduo realiza esse processo?
+Qual é o processo?
+Por que o processo é essencial?
+
+mplementação de controles de recuperação de desastres
+Controles de recuperação de desastre minimizam os efeitos de um desastre, para garantir que os recursos e processos comerciais possam retomar a operação.
+
+Controles de detecção
+Medidas de detecção incluem controles que descobrem eventos indesejados. Essas medidas descobrem novas possíveis ameaças.
+
+Controles preventivos
+Medidas preventivas incluem controles que evitam a ocorrência de um desastre. Eles visam identificar e mitigar riscos.
+
+Controles corretivos
+Medidas corretivas incluem controles que restauram o sistema depois de um desastre ou um evento.
+
+Planejamento de Continuidade de Negócios
+A continuidade dos negócios é um dos mais importantes conceitos em segurança de computador. É importante que as empresas tenham planos implementados para garantir a continuidade dos negócios, independentemente do que possa ocorrer.
+
+Um plano de continuidade dos negócios é um plano mais amplo que um DRP, pois inclui levar sistemas essenciais para outro local, enquanto o reparo da instalação original está em andamento. O pessoal continua a executar todos os processos comerciais de forma alternada, até retomar as operações normais.
+
+A criação de um plano de continuidade dos negócios começa com a realização de uma análise de impacto nos negócios (BIA) para identificar processos comerciais importantes, recursos e relacionamentos entre sistemas. A BIA se concentra nas consequências da interrupção para funções essenciais de negócios e examina as principais considerações relacionadas abaixo.
+
+
+Objetivo de tempo de recuperação (RTO)
+O período máximo tolerável que um sistema, rede ou aplicativo pode ficar indisponível após uma falha ou desastre.
+
+Objetivo de ponto de recuperação (RPO)
+A vida útil média de um determinado recurso antes que ele falhe.
+
+Tempo médio de reparo (MTTR)
+O tempo médio necessário para reparar um componente com falha.
+
+Tempo médio entre falhas (MTBF)
+O tempo médio decorrido entre uma falha e a próxima.
+
+Considerações sobre continuidade dos negócios
+ 
+Os controles de continuidade dos negócios são mais do que apenas backup de dados e fornecimento de hardware redundante. As empresas precisam de funcionários para configurar e operar corretamente os sistemas. Os dados podem ser inúteis, até que forneçam informações.
+
+Uma empresa deve procurar o seguinte:
+
+Colocando as pessoas certas nos lugares certos
+Documentação de configurações
+Estabelecimento de canais de comunicação diferentes para voz e dados
+Fornecimento de energia
+Identificação de todas as dependências para aplicativos e processos para que eles sejam adequadamente entendidos
+Compreensão de como realizar essas tarefas automatização manualmente
+
+ Melhores práticas de continuidade dos negócios
+O National Institute of Standards and Technology (NIST) desenvolveu as melhores práticas em relação à continuidade dos negócios.
+
+NIST
+National Institute of Standards and Technology
+
+1. Escrever uma politica que forneça orientações para desenvolver o plano de continuidade dos negócios e atribuir funções para realizar as tarefas.
+2. Conduzir a avaliação de impacto nos negócios: Identificar os processos e sistemas importantes e priorizá-los com base na necessidade.
+3. Calcule o Risco: Identifique vulnerabilidades, ameaças e calcule os riscos.
+4. Identifique e implemente controles e contra medidas para reduzir o risco.
+5. Desenvolva estratégias de recuperação: Planeje métodos para recuperar rapidamente os sistemas essenciais.
+6. Desenvolva o plano de contingencia: Escreva os procedimentos para manter a empresa funcionando em uma condição de caos.
+7. Teste o plano: verifique a eficácia do plano em cenários em tempo real.
+
+Exercitando seu Plano de recuperação de desastres
+Existem vários métodos diferentes disponíveis para treinar a equipe e testar o plano de recuperação de desastres da empresa.
+
+Exercícios de Tabletop (Topo de Mesa)
+O mais simples é um exercício de mesa em que os participantes se sentam à mesa com um facilitador que fornece informações relacionadas a um incidente de cenário e aos processos que estão sendo examinados. Nenhum processo ou procedimento real é invocado; eles são apenas discutidos. Isso pode resultar na percepção de que um determinado tipo de incidente não está coberto no momento nos planos atuais.
+
+Testes funcionais
+Outro tipo de exercício é um teste funcional, em que certos aspectos de um plano são testados para ver como eles funcionam (e como o pessoal está bem preparado).
+
+Exercícios operacionais
+No extremo, há exercícios operacionais completos ou simulações. Eles são projetados para interromper os serviços e verificar se todos os aspectos de um plano estão em vigor e são suficientes para responder ao tipo de incidente que está sendo simulado.
+
+
 
