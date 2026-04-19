@@ -226,3 +226,341 @@ Verdadeiro
 shodan cameras server
 maltego analise forense
 FOCA analise metadados de arquivos
+
+
+
+--------------
+
+Fontes de informação
+Existem muitas organizações que fornecem inteligência de rede. As organizações de segurança de rede incluem SANS, Mitre, FIRST, SecurityNewsWire, (ISC) 2 e CIS. Você deve se manter atualizado sobre as ameaças mais recentes e continuar a atualizar suas habilidades. O Cisco Annual Cybersecurity Report e o Mid-Year Cybersecurity Report são ótimos recursos para usar. Também é útil ler blogs e ouvir podcasts.
+
+Serviços de inteligência de ameaças
+Os serviços de inteligência contra ameaças permitem a troca de informações sobre ameaças, como vulnerabilidades, indicadores de comprometimento (IOC) e técnicas de mitigação. Essas informações não são compartilhadas apenas com o pessoal, mas também com sistemas de segurança. À medida que as ameaças surgem, os serviços de inteligência de ameaças criam e distribuem regras de firewall e IOCs para os dispositivos que assinaram o serviço. Um desses serviços é o Cisco Talos Threat Intelligence Group. FireEye é outra empresa de segurança que oferece serviços para ajudar as empresas a proteger suas redes. A FireEye usa uma abordagem de três frentes combinando inteligência de segurança, experiência em segurança e tecnologia. A FireEye oferece SIEM e SOAR com a Helix Security Platform, que usa análise comportamental e detecção avançada de ameaças, com suporte da rede mundial de inteligência contra ameaças da FireEye Mandiant. O Departamento de Segurança Interna dos EUA (DHS) oferece um serviço gratuito chamado Automated Indicator Sharing (AIS). O AIS permite a troca em tempo real de indicadores de ameaças cibernéticas entre o Governo Federal dos EUA e o setor privado. O governo dos Estados Unidos patrocinou a MITRE Corporation para criar e manter um catálogo de ameaças de segurança conhecidas chamadas Common Vulnerabilities and Exposure (CVE). Três padrões comuns de compartilhamento de informações sobre ameaças incluem STIX (Structured Threat Information Expression), Trusted Automated Exchange of Indicator Information (TAXII) e CyBox. Esses padrões abertos fornecem as especificações que auxiliam na troca automatizada de informações de inteligência de ameaças cibernéticas em um formato padrão.
+
+
+--------------
+
+
+cat http.log | awk '{print $8}' | grep -w DELETE | wc -l - somente para contar os deletes
+
+
+Exemplos de algumas das respostas da aplicação;
+
+- 200 (OK): A solicitação foi recebida com sucesso e a resposta foi retornada.
+
+- 301 (Redirecionamento Permanente): A solicitação foi redirecionada para um local diferente.
+
+- 403 (Proibido): Os dados cujo acesso foi solicitado não são permitidos.
+
+- 404 (Não encontrado): O conteúdo solicitado não pôde ser encontrado.
+
+- 503 (Serviço indisponível): O servidor não pode responder.
+
+
+Categorias de código de resposta:
+
+- Respostas informativas (100–199)
+
+- Respostas bem-sucedidas (200–299)
+
+- Mensagens de redirecionamento (300–399)
+
+- Respostas de erro do cliente (400–499)
+
+- Respostas de erro do servidor (500–599)
+
+
+
+gato http.log | awk '{print $8}' | grep -w DELETE | wc -l
+
+SOC Analyst Career Path (Caminho de Carreira de Analista SOC): Este é um dos mais recomendados e completos, projetado para ensinar as habilidades técnicas necessárias para uma carreira em um Centro de Operações de Segurança (SOC). Abrange desde os fundamentos até a investigação de alertas de Tier 1 e Tier 2.
+
+Incident Responder Career Path (Caminho de Carreira de Respondedor a Incidentes): Ideal para quem busca aprofundar suas habilidades em como responder a ataques cibernéticos e gerenciar incidentes de segurança.
+
+Malware Analysis Skill Path (Caminho de Habilidades de Análise de Malware): Se você tem interesse em entender como o malware funciona e como mitigá-lo, este caminho é muito valioso.
+
+
+  	
+sailpoint
+desec
+
+------------------------------------
+
+https://medium.com/@u.emmanuel53/letsdefend-investigate-web-attack-walkthrough-f3d8af75b74e
+
+alert" e "script
+
+alert
+
+javascript 
+
+/root/Desktop/QuestionFiles/XSS_Web_Attacks.rar
+
+sqli_blind
+whoami
+=%
+
+/tmp
+
+dir, ls, cp, cat, type
+
+https://www.youtube.com/watch?v=JtaNMVjz4VM
+
+passwd
+
+file
+
+$
+
+id=1, id=2, id=3
+
+192.168.31.156 - - [01/Mar/2022:09:03:33 -0800] "POST /dvwa/vulnerabilities/exec/?q=1.1.1.1;ls HTTP/1.1" 200 4477 "http://192.168.31.200/dvwa/vulnerabilities/exec/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0"
+192.168.31.156 - - [01/Mar/2022:09:04:45 -0800] "POST /dvwa/vulnerabilities/exec/?q=1.1.1.1&&ls HTTP/1.1" 200 4477 "http://192.168.31.200/dvwa/vulnerabilities/exec/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0"
+
+
+
+id - tema de pesquisa
+
+
+php $get language include passwd HTTP HTTPS KHTML
+
+php
+
+
+GET /example?parameter=
+
+GET /post?
+
+http://example.com/profiles/picture.php?name=../../etc/passwd
+
+include($_GET['page']). 
+
+free@coffeeshooop.com
+
+felix@letsdefend.io
+
+Linux
+
+/etc/issue
+
+/etc/senha
+
+/etc/sombra
+
+/etc/grupo
+
+/etc/hosts
+
+
+
+Windows
+
+c:/boot.ini
+
+c:/inetpub/logs/arquivos de log
+
+c:/inetpub/wwwroot/global.asa
+
+c:/inetpub/wwwroot/index.asp
+
+c:/inetpub/wwwroot/web.config
+
+c:/sysprep.inf
+---------------------------
+
+ls
+
+So for the detecting !DOCTYPE keyword in nginx logs, we can use regex like;
+
+^(\S+) - (\S+) \[(.*?)\] "(\S+) (.*?)\?(?=.*?\b21DOCTYPE\b).*? HTTP\/\d\.\d" (\d+) (\d+) "(.*?)" "(.*?)"
+
+root
+
+xxe
+
+xml
+
+
+
+102 - 192.168.199.2
+
+
+192.168.199.2 - - [20/Jun/2021:12:36:36 +0300] "GET /bwapp/index.php?Nikto=forums&file=viewtopic&t=2&rush=%64%69%72&highlight=%2527.%70%61%73%73%74%68%72%75%28%24%48%54%54%50%5f%47%45%54%5f%56%41%52%53%5b%72%75%73%68%5d%29.%2527 HTTP/1.1" 302 - "-" "Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:001391)"
+
+
+message=%22%22;%20system(%27net%20user%20hacker%20Asd123!!%20/add%27
+
+
+hibrid analisys
+virus total
+docguard.io
+oletools: "sudo -H pip install -U oletools
+https://www.youtube.com/watch?v=ym6Crrn-D2c&t=1s
+https://www.youtube.com/watch?v=RRbrLuYXdTw
+
+
+---------------------------------------
+
+
+
+
+01 - Defender XDR
+02 - Defender for Identity
+03 - Defender for Endpoint
+04 - Defender for Office 365
+05 – Defender for Cloud
+06 - Defender for Server
+07 - Defender for Cloud Apps
+
+
+
+Analista de Segurança da Informação: Torne-se um Especialista em Defesa Cibernética
+Para quem busca se aprofundar e se destacar como Analista de Segurança da Informação, um curso focado é essencial para dominar as ferramentas e estratégias mais atuais do mercado. Considerando as tecnologias Microsoft Defender que você mencionou anteriormente, um programa que integre esses conhecimentos é um grande diferencial.
+
+Ferramentas e Tecnologias Atuais
+Microsoft Defender Suite: Um curso completo deve aprofundar-se em:
+
+Defender XDR: Visão integrada e orquestração da segurança.
+
+Defender for Identity: Proteção avançada de identidades.
+
+Defender for Endpoint: EDR e NGAV para dispositivos.
+
+Defender for Office 365: Segurança de e-mail e apps de colaboração.
+
+Defender for Cloud: Gerenciamento de postura de segurança e proteção de cargas de trabalho na nuvem.
+
+Defender for Server: Proteção específica para servidores.
+
+Defender for Cloud Apps: CASB para SaaS e Shadow IT.
+
+
+
+----------------------------------
+
+
+A Escalada e a Normalização dos Ataques
+O que antes era considerado ficção científica ou ataques pontuais, hoje é a norma. Diariamente, notícias de ransomware paralisando hospitais, vazamento de dados de milhões de usuários, e sabotagem de infraestruturas críticas por grupos ou nações são reportadas. Essa frequência e escala elevam o status dos incidentes cibernéticos de meros crimes para atos com implicações geopolíticas e socioeconômicas profundas. A guerra cibernética, ao contrário dos conflitos armados tradicionais, não tem uma declaração formal, nem frentes de batalha claramente definidas; ela opera nas sombras, se aproveitando da conectividade digital.
+
+
+*-------------------------
+
+
+
+Como a resiliência em cibersegurança pode ajudar a proteger uma empresa?
+  Diminuindo a probabilidade de um ataque bem-sucedido 
+  Evitando a propagação de vírus 
+  Todas as opções são corretas 
+  Acelerando a recuperação após um ataque 
+A opção está correta porque ter uma estratégia de resiliência em cibersegurança ajuda a empresa a recuperar mais rapidamente de um ataque cibernético, garantindo a continuidade dos negócios e minimizando as perdas financeiras.
+
+
+
+
+Qual é a principal importância da resiliência em cibersegurança?
+  Evita ataques cibernéticos 
+  Todas as opções são corretas 
+  Ajuda a recuperação após um ataque 
+  Previne a perda de informações confidenciais 
+A opção está correta porque a resiliência em cibersegurança se concentra na capacidade de uma empresa de recuperar rapidamente de um ataque cibernético, minimizando assim seus danos.
+
+
+
+
+
+Qual é a principal diferença entre gestão de crises e gestão de desastres?
+  A gestão de crises se concentra em eventos previstos, enquanto a gestão de desastres se concentra em eventos imprevisíveis. 
+  A gestão de crises se concentra em eventos limitados, enquanto a gestão de desastres se concentra em eventos amplos. 
+  A gestão de crises se concentra em eventos internos, enquanto a gestão de desastres se concentra em eventos externos. 
+  A gestão de crises se concentra em soluções rápidas, enquanto a gestão de desastres se concentra em soluções a longo prazo. 
+A resposta correta é essa opção porque a gestão de crises se concentra em eventos internos, que são imprevistos e exigem uma resposta rápida para minimizar seus impactos e evitar danos. Por exemplo, uma crise de relações públicas ou uma falha no sistema interno da empresa. Por outro lado, a gestão de desastres se concentra em eventos externos, como desastres naturais, pandemias e outros eventos de grande escala que afetam a sociedade como um todo e exigem uma resposta a longo prazo. A gestão de desastres enfatiza a preparação, prevenção e recuperação de longo prazo.
+
+
+Qual das seguintes não é uma etapa da gestão de crises e continuidade de negócios?
+  Instalação de novas soluções de segurança cibernética 
+
+
+Por que é importante ter uma estratégia de resiliência em cibersegurança?
+  Todas as opções são corretas 
+
+
+
+Qual é a principal diferença entre gestão de crises e gestão de desastres?
+
+
+EventID: 25 - [SOC15 - Malware Detected]
+
+EventID: 25 - [SOC15 - Malware detectado]
+
+
+
+
+
+EventID: 111 - [SOC161 - Log4j RCE Exploit]
+
+O formato de caso/ticket no LetsDefend é o seguinte:
+
+EventID: {Número de ID do alerta} - [{Nome do alerta}]
+
+De acordo com essas informações, como o ticket pode ser criado para o alerta com número de ID 25 e nome da regra "SOC15 - Malware detectado"?
+
+
+
+
+
+CYBER THREAT INTELLIGENCE
+
+https://viewdns.info/
+https://host.io/
+https://subdomainfinder.c99.nl/index.php
+wappalyzer extension chrome
+
+Você pode acessar a documentação da API em https://developer.shodan.io/api e ver como os dados podem ser recuperados por meio da API.
+
+Outros mecanismos de busca alternativos ao Shodan são "BinaryEdge", "Zoomeye" e "Censys".
+
+
+Alienvault, Malwarebazaar, Abuse.ch, Malshare, Anyrun, Virustotal, Hybrid-Analysis, Totalhash, Phishunt, Spamhaus, Tor Exit Nodes, Urlscan, Zone-h, Rats, Sorbs, Barracuda
+
+Blogs de Ransomware
+http://ransomwr3tsydeii4q43vazm7wofla5ujdajquitomtd47cxjtfgwyyd.onion/
+
+
+Sites de Compartilhamento de Arquivos
+Dork
+
+Buckets Públicos
+Amazon S3 Buckets, Azure Blobs e Google Cloud Storage.
+
+
+Honeypots
+Kippo, Cowrite, Glastopf, Nodepot, Google Hack Honeypot, ElasticHoney e Honeymail são alguns dos honeypots populares.
+
+
+
+Após a interpretação dos dados em relação à superfície de ataque, eles se tornarão informações de ameaças consumíveis. As informações obtidas podem ser utilizadas nas três áreas a seguir.
+
+Gerenciamento de Superfície de Ataque Externa (EASM)
+Proteção de Risco Digital (DRP)
+Inteligência de Ameaças Cibernéticas (CTI)
+
+
+----------------------------------------------------
+
+
+moral etica e carater
+
+Moral
+Conjunto de regras adquiridas através da cultura, da educação, da tradição e do cotidiano que orientam o comportamento humano dentro de uma sociedade;
+Regras que regulam o modo de agir das pessoas.
+
+
+Ética
+Princípios dinâmicos deduzidos/definidos a partir dos valores históricos e culturais e princípios morais de uma sociedade e seus grupos.
+Valores éticos podem se contrapor a regras morais.
+
+
+Caráter
+Conjunto de características e traços relativos à maneira de agir e de reagir de um indivíduo ou grupo;
+Firmeza e coerência de atitudes.
+Ricardo Kléber
